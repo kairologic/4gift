@@ -1,0 +1,61 @@
+import { describe, expect, it } from 'vitest';
+import { gifts } from '../src/data/gifts';
+import { budgets, groups, tagSlugs } from '../src/data/taxonomy';
+import { buyUrl, giftsFor, inBudget, relatedLists } from '../src/lib/gifts';
+
+const MIN_PER_LIST = 6;
+
+describe('gift data', () => {
+  it('has unique slugs and sane prices', () => {
+    expect(new Set(gifts.map((g) => g.slug)).size).toBe(gifts.length);
+    for (const g of gifts) {
+      expect(g.from, g.slug).toBeGreaterThan(0);
+      expect(g.to, g.slug).toBeGreaterThanOrEqual(g.from);
+    }
+  });
+
+  it('only uses tags that are list categories, never budget slugs', () => {
+    for (const g of gifts) for (const t of g.tags) expect(tagSlugs.has(t), `${g.slug}: ${t}`).toBe(true);
+  });
+
+  it('category slugs are unique across groups', () => {
+    const all = groups.flatMap((g) => g.categories.map((c) => c.slug));
+    expect(new Set(all).size).toBe(all.length);
+  });
+
+  it(`fills every list with at least ${MIN_PER_LIST} gifts`, () => {
+    for (const g of groups) for (const c of g.categories) expect(giftsFor(c).length, `${g.slug}/${c.slug}`).toBeGreaterThanOrEqual(MIN_PER_LIST);
+  });
+});
+
+describe('lists', () => {
+  it('budget lists use the starting price and sort cheapest first', () => {
+    const under25 = budgets.find((b) => b.slug === 'under-25')!;
+    const list = giftsFor(under25);
+    expect(list.every((g) => g.from <= 25)).toBe(true);
+    expect(list.map((g) => g.from)).toEqual([...list.map((g) => g.from)].sort((a, b) => a - b));
+    const splurge = budgets.find((b) => b.slug === 'splurge')!;
+    expect(inBudget({ ...gifts[0], from: 100 }, splurge)).toBe(true);
+    expect(inBudget({ ...gifts[0], from: 99 }, splurge)).toBe(false);
+  });
+
+  it('tag lists keep the editor order', () => {
+    const her = groups[0].categories.find((c) => c.slug === 'her')!;
+    const list = giftsFor(her);
+    const order = gifts.filter((g) => g.tags.includes('her'));
+    expect(list).toEqual(order);
+  });
+
+  it('related lists never include the list itself', () => {
+    const mom = groups[0].categories.find((c) => c.slug === 'mom')!;
+    expect(relatedLists(mom).some((l) => l.href === '/for/mom/')).toBe(false);
+  });
+});
+
+describe('buy links', () => {
+  it('search Amazon and add the tracking tag only when set', () => {
+    const g = gifts[0];
+    expect(buyUrl(g, '')).toBe('https://www.amazon.com/s?k=weighted+blanket');
+    expect(new URL(buyUrl(g, 'gift-20')).searchParams.get('tag')).toBe('gift-20');
+  });
+});

@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../site';
+---
+<Base title="About us" description={`How ${SITE.name} builds its gift lists.`}>
+  <div class="wrap read prose" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ name: 'About' }]} />
+    <h1>About {SITE.name}</h1>
+    <p>{SITE.name} turns "what do I get them?" into a short list. Every gift idea is filed under who it suits, the occasions it works for and what the person loves, so the same idea can show up wherever it fits, and every list can be narrowed by budget.</p>
+    <h2>How we pick</h2>
+    <ul>
+      <li>Ideas earn a place for being useful, well-reviewed and easy to get, not for what they pay us.</li>
+      <li>Each list is in the order we'd suggest, strongest idea first.</li>
+      <li>Prices are typical ranges for that kind of gift at major US retailers. They change often, so check the price before you buy.</li>
+      <li>We describe gift types rather than single products, and the buy button opens a retailer search so you can pick the color, size and brand you want.</li>
+    </ul>
+    <p>Spotted a mistake or have a gift that belongs on a list? <a href="/contact/">Tell us</a>.</p>
+  </div>
+</Base>

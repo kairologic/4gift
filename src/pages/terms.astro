@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../site';
+
+const updated = '2026-10-30';
+---
+<Base title="Terms of use" description={`The terms for using ${SITE.name}.`}>
+  <div class="wrap read prose" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ name: 'Terms of use' }]} />
+    <h1>Terms of use</h1>
+    <p><small>Last updated {updated}</small></p>
+    <p>By using {SITE.name} ({SITE.domain}) you agree to these terms. If you don't agree, please don't use the site.</p>
+
+    <h2>Gift ideas, prices and accuracy</h2>
+    <p>Our lists are suggestions. Prices are typical ranges for each kind of gift and are not quotes; retailers change prices and stock often, and the retailer's price at checkout applies. We work to keep pages correct, but we can make mistakes. If you spot one, please <a href="/contact/">tell us</a>.</p>
+
+    <h2>Affiliate links</h2>
+    <p>Some links earn us a commission when you buy, at no extra cost to you (<a href="/disclosure/">how we make money</a>). Purchases are between you and the retailer, under the retailer's terms. We don't sell products and aren't responsible for orders, shipping, returns or the products themselves.</p>
+
+    <h2>Using our content</h2>
+    <p>The text on this site belongs to {SITE.name}. You're welcome to link to any page and quote short passages with a link back. Please don't copy whole lists or scrape the site for a competing service without asking first.</p>
+
+    <h2>What you send us</h2>
+    <p>When you send a message, gift suggestion or correction, you confirm it's yours to share and let us use it to improve the site. We won't publish your name without your permission.</p>
+
+    <h2>Acceptable use</h2>
+    <p>Please don't try to break, overload or gain unauthorised access to the site, send spam through the contact form, or use the site for anything unlawful.</p>
+
+    <h2>No warranty and limits of liability</h2>
+    <p>The site is provided "as is", without warranties of any kind. To the fullest extent the law allows, {SITE.name} is not liable for any indirect or consequential loss arising from your use of the site or of products you choose to buy. Nothing here limits rights you have under consumer law that can't be waived.</p>
+
+    <h2>Other sites</h2>
+    <p>We link to retailers and other sites we don't control. Their own terms and privacy policies apply there.</p>
+
+    <h2>Changes and contact</h2>
+    <p>We may update these terms and will change the date above when we do. Questions go through our <a href="/contact/">contact form</a>. See also our <a href="/privacy/">privacy policy</a>.</p>
+  </div>
+</Base>

@@ -1,0 +1,15 @@
+---
+import { buyUrl, listsOf, priceLabel, type Gift } from '../lib/gifts';
+interface Props { gift: Gift; rank: number; except?: string }
+const { gift, rank, except } = Astro.props;
+// data-* drive the list page's budget filter and sort without a round trip.
+const lists = listsOf(gift).filter((l) => !except || !l.href.endsWith(`/${except}/`)).slice(0, 4);
+---
+<article class="gift-card" id={gift.slug} data-from={gift.from} data-rank={rank}>
+  <span class="rank">No. {rank}</span>
+  <h3>{gift.name}</h3>
+  <p class="price">{priceLabel(gift)} <small class="meta">typical price</small></p>
+  <p class="why">{gift.why}</p>
+  <a class="btn" href={buyUrl(gift)} rel="sponsored noopener" target="_blank">Shop on Amazon</a>
+  {lists.length > 0 && <div class="tags">{lists.map((l) => <a class="chip" href={l.href}>{l.name}</a>)}</div>}
+</article>

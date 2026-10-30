@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { groups, listUrl } from '../data/taxonomy';
+import { giftsFor } from '../lib/gifts';
+---
+<Base title="All gift lists" description="Every 4Gift list in one place: by recipient, occasion, budget and interest.">
+  <div class="wrap" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ name: 'All gift lists' }]} />
+    <h1>All gift lists</h1>
+    {groups.map((g) => (
+      <section>
+        <div class="group-head"><h2><a href={`/${g.slug}/`}>{g.name}</a></h2><span class="meta">{g.blurb}</span></div>
+        <ul class="list-links">{g.categories.map((c) => <li><a class="chip" href={listUrl(g, c)}>{c.name} ({giftsFor(c).length})</a></li>)}</ul>
+      </section>
+    ))}
+  </div>
+</Base>
