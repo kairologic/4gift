@@ -3,7 +3,8 @@ name: Deploy site
 # On main: build the site and publish it to S3 + CloudFront through GitHub OIDC (no stored AWS keys).
 # Values come from repository variables, set once from the stack outputs:
 # AWS_ROLE_ARN, SITE_BUCKET, DISTRIBUTION_ID (GiftStoreSite), PUBLIC_CONTACT_URL (ContactUrl from GiftStoreContact),
-# SITE_URL=https://4gift.store, and PUBLIC_AMAZON_TAG once Amazon Associates approves the account.
+# SITE_URL=https://4gift.store, PUBLIC_PINTEREST_VERIFY (Pinterest's claim-website code) and PUBLIC_AMAZON_TAG once
+# Amazon Associates approves the account.
 # Skipped until AWS_ROLE_ARN is set.
 on:
   push:
@@ -28,6 +29,7 @@ jobs:
       SITE_URL: ${{ vars.SITE_URL }}
       PUBLIC_CONTACT_URL: ${{ vars.PUBLIC_CONTACT_URL }}
       PUBLIC_AMAZON_TAG: ${{ vars.PUBLIC_AMAZON_TAG }}
+      PUBLIC_PINTEREST_VERIFY: ${{ vars.PUBLIC_PINTEREST_VERIFY }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5

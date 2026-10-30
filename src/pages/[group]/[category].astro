@@ -3,8 +3,10 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Disclosure from '../../components/Disclosure.astro';
 import GiftCard from '../../components/GiftCard.astro';
+import SaveButton from '../../components/SaveButton.astro';
 import { budgets, groups, listUrl, type Category, type Group } from '../../data/taxonomy';
 import { giftsFor, relatedLists } from '../../lib/gifts';
+import { allPins, listPinName, pinPath } from '../../lib/pins';
 
 export function getStaticPaths() {
   return groups.flatMap((group) =>
@@ -19,6 +21,8 @@ const related = relatedLists(category);
 const siblings = group.categories.filter((c) => c.slug !== category.slug);
 const cheapest = Math.min(...list.map((g) => g.from));
 const description = `${list.length} ${category.title.toLowerCase()}, starting at $${cheapest}. ${category.blurb}`;
+const pin = allPins().find((p) => p.name === listPinName(group, category))!;
+const url = listUrl(group, category);
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
@@ -27,11 +31,14 @@ const schema = {
   itemListElement: list.map((g, i) => ({ '@type': 'ListItem', position: i + 1, name: g.name, url: new URL(`${listUrl(group, category)}#${g.slug}`, Astro.site).toString() })),
 };
 ---
-<Base title={category.title} description={description}>
+<Base title={category.title} description={description} image={pinPath(pin.name)} type="article">
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(schema)} />
   <div class="wrap">
     <Breadcrumbs items={[{ name: group.name, href: `/${group.slug}/` }, { name: category.name }]} />
-    <h1>{category.title}</h1>
+    <div class="list-head">
+      <h1>{category.title}</h1>
+      <SaveButton url={url} image={pinPath(pin.name)} description={pin.description} label="Save this list" />
+    </div>
     <p class="lede meta" style="font-size:1.15rem">{category.blurb} {list.length} ideas, in the order we'd suggest them. Prices are typical ranges for each kind of gift; check the retailer for today's price.</p>
     <Disclosure />
 
@@ -53,7 +60,7 @@ const schema = {
     </div>
 
     <div class="gift-grid" id="gifts">
-      {list.map((g, i) => <GiftCard gift={g} rank={i + 1} except={category.slug} />)}
+      {list.map((g, i) => <GiftCard gift={g} rank={i + 1} except={category.slug} page={url} />)}
     </div>
     <p class="meta" id="none" hidden>Nothing on this list starts under that budget. Try the next one up, or the <a href="/budget/under-25/">gifts under $25</a> list.</p>
 

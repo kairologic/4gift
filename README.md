@@ -23,18 +23,34 @@ npm test
 npm run build
 ```
 
+## Pinterest
+
+Pinterest is the main marketing channel, so the build makes everything needed to post:
+
+- A 1000×1500 pin for every list (`/pins/for-mom.png`), every list-and-budget pair with at least 5 gifts
+  (`/pins/for-mom-under-50.png`, linking to `/for/mom/?max=50`) and every gift (`/pins/gift-weighted-blanket.png`),
+  drawn by `src/lib/pins.ts` with the fonts in `src/assets/fonts` (OFL). About 150 pins in all.
+- Open Graph tags (title, description, pin image, site name) on every page, which Pinterest reads as Rich Pin data.
+- A red Save button on each list and gift card. It's a plain link to Pinterest's pin builder: no Pinterest script
+  or cookies on our pages.
+- Bulk-upload files at `/pins/week-1.csv`, `/pins/week-2.csv`, …, 35 pins each, list pins first. In Pinterest:
+  create the boards named in the file (one per list title), then Create → Bulk create Pins and upload one file a week.
+
+To claim the site: open a free Pinterest Business account, Settings → Claimed accounts → Claim website → "Add HTML
+tag", copy the `content` code into the `PUBLIC_PINTEREST_VERIFY` repository variable, redeploy, then press Verify.
+
 ## Going live
 
 Run from Git Bash with AWS credentials for account 715010566819, as for Kinimals.
 
 1. `bash infra/deploy.sh dns` creates the Route 53 zone for 4gift.store and prints four nameservers.
-2. At the domain registrar, set 4gift.store's nameservers to those four. Wait about an hour.
+2. At Hostinger (Domains → 4gift.store → Nameservers → custom), set those four. Wait about an hour.
 3. `bash infra/deploy.sh` deploys the site (S3, CloudFront, certificate, apex and www), the contact API, and the
    SES identities. SES then emails giftstore26@yahoo.com a verification link: click it, or the form can't deliver
    while the account is in the SES sandbox.
 4. In GitHub → Settings → Secrets and variables → Actions → Variables, set `AWS_ROLE_ARN`, `SITE_BUCKET`,
    `DISTRIBUTION_ID` (GiftStoreSite outputs), `PUBLIC_CONTACT_URL` (GiftStoreContact `ContactUrl`) and
-   `SITE_URL=https://4gift.store`. Then run the "Deploy site" workflow.
+   `SITE_URL=https://4gift.store`, and `PUBLIC_PINTEREST_VERIFY` once you have it. Then run the "Deploy site" workflow.
 5. Smoke test: https://4gift.store and www load, a list filters by budget, and a contact message arrives at Yahoo
    (check spam the first time).
 

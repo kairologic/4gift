@@ -1,7 +1,10 @@
 ---
+import SaveButton from './SaveButton.astro';
 import { buyUrl, listsOf, priceLabel, type Gift } from '../lib/gifts';
-interface Props { gift: Gift; rank: number; except?: string }
-const { gift, rank, except } = Astro.props;
+import { allPins, giftPinName, pinPath } from '../lib/pins';
+interface Props { gift: Gift; rank: number; except?: string; page: string }
+const { gift, rank, except, page } = Astro.props;
+const pin = allPins().find((p) => p.name === giftPinName(gift))!;
 // data-* drive the list page's budget filter and sort without a round trip.
 const lists = listsOf(gift).filter((l) => !except || !l.href.endsWith(`/${except}/`)).slice(0, 4);
 ---
@@ -10,6 +13,9 @@ const lists = listsOf(gift).filter((l) => !except || !l.href.endsWith(`/${except
   <h3>{gift.name}</h3>
   <p class="price">{priceLabel(gift)} <small class="meta">typical price</small></p>
   <p class="why">{gift.why}</p>
-  <a class="btn" href={buyUrl(gift)} rel="sponsored noopener" target="_blank">Shop on Amazon</a>
+  <div class="actions">
+    <a class="btn" href={buyUrl(gift)} rel="sponsored noopener" target="_blank">Shop on Amazon</a>
+    <SaveButton url={`${page}#${gift.slug}`} image={pinPath(pin.name)} description={pin.description} />
+  </div>
   {lists.length > 0 && <div class="tags">{lists.map((l) => <a class="chip" href={l.href}>{l.name}</a>)}</div>}
 </article>

@@ -7,7 +7,7 @@ export interface DnsStackProps extends cdk.StackProps {
   domainName: string; // apex, e.g. example.com
 }
 
-// The site's DNS zone. The domain stays at its registrar; only its nameservers point here, so the
+// The site's DNS zone. The domain stays registered at Hostinger; only its nameservers point here, so the
 // certificate validates itself and the apex can alias CloudFront (most registrar DNS can't alias an apex).
 // Deployed on its own first (`./infra/deploy.sh dns`), because the certificate can't validate until the
 // registrar uses these nameservers.

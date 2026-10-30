@@ -59,3 +59,28 @@ describe('buy links', () => {
     expect(new URL(buyUrl(g, 'gift-20')).searchParams.get('tag')).toBe('gift-20');
   });
 });
+
+describe('pins', async () => {
+  const { allPins, pinBatches, pinsCsv, pinSvg, PINS_PER_WEEK } = await import('../src/lib/pins');
+  const pins = allPins();
+
+  it('has one pin per list and per gift, with unique names', () => {
+    const lists = groups.reduce((n, g) => n + g.categories.length, 0);
+    expect(new Set(pins.map((p) => p.name)).size).toBe(pins.length);
+    expect(pins.filter((p) => p.name.startsWith('gift-')).length).toBe(gifts.length);
+    expect(pins.filter((p) => !p.name.startsWith('gift-') && !/^(for|occasion|interest)-.+-under-\d+$/.test(p.name)).length).toBe(lists);
+  });
+
+  it('budget pins link to the list with that budget preselected', () => {
+    const p = pins.find((x) => x.name === 'for-mom-under-50')!;
+    expect(p.link).toBe('/for/mom/?max=50');
+  });
+
+  it('writes valid SVG and weekly CSV batches', () => {
+    expect(pinSvg(pins[0])).toMatch(/^<svg[^>]+width="1000" height="1500"/);
+    const batches = pinBatches(pins);
+    expect(batches.every((b) => b.length <= PINS_PER_WEEK)).toBe(true);
+    const csv = pinsCsv(batches[0], new URL('https://4gift.store'));
+    expect(csv.split('\n')[1]).toContain('"https://4gift.store/pins/for-her.png"');
+  });
+});

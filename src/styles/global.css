@@ -184,3 +184,14 @@ a.chip:hover { border-color: var(--brand); color: var(--brand); }
 .contact-form button { justify-self: start; }
 .contact-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .form-status { margin: 0; min-height: 1.5em; }
+
+/* Pinterest */
+.pin-save {
+  display: inline-flex; align-items: center; gap: 6px; font: 700 .95rem var(--sans); color: #fff; background: #e60023;
+  padding: 8px 14px; border-radius: 999px; text-decoration: none; align-self: start;
+}
+.pin-save:hover { background: #ad081b; color: #fff; }
+.gift-card .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.gift-card .actions .pin-save { align-self: center; }
+.list-head { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.list-head h1 { margin-bottom: .2em; }
