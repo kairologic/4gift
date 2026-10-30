@@ -114,9 +114,10 @@ export function pinSvg(pin: Pin): string {
   const isList = !pin.name.startsWith('gift-');
   const bodySize = isList ? 52 : 60;
   const lead = bodySize * 1.5;
+  // SVG collapses leading spaces, so a wrapped bullet's later lines are indented with dx instead.
   const rows = isList
-    ? pin.lines.flatMap((l) => wrap(`• ${l}`, bodySize, w - 80, 0.45).map((r, i) => (i ? `   ${r}` : r)))
-    : wrap(pin.lines[0], bodySize, w - 80, 0.45);
+    ? pin.lines.flatMap((l) => wrap(`• ${l}`, bodySize, w - 120, 0.45).map((text, i) => ({ text, dx: i ? 36 : 0 })))
+    : wrap(pin.lines[0], bodySize, w - 80, 0.45).map((text) => ({ text, dx: 0 }));
   const top = 150;
   const bottom = PIN_H - 230;
   const cardH = Math.min(bottom - top - 200, rows.length * lead + 70);
@@ -131,7 +132,7 @@ export function pinSvg(pin: Pin): string {
   for (const r of rows) {
     ry += lead;
     if (ry > y + cardH - 10) break;
-    parts.push(`<text x="${x + 40}" y="${ry - 16}" font-family="Hind" font-size="${bodySize}" fill="${isList ? C.ink : C.soft}">${esc(r)}</text>`);
+    parts.push(`<text x="${x + 40 + r.dx}" y="${ry - 16}" font-family="Hind" font-size="${bodySize}" fill="${isList ? C.ink : C.soft}">${esc(r.text)}</text>`);
   }
 
   // Call to action
