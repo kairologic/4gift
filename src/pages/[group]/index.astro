@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { groups, listUrl, type Group } from '../../data/taxonomy';
+import { giftsFor } from '../../lib/gifts';
+
+export function getStaticPaths() {
+  return groups.map((group) => ({ params: { group: group.slug }, props: { group } }));
+}
+interface Props { group: Group }
+const { group } = Astro.props;
+---
+<Base title={`Gift lists ${group.name.toLowerCase()}`} description={`${group.blurb} ${group.categories.map((c) => c.name).join(', ')}.`}>
+  <div class="wrap" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ name: group.name }]} />
+    <h1>{group.name}</h1>
+    <p class="meta" style="font-size:1.15rem">{group.blurb}</p>
+    <div class="grid">
+      {group.categories.map((c) => (
+        <div class="card">
+          <p class="kind">{giftsFor(c).length} ideas</p>
+          <h3><a href={listUrl(group, c)}>{c.title}</a></h3>
+          <p>{c.blurb}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</Base>

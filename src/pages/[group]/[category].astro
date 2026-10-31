@@ -1,0 +1,113 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Disclosure from '../../components/Disclosure.astro';
+import GiftCard from '../../components/GiftCard.astro';
+import SaveButton from '../../components/SaveButton.astro';
+import { budgets, groups, listUrl, type Category, type Group } from '../../data/taxonomy';
+import { giftsFor, relatedLists } from '../../lib/gifts';
+import { allPins, listPinName, pinPath } from '../../lib/pins';
+
+export function getStaticPaths() {
+  return groups.flatMap((group) =>
+    group.categories.map((category) => ({ params: { group: group.slug, category: category.slug }, props: { group, category } })),
+  );
+}
+interface Props { group: Group; category: Category }
+const { group, category } = Astro.props;
+const list = giftsFor(category);
+const isBudget = group.slug === 'budget';
+const related = relatedLists(category);
+const siblings = group.categories.filter((c) => c.slug !== category.slug);
+const cheapest = Math.min(...list.map((g) => g.from));
+const description = `${list.length} ${category.title.toLowerCase()}, starting at $${cheapest}. ${category.blurb}`;
+const pin = allPins().find((p) => p.name === listPinName(group, category))!;
+const url = listUrl(group, category);
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: category.title,
+  numberOfItems: list.length,
+  itemListElement: list.map((g, i) => ({ '@type': 'ListItem', position: i + 1, name: g.name, url: new URL(`${listUrl(group, category)}#${g.slug}`, Astro.site).toString() })),
+};
+---
+<Base title={category.title} description={description} image={pinPath(pin.name)} type="article">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(schema)} />
+  <div class="wrap">
+    <Breadcrumbs items={[{ name: group.name, href: `/${group.slug}/` }, { name: category.name }]} />
+    <div class="list-head">
+      <h1>{category.title}</h1>
+      <SaveButton url={url} image={pinPath(pin.name)} description={pin.description} label="Save this list" />
+    </div>
+    <p class="lede meta" style="font-size:1.15rem">{category.blurb} {list.length} ideas, in the order we'd suggest them. Prices are typical ranges for each kind of gift; check the retailer for today's price.</p>
+    <Disclosure />
+
+    <div class="filters" id="filters" data-budget={isBudget ? '' : undefined}>
+      {!isBudget && (
+        <div class="seg" role="group" aria-label="Budget">
+          <button type="button" class="chip" data-max="" aria-pressed="true">Any price</button>
+          {budgets.filter((b) => b.max).map((b) => <button type="button" class="chip" data-max={b.max} aria-pressed="false">{b.name}</button>)}
+        </div>
+      )}
+      <label>Sort
+        <select id="sort">
+          <option value="rank">{isBudget ? 'Lowest price' : 'Our order'}</option>
+          {!isBudget && <option value="low">Lowest price</option>}
+          <option value="high">Highest price</option>
+        </select>
+      </label>
+      <span class="count" id="count" aria-live="polite">{list.length} gifts</span>
+    </div>
+
+    <div class="gift-grid" id="gifts">
+      {list.map((g, i) => <GiftCard gift={g} rank={i + 1} except={category.slug} page={url} />)}
+    </div>
+    <p class="meta" id="none" hidden>Nothing on this list starts under that budget. Try the next one up, or the <a href="/budget/under-25/">gifts under $25</a> list.</p>
+
+    <section class="section">
+      <h2 style="margin-top:0">More {group.name.toLowerCase()} lists</h2>
+      <ul class="list-links">{siblings.map((c) => <li><a class="chip" href={listUrl(group, c)}>{c.name}</a></li>)}</ul>
+      {related.length > 0 && (
+        <>
+          <h2>Often on the same lists</h2>
+          <ul class="list-links">{related.map((l) => <li><a class="chip" href={l.href}>{l.name}</a></li>)}</ul>
+        </>
+      )}
+    </section>
+  </div>
+</Base>
+
+<script>
+  // Budget chips and sort reorder the cards in place. ?max=50 (from the home page gift finder) preselects a budget.
+  const grid = document.getElementById('gifts')!;
+  const cards = [...grid.querySelectorAll<HTMLElement>('.gift-card')];
+  const chips = [...document.querySelectorAll<HTMLButtonElement>('#filters button[data-max]')];
+  const sort = document.getElementById('sort') as HTMLSelectElement;
+  const count = document.getElementById('count')!;
+  const none = document.getElementById('none')!;
+  let max = Number(new URLSearchParams(location.search).get('max')) || 0;
+  if (!chips.some((c) => Number(c.dataset.max) === max)) max = 0;
+
+  function apply() {
+    chips.forEach((c) => c.setAttribute('aria-pressed', String((Number(c.dataset.max) || 0) === max)));
+    const key = sort.value;
+    const by = (c: HTMLElement) => (key === 'rank' ? Number(c.dataset.rank) : Number(c.dataset.from) * (key === 'high' ? -1 : 1));
+    let shown = 0;
+    for (const c of [...cards].sort((a, b) => by(a) - by(b) || Number(a.dataset.rank) - Number(b.dataset.rank))) {
+      c.hidden = max > 0 && Number(c.dataset.from) > max;
+      if (!c.hidden) shown++;
+      grid.append(c);
+    }
+    count.textContent = `${shown} gift${shown === 1 ? '' : 's'}`;
+    none.hidden = shown > 0;
+  }
+  chips.forEach((c) => c.addEventListener('click', () => {
+    max = Number(c.dataset.max) || 0;
+    const u = new URL(location.href);
+    if (max) u.searchParams.set('max', String(max)); else u.searchParams.delete('max');
+    history.replaceState(null, '', u);
+    apply();
+  }));
+  sort.addEventListener('change', apply);
+  apply();
+</script>

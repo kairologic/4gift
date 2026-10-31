@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import { budgets, groups, listUrl } from '../data/taxonomy';
+import { giftsFor } from '../lib/gifts';
+import { SITE } from '../site';
+
+const recipients = groups.find((g) => g.slug === 'for')!;
+const popular = ['her', 'him', 'mom', 'dad', 'kids', 'christmas', 'under-25', 'cooks'];
+const lists = groups.flatMap((g) => g.categories.map((c) => ({ g, c }))).filter(({ c }) => popular.includes(c.slug))
+  .sort((a, b) => popular.indexOf(a.c.slug) - popular.indexOf(b.c.slug));
+---
+<Base title={SITE.name} description={SITE.tagline}>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Find the right gift, fast</h1>
+      <p class="lede">Gift ideas sorted into short, honest lists: by who it's for, the occasion, your budget and what they love. Pick a list and you're a few minutes from done.</p>
+      <form class="finder" id="finder" action="/for/her/" method="get">
+        <label>Who is it for?
+          <select name="who">{recipients.categories.map((c) => <option value={c.slug}>{c.name.replace(/^For (\w)/, (_, l) => l.toUpperCase())}</option>)}</select>
+        </label>
+        <label>Budget
+          <select name="max">
+            <option value="">Any budget</option>
+            {budgets.filter((b) => b.max).map((b) => <option value={b.max}>{b.name}</option>)}
+          </select>
+        </label>
+        <button class="btn" type="submit">Show gift ideas</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section tint">
+    <div class="wrap">
+      <h2 style="margin-top:0">Popular lists</h2>
+      <div class="grid">
+        {lists.map(({ g, c }) => (
+          <div class="card">
+            <p class="kind">{giftsFor(c).length} ideas</p>
+            <h3><a href={listUrl(g, c)}>{c.title}</a></h3>
+            <p>{c.blurb}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {groups.map((g) => (
+    <section class="section">
+      <div class="wrap">
+        <div class="group-head"><h2 style="margin-top:0"><a href={`/${g.slug}/`}>{g.name}</a></h2><span class="meta">{g.blurb}</span></div>
+        <ul class="list-links">{g.categories.map((c) => <li><a class="chip" href={listUrl(g, c)}>{c.name}</a></li>)}</ul>
+      </div>
+    </section>
+  ))}
+</Base>
+
+<script>
+  // Sends the finder to the recipient's list with the budget preselected, e.g. /for/mom/?max=50.
+  const form = document.getElementById('finder') as HTMLFormElement;
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const max = String(data.get('max') || '');
+    location.href = `/for/${data.get('who')}/${max ? `?max=${max}` : ''}`;
+  });
+</script>

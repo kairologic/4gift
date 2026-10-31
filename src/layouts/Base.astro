@@ -1,0 +1,97 @@
+---
+import '../styles/global.css';
+import { groups, listUrl, menuLabel } from '../data/taxonomy';
+import { SITE } from '../site';
+
+interface Props { title: string; description: string; image?: string; type?: 'website' | 'article' }
+const { title, description, image = '/pins/for-her.png', type = 'website' } = Astro.props;
+// Top bar: one item per list group, each opening a panel of its lists. Same mega menu as Aging in Place.
+const menu = groups.map((g) => ({
+  name: menuLabel[g.slug],
+  href: `/${g.slug}/`,
+  links: g.categories.map((c) => ({ name: c.name, href: listUrl(g, c) })),
+}));
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const fullTitle = title === SITE.name ? title : `${title} | ${SITE.name}`;
+// Open Graph tags double as Pinterest Rich Pin data. The verify code comes from Pinterest's "Claim website" step.
+const ogImage = new URL(image, Astro.site);
+const pinterestVerify = import.meta.env.PUBLIC_PINTEREST_VERIFY ?? '';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1000" />
+    <meta property="og:image:height" content="1500" />
+    <meta name="twitter:card" content="summary_large_image" />
+    {pinterestVerify && <meta name="p:domain_verify" content={pinterestVerify} />}
+    <meta name="theme-color" content="#1d5c63" />
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="logo" href="/"><span>4</span>Gift</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <nav class="nav mega" id="main-nav" aria-label="Main">
+          <ul>
+            {menu.map((m) => (
+              <li class="mega-item">
+                <a class="mega-top" href={m.href}>{m.name}</a>
+                <div class="mega-panel">
+                  <ul class="mega-links">{m.links.slice(0, Math.ceil(m.links.length / 2)).map((l) => <li><a href={l.href}>{l.name}</a></li>)}</ul>
+                  <ul class="mega-links">{m.links.slice(Math.ceil(m.links.length / 2)).map((l) => <li><a href={l.href}>{l.name}</a></li>)}</ul>
+                </div>
+              </li>
+            ))}
+            <li class="mega-item"><a class="mega-top" href="/lists/">All lists</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap cols">
+        <div>
+          <strong>{SITE.name}</strong><br />
+          {SITE.tagline}<br />
+          We earn a commission from some links. <a href="/disclosure/">How we make money</a>.
+        </div>
+        <div>
+          {groups.map((g) => <><a href={`/${g.slug}/`}>{g.name}</a><br /></>)}
+          <a href="/lists/">All gift lists</a>
+        </div>
+        <div>
+          <a href="/about/">About</a><br />
+          <a href="/contact/">Contact us</a><br />
+          <a href="/disclosure/">Affiliate disclosure</a><br />
+          <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Small screens: the Menu button shows and hides the whole nav, with every panel open inside it.
+      const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      toggle?.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') !== 'true';
+        toggle.setAttribute('aria-expanded', String(open));
+        document.getElementById('main-nav')?.classList.toggle('open', open);
+      });
+    </script>
+  </body>
+</html>

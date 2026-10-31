@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../site';
+---
+<Base title="Affiliate disclosure" description={`How ${SITE.name} makes money.`}>
+  <div class="wrap read prose" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ name: 'Affiliate disclosure' }]} />
+    <h1>How we make money</h1>
+    <p>{SITE.name} is reader-supported. When you buy through some links on our site, we may earn a commission from the retailer at no extra cost to you. Every list with these links says so before the first one.</p>
+    <p>Commissions never decide what goes on a list or in what order. We choose gifts for how useful and well-loved they are, and we list ideas whether or not a retailer pays us for them.</p>
+    <p>As an Amazon Associate we may earn from qualifying purchases.</p>
+  </div>
+</Base>

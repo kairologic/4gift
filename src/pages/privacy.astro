@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { SITE } from '../site';
+
+// Keep this page in step with what the code actually collects: no analytics or cookies on the site itself, and the
+// contact form (infra/lambda/contact.ts), which stores the message and emails it to the store's inbox.
+const updated = '2026-10-30';
+---
+<Base title="Privacy policy" description={`What ${SITE.name} collects, why, and how to have it deleted.`}>
+  <div class="wrap read prose" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ name: 'Privacy policy' }]} />
+    <h1>Privacy policy</h1>
+    <p><small>Last updated {updated}</small></p>
+    <p>{SITE.name} is a small, reader-supported gift ideas site. We collect as little about you as we can, we don't sell it, and we don't run advertising trackers.</p>
+
+    <h2>What we collect</h2>
+    <h3>When you read the site</h3>
+    <p>Our pages set no cookies and run no analytics. Like any website, our hosting provider keeps standard server logs (such as the page requested and the time) for security and to keep the site running.</p>
+
+    <h3>When you contact us</h3>
+    <p>The contact form sends us your name, email address, the topic you picked, your message and the page you came from. We store it and email it to our own inbox so a person can read and answer it. To stop spam, we count messages per visitor per day using a scrambled, salted version of your IP address that can't be turned back into the address; the raw address is never stored.</p>
+
+    <h2>Retailer links and cookies</h2>
+    <p>The "Save" buttons open Pinterest's own page to save a pin; we don't load any Pinterest code on our pages, so Pinterest only sees you if you click one, under <a href="https://policy.pinterest.com/privacy-policy">its privacy policy</a>.</p>
+    <p>Buttons on our lists go to retailers such as Amazon, and some earn us a commission if you buy (<a href="/disclosure/">how we make money</a>). When you follow one, that retailer or its affiliate network may set its own cookies to credit the sale to us. Those cookies are covered by the retailer's privacy policy, not this one. We never see what else you buy or your payment details.</p>
+
+    <h2>How we use it</h2>
+    <ul>
+      <li>To answer your message and fix mistakes you report.</li>
+      <li>To keep the site and contact form working and free of abuse.</li>
+    </ul>
+    <p>We don't sell or rent personal information, and we don't share it for cross-site advertising.</p>
+
+    <h2>Who handles it for us</h2>
+    <p>The site and its data run on Amazon Web Services in the United States, and contact emails are sent through Amazon SES to our email inbox. These providers process data on our behalf under their own security terms.</p>
+
+    <h2>How long we keep it</h2>
+    <p>Contact messages are kept as long as we need them to answer and follow up, and deleted when you ask.</p>
+
+    <h2>Your choices</h2>
+    <p>You can ask to see, correct or delete anything you sent us, wherever you live. Use the <a href="/contact/">contact form</a> and pick "other"; we reply within 30 days. Depending on your state or country (for example California, Colorado, Virginia, the UK or the EU) you may have further rights, and we honour them.</p>
+
+    <h2>Children</h2>
+    <p>The site is written for adults. We don't knowingly collect information from children under 13. If you think a child has sent us something, tell us and we'll delete it.</p>
+
+    <h2>Changes</h2>
+    <p>If we start collecting something new, such as an email list, we'll update this page before it goes live and change the date above.</p>
+  </div>
+</Base>
