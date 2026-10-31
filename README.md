@@ -54,5 +54,5 @@ Run from Git Bash with AWS credentials for account 715010566819, as for Kinimals
 5. Smoke test: https://4gift.store and www load, a list filters by budget, and a contact message arrives at Yahoo
    (check spam the first time).
 
-If the deploy role refuses GitHub's token, set `githubRepoIds` in `infra/cdk.json` to
-`kairologic@<owner id>/gift-store@<repo id>` and redeploy (Kinimals needed this).
+The deploy role trusts both forms of GitHub's OIDC subject for kairologic/4gift (`githubRepo` and the id-based
+`githubRepoIds` in `infra/cdk.json`), which Kinimals needed.

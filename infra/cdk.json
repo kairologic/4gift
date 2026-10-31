@@ -1,8 +1,8 @@
 {
   "app": "npx tsx bin/app.ts",
   "context": {
-    "githubRepo": "kairologic/gift-store",
-    "githubRepoIds": "",
+    "githubRepo": "kairologic/4gift",
+    "githubRepoIds": "kairologic@254778324/4gift@1440354559",
     "githubBranch": "main",
     "assetsBucket": "aip-cdk-assets-715010566819",
     "domainName": "4gift.store",
