@@ -40,8 +40,8 @@ new ContactStack(app, 'GiftStoreContact', {
   synthesizer: synthesizer('gift-store-contact/'),
   siteUrl: domainName ? `https://${domainName}` : '',
   contactEmail: ctx('contactEmail'),
-  // Mail goes out from the site's domain once SES has verified it (DKIM records live in the DNS stack). Yahoo
-  // rejects mail that claims to be from a yahoo.com address but is sent by SES, so never send "from" the inbox.
+  // Mail goes out from the site's domain once SES has verified it (DKIM records live in the DNS stack). Gmail
+  // rejects mail that claims to be from a gmail.com address but is sent by SES, so never send "from" the inbox.
   fromEmail: ctx('fromEmail') || (domainName ? `hello@${domainName}` : ''),
   siteName: ctx('siteName') || '4Gift',
   description: '4Gift: contact form API, message table and SES inbox identity',
