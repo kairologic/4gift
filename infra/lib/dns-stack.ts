@@ -23,7 +23,7 @@ export class DnsStack extends cdk.Stack {
     this.zone.applyRemovalPolicy(cdk.RemovalPolicy.RETAIN);
 
     // Lets the contact form send from @<domain>. The DKIM records go into the
-    // zone, so SES verifies the domain once the nameservers point here. DMARC in monitor mode helps Yahoo and Gmail delivery.
+    // zone, so SES verifies the domain once the nameservers point here. DMARC in monitor mode helps Gmail delivery.
     new ses.EmailIdentity(this, 'MailDomain', { identity: ses.Identity.publicHostedZone(this.zone) });
     new route53.TxtRecord(this, 'Dmarc', { zone: this.zone, recordName: '_dmarc', values: ['v=DMARC1; p=none'] });
     new cdk.CfnOutput(this, 'NameServers', { value: cdk.Fn.join(' ', this.zone.hostedZoneNameServers!) });

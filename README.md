@@ -1,7 +1,7 @@
 # 4Gift (4gift.store)
 
 A gift ideas site organised as lists: by who it's for, occasion, budget and interest. Static Astro site on
-S3 + CloudFront, with a contact form that emails giftstore26@yahoo.com through Amazon SES. Same stack and design
+S3 + CloudFront, with a contact form that emails longlassotx@gmail.com through Amazon SES. Same stack and design
 language as Kinimals (kairologic/pet-affliates) and Aging in Place.
 
 ## How the lists work
@@ -46,12 +46,12 @@ Run from Git Bash with AWS credentials for account 715010566819, as for Kinimals
 1. `bash infra/deploy.sh dns` creates the Route 53 zone for 4gift.store and prints four nameservers.
 2. At Hostinger (Domains → 4gift.store → Nameservers → custom), set those four. Wait about an hour.
 3. `bash infra/deploy.sh` deploys the site (S3, CloudFront, certificate, apex and www), the contact API, and the
-   SES identities. SES then emails giftstore26@yahoo.com a verification link: click it, or the form can't deliver
+   SES identities. SES then emails longlassotx@gmail.com a verification link: click it, or the form can't deliver
    while the account is in the SES sandbox.
 4. In GitHub → Settings → Secrets and variables → Actions → Variables, set `AWS_ROLE_ARN`, `SITE_BUCKET`,
    `DISTRIBUTION_ID` (GiftStoreSite outputs), `PUBLIC_CONTACT_URL` (GiftStoreContact `ContactUrl`) and
    `SITE_URL=https://4gift.store`, and `PUBLIC_PINTEREST_VERIFY` once you have it. Then run the "Deploy site" workflow.
-5. Smoke test: https://4gift.store and www load, a list filters by budget, and a contact message arrives at Yahoo
+5. Smoke test: https://4gift.store and www load, a list filters by budget, and a contact message arrives in Gmail
    (check spam the first time).
 
 The deploy role trusts both forms of GitHub's OIDC subject for kairologic/4gift (`githubRepo` and the id-based
