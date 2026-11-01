@@ -11,7 +11,7 @@ language as Kinimals (kairologic/pet-affliates) and Aging in Place.
 - `src/data/gifts.ts` holds every gift idea once, tagged with the recipient, occasion and interest lists it belongs
   on. Budget lists are worked out from each gift's starting price. Order in the file is the order on each list.
 - Every list page has budget chips and a sort menu; `?max=50` preselects a budget (the home page gift finder uses it).
-- Buy buttons open an Amazon search. Set `PUBLIC_AMAZON_TAG` once Associates approves the site and every link earns.
+- Buy buttons open an Amazon search with the Associates tag from `src/data/affiliate.ts`, which product-ops writes from HQ through a pull request once Associates approves the site (`PUBLIC_AMAZON_TAG` in the deploy workflow overrides it).
 
 To add a gift, add one entry to `gifts.ts`; to add a list, add a category to `taxonomy.ts` and tag gifts with it.
 `npm test` fails if a tag doesn't exist or any list has fewer than 6 gifts.

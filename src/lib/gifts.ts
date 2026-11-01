@@ -1,3 +1,4 @@
+import { AMAZON_TAG } from '../data/affiliate';
 import { gifts, type Gift } from '../data/gifts';
 import { budgets, findCategory, groups, listUrl, type Budget, type Category, type Group } from '../data/taxonomy';
 
@@ -16,9 +17,10 @@ export function giftsFor(category: Category, all: Gift[] = gifts): Gift[] {
   return all.filter((g) => g.tags.includes(category.slug));
 }
 
-// The Amazon search the buy button opens. PUBLIC_AMAZON_TAG (the Associates tracking id) is added once the
-// account is approved; until then links still work, they just don't earn.
-export function buyUrl(g: Gift, tag = import.meta.env.PUBLIC_AMAZON_TAG ?? ''): string {
+// The Amazon search the buy button opens. The Associates tracking id comes from src/data/affiliate.ts, which
+// product-ops keeps in step with HQ (PUBLIC_AMAZON_TAG in the deploy workflow overrides it); until the account is
+// approved the tag is empty and links still work, they just don't earn.
+export function buyUrl(g: Gift, tag = import.meta.env.PUBLIC_AMAZON_TAG || AMAZON_TAG): string {
   const u = new URL('https://www.amazon.com/s');
   u.searchParams.set('k', g.search);
   if (tag) u.searchParams.set('tag', tag);
