@@ -84,3 +84,11 @@ describe('pins', async () => {
     expect(csv.split('\n')[1]).toContain('"https://4gift.store/pins/for-her.png"');
   });
 });
+
+describe('the tracking id file', () => {
+  it('is the default tag and stays empty until HQ fills it through product-ops', async () => {
+    const { AMAZON_TAG } = await import('../src/data/affiliate');
+    expect(typeof AMAZON_TAG).toBe('string');
+    expect(AMAZON_TAG).toMatch(/^([a-z0-9-]+-2[0-9])?$/); // an Associates tag ends in -20, -21, ... or is not set
+  });
+});
