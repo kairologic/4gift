@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { guideUrl } from '../../lib/guides';
+import { SITE } from '../../site';
+
+// Every published guide, newest first. Drafts stay out of the build.
+const guides = (await getCollection('guides', (g) => !g.data.draft)).sort(
+  (a, b) => b.data.published.getTime() - a.data.published.getTime(),
+);
+const fmt = (d: Date) => d.toISOString().slice(0, 10);
+---
+<Base title="Gift guides" description={`${SITE.name} gift guides: who a gift suits, the occasion it fits, and how to choose between the options in a few minutes.`}>
+  <div class="wrap" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ name: 'Gift guides' }]} />
+    <h1>Gift guides</h1>
+    <p class="meta" style="font-size:1.15rem; max-width: 640px">Longer reads for when a list is not enough: who each gift suits, what to check before you buy, and which of our lists to shop next.</p>
+    {guides.length ? (
+      <div class="grid" style="margin-top:24px">
+        {guides.map((g) => (
+          <div class="card">
+            <p class="kind">{g.data.topic ?? g.data.kind.replace('-', ' ')} <span class="date">· {fmt(g.data.published)}</span></p>
+            <h3><a class="stretch" href={guideUrl(g.id)}>{g.data.title}</a></h3>
+            {g.data.description && <p>{g.data.description}</p>}
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p>The first guides are being written. Until they land, start with <a href="/lists/">all gift lists</a>.</p>
+    )}
+  </div>
+</Base>
