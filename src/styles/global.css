@@ -4,11 +4,13 @@
   --paper: #fbf8f3;
   --card: #ffffff;
   --line: #e4ddd2;
-  --brand: #1d5c63;
-  --brand-dark: #12434a;
-  --accent: #c9682c;
+  /* 4Gifts brand (2026-11-02): berry leads (headings, links, header), orange for buttons and calls to action.
+     Orange is the darker #b85a22 so white button text passes AA (4.6:1). */
+  --brand: #8e2a4c;
+  --brand-dark: #6c1f39;
+  --accent: #b85a22;
   --accent-dark: #a9531f;
-  --tint: #eef4f3;
+  --tint: #f4e1e7;
   --warn: #fff6e5;
   --radius: 12px;
   --max: 1080px;
@@ -38,8 +40,9 @@ h3 { font-size: 1.3rem; margin: 1.4em 0 .4em; }
 /* Header */
 .site-header { background: var(--card); border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap; }
-.logo { font-family: var(--serif); font-weight: 700; font-size: 1.35rem; color: var(--brand-dark); text-decoration: none; }
-.logo span { color: var(--accent); }
+.logo { font-family: var(--serif); font-weight: 700; font-size: 1.35rem; color: var(--brand-dark); text-decoration: none; display: inline-flex; align-items: center; gap: 10px; }
+.logo img { width: 44px; height: 44px; border-radius: 50%; margin-right: 0; }
+.logo .four { color: var(--accent); }
 .nav { font-size: 1rem; }
 .nav a { text-decoration: none; color: var(--ink-soft); font-weight: 600; }
 .nav a:hover { color: var(--brand); }

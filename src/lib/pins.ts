@@ -81,7 +81,7 @@ export function allPins(): Pin[] {
 
 // ---------- drawing ----------
 
-const C = { ink: '#1f2a2e', soft: '#4a575c', paper: '#fbf8f3', card: '#ffffff', line: '#e4ddd2', brand: '#1d5c63', brandDark: '#12434a', accent: '#c9682c' };
+const C = { ink: '#1f2a2e', soft: '#4a575c', paper: '#fbf8f3', card: '#ffffff', line: '#e4ddd2', brand: '#8e2a4c', brandDark: '#6c1f39', accent: '#b85a22' };
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 // Greedy word wrap by an average glyph width; good enough for the two fonts used here.
