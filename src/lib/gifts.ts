@@ -1,5 +1,6 @@
 import { AMAZON_TAG } from '../data/affiliate';
 import { gifts, type Gift } from '../data/gifts';
+import picksFile from '../data/picks.json';
 import { budgets, findCategory, groups, listUrl, type Budget, type Category, type Group } from '../data/taxonomy';
 
 export type { Gift };
@@ -53,3 +54,31 @@ export function allLists(): { group: Group; category: Category; url: string; cou
     group.categories.map((category) => ({ group, category, url: listUrl(group, category), count: giftsFor(category).length })),
   );
 }
+
+// Named products for a gift idea: the Amazon listings Jan or Ravi approved from product-ops' daily shortlist.
+// src/data/picks.json is written by product-ops through a pull request (never by hand); each entry names the gift
+// idea it belongs to, so a list shows the idea and, under it, the products we would buy.
+export interface ProductPick {
+  gift: string; // a gift slug from src/data/gifts.ts
+  asin: string; // the amazon.com listing
+  name: string;
+  brand: string;
+  note: string; // one line: why this one
+  addedOn: string; // YYYY-MM-DD
+}
+
+export const isAsin = (v: string) => /^(B0[0-9A-Z]{8}|[0-9]{9}[0-9X])$/.test(v);
+
+export function picksFor(g: Gift, all: ProductPick[] = picksFile.picks as ProductPick[]): ProductPick[] {
+  return all.filter((p) => p.gift === g.slug);
+}
+
+// A named product's own Amazon page, with the same tracking id as the search button.
+export function pickUrl(p: ProductPick, tag = import.meta.env.PUBLIC_AMAZON_TAG || AMAZON_TAG): string {
+  const u = new URL(`https://www.amazon.com/dp/${p.asin}`);
+  if (tag) u.searchParams.set('tag', tag);
+  return u.toString();
+}
+
+/** How many named products a list carries, for the lists page and the launch goal (6-10 per list on 10 lists). */
+export const productCount = (category: Category) => giftsFor(category).reduce((n, g) => n + picksFor(g).length, 0);

@@ -160,6 +160,10 @@ article.prose { padding-bottom: 48px; }
 .gift-card .rank { font: 700 .8rem var(--sans); color: var(--accent-dark); text-transform: uppercase; letter-spacing: .06em; }
 .gift-card p { margin: 0; }
 .gift-card .why { font-size: 1rem; color: var(--ink-soft); }
+.gift-card .picks { margin: 0.25rem 0 0.75rem; }
+.gift-card .picks-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 0.25rem; }
+.gift-card .picks ul { margin: 0; padding-left: 1.1rem; }
+.gift-card .picks li { margin: 0.2rem 0; font-size: 0.95rem; }
 .gift-card .price { font-weight: 700; color: var(--brand-dark); }
 .gift-card .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
 .gift-card .btn { align-self: start; }
