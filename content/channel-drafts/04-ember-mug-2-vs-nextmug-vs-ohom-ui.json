@@ -1,0 +1,228 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Ember Mug 2 vs Nextmug vs OHOM Ui: which heated mug to give",
+    "url": "https://4gift.store/guides/ember-mug-2-vs-nextmug-vs-ohom-ui/",
+    "file": "src/content/guides/ember-mug-2-vs-nextmug-vs-ohom-ui.md",
+    "sources": [
+      {
+        "title": "Best Buy: Ember Mug 2, 10 oz",
+        "url": "https://www.bestbuy.com/product/ember-temperature-control-smart-mug2-10-oz-white/J3GTZXXQ2T"
+      },
+      {
+        "title": "idrinkcoffee: Ember Mug 2, 10 oz",
+        "url": "https://idrinkcoffee.com/products/ember-mug-2-10oz-gold"
+      },
+      {
+        "title": "AOL: Nextmug review",
+        "url": "https://www.aol.com/lifestyle/nextmug-review-finally-self-heating-140412576.html"
+      },
+      {
+        "title": "Cool Mom Tech: OHOM Ui self-heating mug review",
+        "url": "https://coolmomtech.com/2022/01/ohom-ui-self-heating-mug-review/"
+      },
+      {
+        "title": "HGTV: best self-heating mugs",
+        "url": "https://www.hgtv.com/shopping/product-reviews/best-self-heating-mugs"
+      },
+      {
+        "title": "Bob Vila: best mug warmers",
+        "url": "https://www.bobvila.com/articles/best-mug-warmers/"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Ember vs Nextmug vs OHOM Ui: which heated mug to give",
+      "kit": {
+        "title": "Ember vs Nextmug vs OHOM Ui: which heated mug to give",
+        "hook": "Three heated mugs. Pick by where they drink, not the brand.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "Three heated mugs. Pick by where they drink, not by the brand.",
+            "onScreen": "Which heated mug to give",
+            "visual": "b-roll:three mugs side by side, steam rising"
+          },
+          {
+            "n": 2,
+            "seconds": 8,
+            "narration": "Ember Mug 2 for the exact-temperature person. Set 120 to 145 degrees in its app.",
+            "onScreen": "Ember: 120 to 145°F",
+            "visual": "product:Ember Mug 2"
+          },
+          {
+            "n": 3,
+            "seconds": 7,
+            "narration": "It holds heat up to an hour and a half off its coaster. The longest of the three.",
+            "onScreen": "Up to 1.5 hours off base",
+            "visual": "product:Ember Mug 2 lifted off its coaster"
+          },
+          {
+            "n": 4,
+            "seconds": 7,
+            "narration": "Nextmug for the app-hater. Fourteen ounces, one button, three heat settings.",
+            "onScreen": "Nextmug: 14 oz, one button",
+            "visual": "product:Nextmug"
+          },
+          {
+            "n": 5,
+            "seconds": 7,
+            "narration": "OHOM Ui for the desk worker. No battery, no app, and the Artist mug is dishwasher safe.",
+            "onScreen": "OHOM Ui: dishwasher safe",
+            "visual": "product:OHOM Ui mug on its pad"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "The catch: it only warms on its pad. Walk to a meeting and it is just a mug.",
+            "onScreen": "Only warm on its pad",
+            "visual": "b-roll:someone carrying a mug away from a desk as it stops steaming"
+          },
+          {
+            "n": 7,
+            "seconds": 5,
+            "narration": "Full side-by-side table at the link.",
+            "onScreen": "Full comparison at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "Ember Mug 2 in 20 seconds",
+            "scenes": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "title": "Nextmug or OHOM Ui",
+            "scenes": [
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "description": "Ember Mug 2 vs Nextmug vs OHOM Ui: app or button, how long each stays hot off its base, cleaning, and which suits an office desk. The full comparison: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "ember mug 2",
+          "nextmug",
+          "ohom ui",
+          "heated mug",
+          "gifts for coffee lovers",
+          "gift ideas",
+          "office gifts",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Ember vs Nextmug vs OHOM Ui: pins",
+      "pinSet": {
+        "title": "Ember vs Nextmug vs OHOM Ui: pins",
+        "pins": [
+          {
+            "title": "Ember Mug 2 vs Nextmug vs OHOM Ui: which heated mug to give",
+            "description": "Ember for the exact-temperature fan, Nextmug for the app-hater, OHOM Ui for the desk worker. The Ember holds heat for up to 1.5 hours off its coaster. We earn a commission from some links.",
+            "overlay": "Which heated mug to give",
+            "visual": "product:Ember Mug 2, Nextmug and OHOM Ui side by side",
+            "board": "Gifts for coffee lovers"
+          },
+          {
+            "title": "The heated mug with no app: Nextmug",
+            "description": "No Bluetooth and no app: one button cycles through warm, hot and piping. It holds 14 ounces. We earn a commission from some links.",
+            "overlay": "No app, one button",
+            "visual": "product:Nextmug",
+            "board": "Gifts for coffee lovers"
+          },
+          {
+            "title": "The dishwasher-safe heated mug for an office desk",
+            "description": "The OHOM Ui Artist mug is dishwasher safe and warms to about 130°F on its pad. HGTV named the Ui Plus its office pick. We earn a commission from some links.",
+            "overlay": "Dishwasher safe, desk ready",
+            "visual": "product:OHOM Ui mug on its pad",
+            "board": "Office gift ideas"
+          }
+        ],
+        "tags": [
+          "heated mug",
+          "ember mug 2",
+          "nextmug",
+          "ohom ui",
+          "coffee gifts",
+          "office gifts"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Ember vs Nextmug vs OHOM Ui: carousel",
+      "carousel": {
+        "title": "Ember vs Nextmug vs OHOM Ui: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Reheating the same coffee again?",
+            "body": "Three heated mugs, picked by where the person drinks.",
+            "visual": "b-roll:a coffee going into the microwave"
+          },
+          {
+            "n": 2,
+            "heading": "Ember Mug 2: exact temperature",
+            "body": "Set 120 to 145°F in the app. Up to 1.5 hours off its coaster.",
+            "visual": "product:Ember Mug 2"
+          },
+          {
+            "n": 3,
+            "heading": "Nextmug: no app at all",
+            "body": "14 ounces, one button, three heat settings.",
+            "visual": "product:Nextmug"
+          },
+          {
+            "n": 4,
+            "heading": "OHOM Ui: the desk mug",
+            "body": "About 130°F on its pad, no battery. The Artist mug is dishwasher safe.",
+            "visual": "product:OHOM Ui mug"
+          },
+          {
+            "n": 5,
+            "heading": "The catch with each",
+            "body": "Ember needs an app. Nextmug washes by hand. OHOM Ui only warms on its pad.",
+            "visual": "product:all three mugs in a row"
+          },
+          {
+            "n": 6,
+            "heading": "Who gets which",
+            "body": "The full side-by-side table is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "For the coffee drinker who reheats the same cup three times before noon: Ember, Nextmug or OHOM Ui, matched to where they drink. Full comparison: link in bio. We earn a commission from some links.",
+        "tags": [
+          "embermug",
+          "heatedmug",
+          "coffeegifts",
+          "giftideas",
+          "officegifts",
+          "giftguide"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Ember vs Nextmug vs OHOM Ui: Facebook post",
+      "body": "Know someone who microwaves the same coffee three times before noon? Ember Mug 2 holds their exact temperature for up to 1.5 hours off its coaster. Nextmug skips the app: one button, three settings. OHOM Ui lives on a desk and goes in the dishwasher. Which one suits whom: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Ember vs Nextmug vs OHOM Ui: TikTok caption",
+      "body": "Microwave, 30 seconds, forget it, repeat. Three heated mugs that end the cycle, and who each one suits. Link in bio. We earn a commission from some links. #embermug #heatedmug #coffeegifts #giftideas"
+    }
+  ]
+}

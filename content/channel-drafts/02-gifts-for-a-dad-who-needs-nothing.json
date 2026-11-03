@@ -1,0 +1,254 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Gifts for a dad who says he needs nothing",
+    "url": "https://4gift.store/guides/gifts-for-a-dad-who-needs-nothing/",
+    "file": "src/content/guides/gifts-for-a-dad-who-needs-nothing.md",
+    "sources": [
+      {
+        "title": "Owala FreeSip",
+        "url": "https://owalalife.com/en-gb/products/freesip"
+      },
+      {
+        "title": "Best Buy: Ember Mug 2, 10 oz",
+        "url": "https://www.bestbuy.com/product/ember-temperature-control-smart-mug2-10-oz-white/J3GTZXXQ2T"
+      },
+      {
+        "title": "AOL: Nextmug review",
+        "url": "https://www.aol.com/lifestyle/nextmug-review-finally-self-heating-140412576.html"
+      },
+      {
+        "title": "Bob Vila: best mug warmers",
+        "url": "https://www.bobvila.com/articles/best-mug-warmers/"
+      },
+      {
+        "title": "iFixit: Kindle Paperwhite 12th Gen",
+        "url": "https://www.ifixit.com/Device/Kindle_Paperwhite_12th_Gen"
+      },
+      {
+        "title": "Today.com: best e-readers",
+        "url": "https://www.today.com/today/amp/rcna200008"
+      },
+      {
+        "title": "Comparisontabl.es: Kobo Clara BW vs Kindle Paperwhite",
+        "url": "https://comparisontabl.es/e-readers/kobo-clara-bw-vs-kindle-paperwhite-6/"
+      },
+      {
+        "title": "PhotoWorkout: best digital picture frames",
+        "url": "https://www.photoworkout.com/best-digital-picture-frames/"
+      },
+      {
+        "title": "Aura Frames",
+        "url": "https://auraframes.com/"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "What to give the dad who says he needs nothing",
+      "kit": {
+        "title": "What to give the dad who says he needs nothing",
+        "hook": "\"I need nothing.\" Every dad, every year. Here is the fix.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "\"I need nothing.\" Every dad, every year. Here is the fix.",
+            "onScreen": "Dad \"needs nothing\"",
+            "visual": "b-roll:a dad on the couch shrugging at a gift catalog"
+          },
+          {
+            "n": 2,
+            "seconds": 6,
+            "narration": "Nothing usually means nothing he can think of. So upgrade what he already uses.",
+            "onScreen": "Upgrade what he uses",
+            "visual": "b-roll:a coffee cup going into the microwave for the third time"
+          },
+          {
+            "n": 3,
+            "seconds": 8,
+            "narration": "Reheats his coffee? The Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half.",
+            "onScreen": "Ember Mug 2: up to 1.5 hours",
+            "visual": "product:Ember Mug 2"
+          },
+          {
+            "n": 4,
+            "seconds": 7,
+            "narration": "Hates apps? The Nextmug has no app at all, just one button and three heat settings.",
+            "onScreen": "Nextmug: one button, no app",
+            "visual": "product:Nextmug"
+          },
+          {
+            "n": 5,
+            "seconds": 7,
+            "narration": "Carries a water bottle everywhere? Owala says the FreeSip keeps drinks cold for 24 hours.",
+            "onScreen": "Cold for 24 hours",
+            "visual": "product:Owala FreeSip bottle"
+          },
+          {
+            "n": 6,
+            "seconds": 7,
+            "narration": "Misses the grandkids? A photo frame the family emails photos to. Load it before he opens it.",
+            "onScreen": "Photo frame, preloaded",
+            "visual": "product:Skylight digital photo frame"
+          },
+          {
+            "n": 7,
+            "seconds": 5,
+            "narration": "Still stuck? Give him an afternoon. Write the plan on a card, with a date.",
+            "onScreen": "Or give him an afternoon",
+            "visual": "b-roll:a handwritten card that says \"Saturday, fishing, you and me\""
+          },
+          {
+            "n": 8,
+            "seconds": 4,
+            "narration": "The full list is at the link.",
+            "onScreen": "Full list at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "The heated mug fix for dad",
+            "scenes": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "title": "Bottle, frame or an afternoon",
+            "scenes": [
+              5,
+              6,
+              7
+            ]
+          }
+        ],
+        "description": "Gift ideas for the dad who says he needs nothing: upgrade what he already uses, a photo frame the family fills, or a day out together. The full guide: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "gifts for dad",
+          "dad who has everything",
+          "christmas gifts for dad",
+          "gift ideas",
+          "ember mug",
+          "owala freesip",
+          "fathers day gifts",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Gifts for a dad who needs nothing: pins",
+      "pinSet": {
+        "title": "Gifts for a dad who needs nothing: pins",
+        "pins": [
+          {
+            "title": "Gift ideas for the dad who says he needs nothing",
+            "description": "Upgrade what he already uses, give him something to do, something to remember, or something he will use up. Plus what to skip. We earn a commission from some links.",
+            "overlay": "For the dad who needs nothing",
+            "visual": "product:Ember Mug 2 on a desk",
+            "board": "Gifts for dad"
+          },
+          {
+            "title": "A heated mug for the dad who reheats his coffee",
+            "description": "The Ember Mug 2 holds a temperature from 120 to 145°F for up to 1.5 hours off its coaster. Hates apps? The Nextmug runs on one button. We earn a commission from some links.",
+            "overlay": "Ends the microwave trips",
+            "visual": "product:Ember Mug 2",
+            "board": "Gifts for dad"
+          },
+          {
+            "title": "A water bottle gift that gets used every day",
+            "description": "Owala says the FreeSip keeps drinks cold for 24 hours, with a leak-proof lid. A safe pick only if his old bottle is actually worn out. We earn a commission from some links.",
+            "overlay": "Cold for 24 hours",
+            "visual": "product:Owala FreeSip bottle",
+            "board": "Practical gift ideas"
+          },
+          {
+            "title": "Experience gift ideas for dad: give him an afternoon",
+            "description": "A puzzle to do together, a board game night or a day out on the water. Put the plan on a card with a date. Nothing for the garage. We earn a commission from some links.",
+            "overlay": "Give him an afternoon",
+            "visual": "b-roll:a handwritten plan card next to a jigsaw puzzle",
+            "board": "Experience gift ideas"
+          }
+        ],
+        "tags": [
+          "gifts for dad",
+          "dad who has everything",
+          "christmas gifts for dad",
+          "heated mug",
+          "experience gifts",
+          "gift guide"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Gifts for a dad who needs nothing: carousel",
+      "carousel": {
+        "title": "Gifts for a dad who needs nothing: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "\"I need nothing.\" Sure, Dad.",
+            "body": "It usually means nothing he can think of. Watch one normal weekend: that is your list.",
+            "visual": "b-roll:a dad shrugging at a gift catalog"
+          },
+          {
+            "n": 2,
+            "heading": "Reheats his coffee",
+            "body": "The Ember Mug 2 holds 120 to 145°F for up to 1.5 hours off its coaster.",
+            "visual": "product:Ember Mug 2"
+          },
+          {
+            "n": 3,
+            "heading": "Hates another app",
+            "body": "The Nextmug has no Bluetooth and no app: one button, three heat settings.",
+            "visual": "product:Nextmug"
+          },
+          {
+            "n": 4,
+            "heading": "Carries a bottle everywhere",
+            "body": "Owala says the FreeSip keeps drinks cold for 24 hours.",
+            "visual": "product:Owala FreeSip bottle"
+          },
+          {
+            "n": 5,
+            "heading": "Misses the grandkids",
+            "body": "A photo frame the family emails photos to. Load 20 or 30 before he opens it.",
+            "visual": "product:Skylight digital photo frame"
+          },
+          {
+            "n": 6,
+            "heading": "Still stuck? Give him a day",
+            "body": "Write the plan on a card, with a date. The full guide is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "For the dad who says he needs nothing: make one part of his day better. A heated mug, a bottle that stays cold, a photo frame, or an afternoon together. Full guide: link in bio. We earn a commission from some links.",
+        "tags": [
+          "giftsfordad",
+          "christmasgifts",
+          "giftideas",
+          "dadgifts",
+          "giftguide",
+          "holidaygifts"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Gifts for a dad who needs nothing: Facebook post",
+      "body": "\"I need nothing.\" Every dad, every year. It usually means nothing he can think of. So upgrade what he already uses: a mug that keeps his coffee hot for up to 1.5 hours, a bottle that keeps drinks cold for 24, a photo frame the grandkids fill. Or give him an afternoon. Full guide: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Gifts for a dad who needs nothing: TikTok caption",
+      "body": "Dad: \"I need nothing.\" Dad, three minutes later: microwaves the same coffee for the third time. Gifts for the dad who says he needs nothing. Link in bio. We earn a commission from some links. #giftsfordad #christmasgifts #giftideas #dadgifts"
+    }
+  ]
+}

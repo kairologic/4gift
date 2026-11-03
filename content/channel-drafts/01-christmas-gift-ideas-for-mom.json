@@ -1,0 +1,255 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Christmas gifts for mom: comfort, family and time to herself",
+    "url": "https://4gift.store/guides/christmas-gift-ideas-for-mom/",
+    "file": "src/content/guides/christmas-gift-ideas-for-mom.md",
+    "sources": [
+      {
+        "title": "NBC Select: Aura vs Skylight",
+        "url": "https://www.nbcnews.com/select/shopping/aura-vs-skylight-review-rcna204440"
+      },
+      {
+        "title": "PhotoWorkout: best digital picture frames",
+        "url": "https://www.photoworkout.com/best-digital-picture-frames/"
+      },
+      {
+        "title": "Mattress Clarity: Gravity Blanket review",
+        "url": "https://www.mattressclarity.com/weighted-blankets/gravity-blanket/"
+      },
+      {
+        "title": "Mattress Clarity: Bearaby Tree Napper review",
+        "url": "https://www.mattressclarity.com/weighted-blankets/bearaby-weighted-blanket/"
+      },
+      {
+        "title": "Sleep Foundation: Bearaby weighted blanket review",
+        "url": "https://www.sleepfoundation.org/best-weighted-blankets/bearaby-weighted-blanket-review"
+      },
+      {
+        "title": "Puffy: how to choose a weighted blanket weight",
+        "url": "https://puffy.com/blogs/best-sleep/how-to-determine-weighted-blanket-weight"
+      },
+      {
+        "title": "iFixit: Kindle Paperwhite 12th Gen",
+        "url": "https://www.ifixit.com/Device/Kindle_Paperwhite_12th_Gen"
+      },
+      {
+        "title": "Comparisontabl.es: Kobo Clara BW vs Kindle Paperwhite",
+        "url": "https://comparisontabl.es/e-readers/kobo-clara-bw-vs-kindle-paperwhite-6/"
+      },
+      {
+        "title": "Best Buy: Ember Mug 2, 10 oz",
+        "url": "https://www.bestbuy.com/product/ember-temperature-control-smart-mug2-10-oz-white/J3GTZXXQ2T"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Christmas gifts for mom she will actually use",
+      "kit": {
+        "title": "Christmas gifts for mom she will actually use",
+        "hook": "Mom says she wants nothing. Here is what she will use.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "Mom says she wants nothing for Christmas. Here is what she will actually use.",
+            "onScreen": "What mom actually uses",
+            "visual": "b-roll:a wrapped gift on a kitchen table next to a cold cup of tea"
+          },
+          {
+            "n": 2,
+            "seconds": 7,
+            "narration": "Misses the grandkids? A Wi-Fi photo frame the whole family can send photos to.",
+            "onScreen": "Misses the grandkids? Photo frame",
+            "visual": "product:Skylight digital photo frame"
+          },
+          {
+            "n": 3,
+            "seconds": 7,
+            "narration": "Skylight takes photos by email, so nobody needs an app. Load twenty before Christmas morning.",
+            "onScreen": "Photos by email, no app",
+            "visual": "product:Skylight frame with a new photo arriving"
+          },
+          {
+            "n": 4,
+            "seconds": 7,
+            "narration": "Always cold on the couch? A weighted blanket, about ten percent of her body weight.",
+            "onScreen": "About 10% of her weight",
+            "visual": "product:Gravity weighted blanket on a couch"
+          },
+          {
+            "n": 5,
+            "seconds": 7,
+            "narration": "Tea always goes cold? The Ember Mug 2 holds her temperature up to an hour and a half off its coaster.",
+            "onScreen": "Warm up to 1.5 hours",
+            "visual": "product:Ember Mug 2"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "Reads in bed? An e-reader. The Kobo Clara BW is the lighter one, at 174 grams.",
+            "onScreen": "Kobo Clara BW: 174 g",
+            "visual": "product:Kobo Clara BW e-reader"
+          },
+          {
+            "n": 7,
+            "seconds": 6,
+            "narration": "And skip the vacuum. A chore with a bow on it is still a chore.",
+            "onScreen": "Skip the vacuum",
+            "visual": "b-roll:a vacuum with a big red bow, slowly wheeled back out of frame"
+          },
+          {
+            "n": 8,
+            "seconds": 5,
+            "narration": "The full list, and what to skip, is at the link.",
+            "onScreen": "Full list at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "Photo frame or blanket for mom",
+            "scenes": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "title": "The mug, the e-reader and the vacuum rule",
+            "scenes": [
+              5,
+              6,
+              7
+            ]
+          }
+        ],
+        "description": "Christmas gifts for mom, matched to how she spends her quiet time: a photo frame, a weighted blanket, a heated mug or an e-reader. The full guide: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "christmas gifts for mom",
+          "gift ideas",
+          "gifts for mom",
+          "holiday gifts",
+          "digital photo frame",
+          "weighted blanket",
+          "ember mug",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Christmas gifts for mom: pins",
+      "pinSet": {
+        "title": "Christmas gifts for mom: pins",
+        "pins": [
+          {
+            "title": "Christmas gifts for mom she will actually use",
+            "description": "Four kinds of mom and a gift for each: a photo frame for the one who misses the grandkids, a weighted blanket for the couch, a heated mug, an e-reader. Plus the one gift to skip. We earn a commission from some links.",
+            "overlay": "Christmas gifts mom will actually use",
+            "visual": "product:Skylight digital photo frame on a side table",
+            "board": "Christmas gifts for mom"
+          },
+          {
+            "title": "The easiest digital photo frame for a mom who does not do apps",
+            "description": "Skylight frames get photos by email, so nobody in the family needs an app. Load 20 or 30 photos before Christmas morning. We earn a commission from some links.",
+            "overlay": "The photo frame for non-techy moms",
+            "visual": "product:Skylight frame showing a family photo",
+            "board": "Christmas gifts for mom"
+          },
+          {
+            "title": "What weight of weighted blanket to give mom",
+            "description": "Start near 10% of her body weight: a 140 lb mom starts near a 14 lb blanket. Pick a knit one if she sleeps hot. We earn a commission from some links.",
+            "overlay": "The 10% rule for weighted blankets",
+            "visual": "product:Bearaby knit weighted blanket",
+            "board": "Cozy gift ideas"
+          },
+          {
+            "title": "Stocking stuffers for mom that get used up",
+            "description": "A loose-leaf tea sampler, artisan chocolates, a soy candle or cozy slippers: small gifts she reaches for every day. We earn a commission from some links.",
+            "overlay": "Stocking stuffers she will use up",
+            "visual": "b-roll:a stocking with a tea sampler and slippers peeking out",
+            "board": "Stocking stuffer ideas"
+          }
+        ],
+        "tags": [
+          "christmas gifts for mom",
+          "gifts for mom",
+          "stocking stuffers",
+          "digital photo frame",
+          "weighted blanket",
+          "holiday gift guide"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Christmas gifts for mom: carousel",
+      "carousel": {
+        "title": "Christmas gifts for mom: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Mom says she wants nothing",
+            "body": "Here is what she will actually use, matched to where she spends her quiet time.",
+            "visual": "b-roll:a wrapped gift beside a cup of tea"
+          },
+          {
+            "n": 2,
+            "heading": "Misses the grandkids",
+            "body": "A Wi-Fi photo frame. Skylight takes photos by email, so nobody needs an app.",
+            "visual": "product:Skylight digital photo frame"
+          },
+          {
+            "n": 3,
+            "heading": "Always cold on the couch",
+            "body": "A weighted blanket near 10% of her body weight. Knit if she sleeps hot.",
+            "visual": "product:Gravity weighted blanket"
+          },
+          {
+            "n": 4,
+            "heading": "Tea always goes cold",
+            "body": "The Ember Mug 2 holds her temperature for up to 1.5 hours off its coaster.",
+            "visual": "product:Ember Mug 2"
+          },
+          {
+            "n": 5,
+            "heading": "Reads every night",
+            "body": "An e-reader. The Kobo Clara BW weighs 174 g, the Kindle Paperwhite 214 g.",
+            "visual": "product:Kobo Clara BW e-reader"
+          },
+          {
+            "n": 6,
+            "heading": "And skip the vacuum",
+            "body": "A chore with a bow on it is still a chore. The full list is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "Mom says she wants nothing. She means nothing that is really for the house. Four gifts matched to how she spends her quiet time, and the one to skip. Full guide: link in bio. We earn a commission from some links.",
+        "tags": [
+          "christmasgifts",
+          "giftsformom",
+          "giftideas",
+          "holidaygifts",
+          "giftguide",
+          "stockingstuffers"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Christmas gifts for mom: Facebook post",
+      "body": "Mom says she wants nothing for Christmas. She usually means nothing for the house. A photo frame the family fills, a weighted blanket for the couch, a mug that keeps her tea warm for up to 1.5 hours, or an e-reader for bedtime. And skip the vacuum. Our full guide, with what to skip: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Christmas gifts for mom: TikTok caption",
+      "body": "Mom: \"I don't need anything.\" Also mom: reheats the same tea four times. Four gifts she will actually use, and the one to skip. Link in bio. We earn a commission from some links. #christmasgifts #giftsformom #giftideas #holidaygifts"
+    }
+  ]
+}
