@@ -40,9 +40,9 @@ h3 { font-size: 1.3rem; margin: 1.4em 0 .4em; }
 /* Header */
 .site-header { background: var(--card); border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap; }
-.logo { font-family: var(--serif); font-weight: 700; font-size: 1.35rem; color: var(--brand-dark); text-decoration: none; display: inline-flex; align-items: center; gap: 10px; }
-.logo img { width: 44px; height: 44px; border-radius: 50%; margin-right: 0; }
-.logo .four { color: var(--accent); }
+.logo { font-family: var(--serif); font-weight: 700; font-size: 2rem; line-height: 1; color: var(--brand); text-decoration: none; display: inline-block; white-space: nowrap; }
+.logo .four { display: inline-block; height: 1.1em; width: 0.95em; vertical-align: -0.04em; }
+@media (max-width: 600px) { .logo { font-size: 1.75rem; } }
 .nav { font-size: 1rem; }
 .nav a { text-decoration: none; color: var(--ink-soft); font-weight: 600; }
 .nav a:hover { color: var(--brand); }
