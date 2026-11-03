@@ -4,10 +4,16 @@
   --paper: #fbf8f3;
   --card: #ffffff;
   --line: #e4ddd2;
-  /* 4Gifts brand (2026-11-02): berry leads (headings, links, header), orange for buttons and calls to action.
-     Orange is the darker #b85a22 so white button text passes AA (4.6:1). */
-  --brand: #8e2a4c;
-  --brand-dark: #6c1f39;
+  /* 4Gifts palette (Ravi, 2026-11-03): one warm and one cool color. Berry is the brand (logo, headings, links,
+     filters, rank numbers); deep teal is the buy button (white text 5.8:1, AA); tags sit on a cool blue-gray.
+     Orange stays only in the logo art. */
+  --brand: #8f2954;
+  --brand-dark: #6f1f41;
+  --buy: #1f6f78;
+  --buy-dark: #185a62;
+  --tag-bg: #e8eef2;
+  --tag-line: #d6dee5;
+  --tag-ink: #2e4450;
   --accent: #b85a22;
   --accent-dark: #a9531f;
   --tint: #f4e1e7;
@@ -27,7 +33,7 @@ body {
 img { max-width: 100%; height: auto; }
 a { color: var(--brand); text-underline-offset: 3px; }
 a:hover { color: var(--brand-dark); }
-:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+:focus-visible { outline: 3px solid var(--buy); outline-offset: 2px; }
 h1, h2, h3 { font-family: var(--serif); line-height: 1.2; color: var(--ink); }
 h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 .5em; }
 h2 { font-size: clamp(1.5rem, 3.5vw, 2rem); margin: 1.6em 0 .5em; }
@@ -62,7 +68,7 @@ h3 { font-size: 1.3rem; margin: 1.4em 0 .4em; }
 .mega-panel li { margin: 6px 0; }
 .mega-panel a { font-weight: 500; color: var(--ink); }
 .mega-featured { border-left: 1px solid var(--line); padding-left: 24px; }
-.mega-featured .kind, .kind { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--accent-dark); font-weight: 700; margin: 0 0 4px; }
+.mega-featured .kind, .kind { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--brand); font-weight: 700; margin: 0 0 4px; }
 .menu-toggle { display: none; background: none; border: 2px solid var(--brand); color: var(--brand); border-radius: 8px; padding: 6px 12px; font: 600 1rem var(--sans); cursor: pointer; }
 @media (max-width: 800px) {
   .menu-toggle { display: inline-block; }
@@ -77,10 +83,10 @@ h3 { font-size: 1.3rem; margin: 1.4em 0 .4em; }
 
 /* Buttons */
 .btn {
-  display: inline-block; background: var(--accent); color: #fff; font-weight: 700; font-size: 1rem;
+  display: inline-block; background: var(--buy); color: #fff; font-weight: 700; font-size: 1rem;
   padding: 12px 20px; border-radius: 10px; text-decoration: none; border: 0; cursor: pointer; text-align: center;
 }
-.btn:hover { background: var(--accent-dark); color: #fff; }
+.btn:hover { background: var(--buy-dark); color: #fff; }
 .btn.secondary { background: var(--brand); }
 .btn.secondary:hover { background: var(--brand-dark); }
 .btn.ghost { background: transparent; color: var(--brand); border: 2px solid var(--brand); }
@@ -95,7 +101,7 @@ h3 { font-size: 1.3rem; margin: 1.4em 0 .4em; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
 .card h3 { margin-top: 0; }
 .card a.stretch { text-decoration: none; color: inherit; }
-.card .kind { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--accent-dark); font-weight: 700; }
+.card .kind { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--brand); font-weight: 700; }
 .section { padding: 32px 0; }
 .tint { background: var(--tint); }
 
@@ -157,19 +163,19 @@ article.prose { padding-bottom: 48px; }
 .gift-card { display: flex; flex-direction: column; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
 .gift-card[hidden] { display: none; }
 .gift-card h3 { margin: 0; font-size: 1.2rem; }
-.gift-card .rank { font: 700 .8rem var(--sans); color: var(--accent-dark); text-transform: uppercase; letter-spacing: .06em; }
+.gift-card .rank { font: 700 .8rem var(--sans); color: var(--brand); text-transform: uppercase; letter-spacing: .06em; }
 .gift-card p { margin: 0; }
 .gift-card .why { font-size: 1rem; color: var(--ink-soft); }
 .gift-card .picks { margin: 0.25rem 0 0.75rem; }
 .gift-card .picks-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 0.25rem; }
 .gift-card .picks ul { margin: 0; padding-left: 1.1rem; }
 .gift-card .picks li { margin: 0.2rem 0; font-size: 0.95rem; }
-.gift-card .price { font-weight: 700; color: var(--brand-dark); }
+.gift-card .price { font-weight: 700; color: var(--ink); }
 .gift-card .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
 .gift-card .btn { align-self: start; }
 .chip {
   display: inline-block; font: 600 .85rem var(--sans); padding: 4px 10px; border-radius: 999px; text-decoration: none;
-  border: 1px solid var(--line); background: var(--paper); color: var(--ink-soft);
+  border: 1px solid var(--tag-line); background: var(--tag-bg); color: var(--tag-ink);
 }
 a.chip:hover { border-color: var(--brand); color: var(--brand); }
 .filters { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin: 16px 0; }
@@ -204,12 +210,18 @@ a.chip:hover { border-color: var(--brand); color: var(--brand); }
 .contact-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .form-status { margin: 0; min-height: 1.5em; }
 
-/* Pinterest */
+/* Save to Pinterest: a quiet white button with a berry heart, so the teal buy button stays the one thing to click
+   (Ravi, 2026-11-03). "to Pinterest" shows on wider screens only. */
 .pin-save {
-  display: inline-flex; align-items: center; gap: 6px; font: 700 .95rem var(--sans); color: #fff; background: #e60023;
-  padding: 8px 14px; border-radius: 999px; text-decoration: none; align-self: start;
+  display: inline-flex; align-items: center; gap: 6px; font: 600 .95rem var(--sans); color: var(--ink); background: var(--card);
+  border: 1.5px solid var(--line); padding: 7px 14px; border-radius: 999px; text-decoration: none; align-self: start;
 }
-.pin-save:hover { background: #ad081b; color: #fff; }
+.pin-save svg { color: var(--brand); }
+.pin-save .pin-long { margin-left: -2px; }
+/* On a gift card the short label keeps Save beside the buy button; the page-level Save keeps "to Pinterest". */
+.gift-card .pin-save .pin-long { display: none; }
+@media (max-width: 640px) { .pin-save .pin-long { display: none; } }
+.pin-save:hover { border-color: var(--ink-soft); color: var(--ink); }
 .gift-card .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 .gift-card .actions .pin-save { align-self: center; }
 .list-head { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
