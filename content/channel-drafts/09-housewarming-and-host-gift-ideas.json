@@ -1,0 +1,240 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Housewarming and host gifts: easy ideas, and plants safe for pets",
+    "url": "https://4gift.store/guides/housewarming-and-host-gift-ideas/",
+    "file": "src/content/guides/housewarming-and-host-gift-ideas.md",
+    "sources": [
+      {
+        "title": "ASPCA: spider plant",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant"
+      },
+      {
+        "title": "ASPCA: parlor palm",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parlor-palm"
+      },
+      {
+        "title": "ASPCA: golden pothos",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos"
+      },
+      {
+        "title": "ASPCA: snake plant",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant"
+      },
+      {
+        "title": "ASPCA: Easter lily",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily"
+      },
+      {
+        "title": "PhotoWorkout: best digital picture frames",
+        "url": "https://www.photoworkout.com/best-digital-picture-frames/"
+      },
+      {
+        "title": "Aura Frames",
+        "url": "https://auraframes.com/"
+      },
+      {
+        "title": "Skylight",
+        "url": "https://myskylight.com/"
+      },
+      {
+        "title": "NBC Select: Aura vs Skylight",
+        "url": "https://www.nbcnews.com/select/shopping/aura-vs-skylight-review-rcna204440"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Housewarming and host gifts that fit in a new home",
+      "kit": {
+        "title": "Housewarming and host gifts that fit in a new home",
+        "hook": "They just unpacked forty boxes. Do not bring box forty-one.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "They just unpacked forty boxes. Do not show up with box forty-one.",
+            "onScreen": "Not box 41",
+            "visual": "b-roll:a hallway stacked with moving boxes"
+          },
+          {
+            "n": 2,
+            "seconds": 6,
+            "narration": "For the host tonight: a soy candle or a snack box. Easy to hand over at the door.",
+            "onScreen": "Hand it over at the door",
+            "visual": "product:scented soy candle and a snack box"
+          },
+          {
+            "n": 3,
+            "seconds": 7,
+            "narration": "For the new kitchen: an engraved cutting board or an indoor herb garden kit for the sill.",
+            "onScreen": "For the new kitchen",
+            "visual": "product:engraved cutting board"
+          },
+          {
+            "n": 4,
+            "seconds": 7,
+            "narration": "Pets in the house? The ASPCA lists the spider plant and the parlor palm as safe for dogs and cats.",
+            "onScreen": "Pet-safe: spider plant",
+            "visual": "product:spider plant in a pot"
+          },
+          {
+            "n": 5,
+            "seconds": 6,
+            "narration": "Skip pothos and snake plants, and never bring lilies to a home with a cat.",
+            "onScreen": "No lilies with cats",
+            "visual": "text"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "Family far away? A Wi-Fi photo frame they can keep filling. Load it first.",
+            "onScreen": "A frame that keeps filling",
+            "visual": "product:Skylight digital photo frame"
+          },
+          {
+            "n": 7,
+            "seconds": 4,
+            "narration": "The full list is at the link.",
+            "onScreen": "Full list at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "The host gift for tonight",
+            "scenes": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "title": "Pet-safe plants for a new home",
+            "scenes": [
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "description": "Housewarming and host gifts that are easy to carry in and easy to place, plus houseplants the ASPCA lists as safe for pets. Full guide: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "housewarming gifts",
+          "host gifts",
+          "pet safe plants",
+          "new home gifts",
+          "gift ideas",
+          "hostess gifts",
+          "holiday party gifts",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Housewarming gifts: pins",
+      "pinSet": {
+        "title": "Housewarming gifts: pins",
+        "pins": [
+          {
+            "title": "Housewarming gift ideas that do not add to the boxes",
+            "description": "A soy candle or snack box for the host, an engraved cutting board for the kitchen, a pet-safe plant, or a photo frame for a family far away. We earn a commission from some links.",
+            "overlay": "Housewarming gifts, no box 41",
+            "visual": "product:soy candle, cutting board and a spider plant",
+            "board": "Housewarming gift ideas"
+          },
+          {
+            "title": "Pet-safe houseplants to give as a housewarming gift",
+            "description": "The ASPCA lists the spider plant and parlor palm as non-toxic to dogs and cats. Skip pothos, snake plants and, with cats, lilies. We earn a commission from some links.",
+            "overlay": "Houseplants safe for pets",
+            "visual": "product:spider plant in a pot",
+            "board": "Housewarming gift ideas"
+          },
+          {
+            "title": "Easy host gifts to bring to a holiday party",
+            "description": "Something the host can enjoy later: a soy candle, a snack box, or stemless wine glasses. Add a card with your name. We earn a commission from some links.",
+            "overlay": "Easy host gifts",
+            "visual": "product:scented soy candle",
+            "board": "Hostess gift ideas"
+          }
+        ],
+        "tags": [
+          "housewarming gifts",
+          "host gifts",
+          "pet safe plants",
+          "new home",
+          "hostess gifts",
+          "gift ideas"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Housewarming gifts: carousel",
+      "carousel": {
+        "title": "Housewarming gifts: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Forty boxes unpacked",
+            "body": "Small and useful beats big and showy. Do not bring box forty-one.",
+            "visual": "b-roll:a hallway of moving boxes"
+          },
+          {
+            "n": 2,
+            "heading": "For the host tonight",
+            "body": "A soy candle or a snack box they can enjoy later.",
+            "visual": "product:scented soy candle and a snack box"
+          },
+          {
+            "n": 3,
+            "heading": "For the new kitchen",
+            "body": "An engraved cutting board, or an herb garden kit for the sill.",
+            "visual": "product:engraved cutting board"
+          },
+          {
+            "n": 4,
+            "heading": "A plant safe for pets",
+            "body": "The ASPCA lists spider plants and parlor palms as non-toxic to dogs and cats.",
+            "visual": "product:spider plant in a pot"
+          },
+          {
+            "n": 5,
+            "heading": "Skip these plants",
+            "body": "Pothos and snake plants, and lilies in any home with a cat.",
+            "visual": "text"
+          },
+          {
+            "n": 6,
+            "heading": "More ideas",
+            "body": "The full list is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "Housewarming and host gifts that are easy to carry in and easy to find a spot for, plus the houseplants that are safe for pets. Full guide: link in bio. We earn a commission from some links.",
+        "tags": [
+          "housewarming",
+          "hostgifts",
+          "petsafeplants",
+          "newhome",
+          "giftideas",
+          "giftguide"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Housewarming gifts: Facebook post",
+      "body": "Heading to a housewarming? They just unpacked a lot of boxes, so bring something small: a soy candle, an engraved cutting board, or a houseplant the ASPCA lists as safe for pets, like a spider plant. And no lilies if they have a cat. Full list: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Housewarming gifts: TikTok caption",
+      "body": "Your friend just unpacked 40 boxes. Please do not bring box 41. Housewarming gifts that fit, and plants that are safe for pets. Link in bio. We earn a commission from some links. #housewarming #hostgifts #newhome #giftideas"
+    }
+  ]
+}

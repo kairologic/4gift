@@ -1,0 +1,224 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
+    "url": "https://4gift.store/guides/kindle-paperwhite-vs-kobo-clara-bw/",
+    "file": "src/content/guides/kindle-paperwhite-vs-kobo-clara-bw.md",
+    "sources": [
+      {
+        "title": "Comparisontabl.es: Kobo Clara BW vs Kindle Paperwhite",
+        "url": "https://comparisontabl.es/e-readers/kobo-clara-bw-vs-kindle-paperwhite-6/"
+      },
+      {
+        "title": "The eBook Reader: Kindle Paperwhite vs Kobo Clara BW",
+        "url": "https://blog.the-ebook-reader.com/2024/05/30/kindle-paperwhite-vs-kobo-clara-bw-comparison-video/"
+      },
+      {
+        "title": "myereader: Kobo Clara BW review",
+        "url": "https://myereader.substack.com/p/kobo-clara-bw-review"
+      },
+      {
+        "title": "iFixit: Kindle Paperwhite 12th Gen",
+        "url": "https://www.ifixit.com/Device/Kindle_Paperwhite_12th_Gen"
+      },
+      {
+        "title": "Today.com: best e-readers",
+        "url": "https://www.today.com/today/amp/rcna200008"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
+      "kit": {
+        "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
+        "hook": "Kindle or Kobo? Ask where their books come from.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "Kindle or Kobo? One question decides it. Where do their books come from?",
+            "onScreen": "Where do their books come from?",
+            "visual": "b-roll:a stack of library books next to a phone"
+          },
+          {
+            "n": 2,
+            "seconds": 7,
+            "narration": "Years of Kindle purchases, or Audible? The Paperwhite. Bigger 7 inch screen, and Amazon claims up to 12 weeks a charge.",
+            "onScreen": "Paperwhite: up to 12 weeks",
+            "visual": "product:Kindle Paperwhite"
+          },
+          {
+            "n": 3,
+            "seconds": 7,
+            "narration": "Library borrower? The Kobo Clara BW has Libby built in, and no ads by default.",
+            "onScreen": "Kobo: Libby built in",
+            "visual": "product:Kobo Clara BW"
+          },
+          {
+            "n": 4,
+            "seconds": 6,
+            "narration": "Reads lying down? The Kobo is lighter, 174 grams to the Kindle's 214.",
+            "onScreen": "174 g vs 214 g",
+            "visual": "product:Kobo Clara BW held above a pillow"
+          },
+          {
+            "n": 5,
+            "seconds": 6,
+            "narration": "Both are rated IPX8, good for 2 meters of water for an hour. Bath reading approved.",
+            "onScreen": "Both IPX8",
+            "visual": "product:Kindle Paperwhite beside a bathtub"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "Add a book gift card. An e-reader with nothing on it is a very nice coaster.",
+            "onScreen": "Add a book gift card",
+            "visual": "b-roll:an e-reader holding up a coffee cup"
+          },
+          {
+            "n": 7,
+            "seconds": 4,
+            "narration": "The full comparison is at the link.",
+            "onScreen": "Full comparison at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "Kindle or Kobo in 20 seconds",
+            "scenes": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "title": "Weight, water and the coaster rule",
+            "scenes": [
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "description": "Kindle Paperwhite vs Kobo Clara BW for gifting: where their books come from, screen and weight, ads, battery and library borrowing. Full comparison: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "kindle paperwhite",
+          "kobo clara bw",
+          "e-reader",
+          "gifts for readers",
+          "book lover gifts",
+          "christmas gifts",
+          "gift ideas",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Kindle vs Kobo: pins",
+      "pinSet": {
+        "title": "Kindle vs Kobo: pins",
+        "pins": [
+          {
+            "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
+            "description": "Kindle for Kindle and Audible readers (7 in screen, up to 12 weeks claimed); Kobo for library borrowers (Libby built in, no ads, 174 g). We earn a commission from some links.",
+            "overlay": "Kindle or Kobo?",
+            "visual": "product:Kindle Paperwhite and Kobo Clara BW side by side",
+            "board": "Gifts for book lovers"
+          },
+          {
+            "title": "The best e-reader for library books",
+            "description": "The Kobo Clara BW has Libby built in, so borrowed books download straight to the device. No ads by default. We earn a commission from some links.",
+            "overlay": "Library books, built in",
+            "visual": "product:Kobo Clara BW",
+            "board": "Gifts for book lovers"
+          },
+          {
+            "title": "A waterproof e-reader for bath and pool readers",
+            "description": "Both the Kindle Paperwhite and Kobo Clara BW are rated IPX8: 2 meters of fresh water for 60 minutes. We earn a commission from some links.",
+            "overlay": "Waterproof e-readers",
+            "visual": "product:Kindle Paperwhite by a pool",
+            "board": "Christmas gift ideas"
+          }
+        ],
+        "tags": [
+          "kindle paperwhite",
+          "kobo clara bw",
+          "e-reader gift",
+          "gifts for readers",
+          "book lover gifts",
+          "christmas gifts"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Kindle vs Kobo: carousel",
+      "carousel": {
+        "title": "Kindle vs Kobo: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Kindle or Kobo?",
+            "body": "Ask where their books come from now. That decides the gift.",
+            "visual": "b-roll:a stack of library books"
+          },
+          {
+            "n": 2,
+            "heading": "Kindle Paperwhite",
+            "body": "For Kindle and Audible readers. 7 inch screen, up to 12 weeks a charge claimed.",
+            "visual": "product:Kindle Paperwhite"
+          },
+          {
+            "n": 3,
+            "heading": "Kobo Clara BW",
+            "body": "For library borrowers. Libby built in, no ads, and lighter at 174 g.",
+            "visual": "product:Kobo Clara BW"
+          },
+          {
+            "n": 4,
+            "heading": "Both are waterproof",
+            "body": "IPX8: 2 meters of fresh water for 60 minutes.",
+            "visual": "product:Kindle Paperwhite beside a bathtub"
+          },
+          {
+            "n": 5,
+            "heading": "Add a book gift card",
+            "body": "An empty e-reader is a very nice coaster.",
+            "visual": "text"
+          },
+          {
+            "n": 6,
+            "heading": "The full side-by-side",
+            "body": "Screen, ads, battery and audiobooks, at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "Kindle Paperwhite or Kobo Clara BW? Ask where their books come from now. Full comparison: link in bio. We earn a commission from some links.",
+        "tags": [
+          "kindle",
+          "kobo",
+          "ereader",
+          "booklovergifts",
+          "christmasgifts",
+          "giftideas"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Kindle vs Kobo: Facebook post",
+      "body": "Kindle or Kobo for the reader on your list? Ask where their books come from. Years of Kindle purchases: the Paperwhite, with a 7 inch screen. Library borrower: the Kobo Clara BW, with Libby built in and no ads. Both are waterproof. Full comparison: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Kindle vs Kobo: TikTok caption",
+      "body": "An e-reader with no books on it is a very nice coaster. Kindle vs Kobo, and which reader gets which. Link in bio. We earn a commission from some links. #kindle #kobo #booktok #giftideas"
+    }
+  ]
+}

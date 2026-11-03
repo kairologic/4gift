@@ -1,0 +1,232 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Gifts for teens they'll actually use",
+    "url": "https://4gift.store/guides/gift-ideas-for-teens/",
+    "file": "src/content/guides/gift-ideas-for-teens.md",
+    "sources": [
+      {
+        "title": "Owala FreeSip",
+        "url": "https://owalalife.com/en-gb/products/freesip"
+      },
+      {
+        "title": "REI: Stanley Quencher H2.0 FlowState Tumbler 40 fl. oz.",
+        "url": "https://www.rei.com/product/220438/stanley-quencher-h20-flowstate-tumbler-40-fl-oz"
+      },
+      {
+        "title": "Fujifilm: Instax Mini 12",
+        "url": "https://www.fujifilm.com/us/en/consumer/instax/cameras/mini12"
+      },
+      {
+        "title": "Today.com: best e-readers",
+        "url": "https://www.today.com/today/amp/rcna200008"
+      },
+      {
+        "title": "myereader: Kobo Clara BW review",
+        "url": "https://myereader.substack.com/p/kobo-clara-bw-review"
+      },
+      {
+        "title": "iFixit: Kindle Paperwhite 12th Gen",
+        "url": "https://www.ifixit.com/Device/Kindle_Paperwhite_12th_Gen"
+      },
+      {
+        "title": "Comparisontabl.es: Kobo Clara BW vs Kindle Paperwhite",
+        "url": "https://comparisontabl.es/e-readers/kobo-clara-bw-vs-kindle-paperwhite-6/"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Gifts for teens they will actually use",
+      "kit": {
+        "title": "Gifts for teens they will actually use",
+        "hook": "Buying for a teen? Look at their bag, not their face.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "Buying for a teen? Their face says nothing. Look at their bag instead.",
+            "onScreen": "Look at the bag",
+            "visual": "b-roll:a teen's open backpack on a bed"
+          },
+          {
+            "n": 2,
+            "seconds": 7,
+            "narration": "Always on the move? Owala says the FreeSip seals with a leak-proof lid and stays cold for 24 hours.",
+            "onScreen": "Leak-proof, cold 24 hours",
+            "visual": "product:Owala FreeSip bottle"
+          },
+          {
+            "n": 3,
+            "seconds": 7,
+            "narration": "Always with friends? The Instax Mini 12 sets its own exposure, and prints develop in about 90 seconds.",
+            "onScreen": "Prints in about 90 seconds",
+            "visual": "product:Fujifilm Instax Mini 12"
+          },
+          {
+            "n": 4,
+            "seconds": 5,
+            "narration": "Add film packs. A camera with no film is a sad first hour.",
+            "onScreen": "Add film packs",
+            "visual": "product:Instax Mini film packs"
+          },
+          {
+            "n": 5,
+            "seconds": 7,
+            "narration": "A reader who borrows from the library? The Kobo Clara BW has Libby built in.",
+            "onScreen": "Kobo: Libby built in",
+            "visual": "product:Kobo Clara BW e-reader"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "Skip clothes in a guessed size, and anything that tries too hard to be cool.",
+            "onScreen": "Skip \"trying to be cool\"",
+            "visual": "b-roll:a gift sweater slowly folded back into its box"
+          },
+          {
+            "n": 7,
+            "seconds": 4,
+            "narration": "The full list is at the link.",
+            "onScreen": "Full list at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "The bottle and the camera",
+            "scenes": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "title": "Film, books and what to skip",
+            "scenes": [
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "description": "Gifts for teens they will actually use: a bottle that seals, an instant camera, an e-reader, and what to skip. Full guide: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "gifts for teens",
+          "teen gift ideas",
+          "owala freesip",
+          "instax mini 12",
+          "christmas gifts for teens",
+          "graduation gifts",
+          "gift ideas",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Gifts for teens: pins",
+      "pinSet": {
+        "title": "Gifts for teens: pins",
+        "pins": [
+          {
+            "title": "Gifts for teens they will actually use",
+            "description": "Look at what they carry and do with friends: a bottle that seals, an instant camera, an e-reader, a gaming headset or LED lights for their room. We earn a commission from some links.",
+            "overlay": "Teen gifts they will use",
+            "visual": "product:Owala FreeSip and Instax Mini 12",
+            "board": "Gifts for teens"
+          },
+          {
+            "title": "An instant camera for the teen who is always with friends",
+            "description": "The Instax Mini 12 sets its own exposure and has a selfie mirror; prints develop in about 90 seconds. Add film packs. We earn a commission from some links.",
+            "overlay": "Prints in about 90 seconds",
+            "visual": "product:Fujifilm Instax Mini 12",
+            "board": "Gifts for teens"
+          },
+          {
+            "title": "The water bottle teens want: one that seals in a backpack",
+            "description": "Owala calls the FreeSip lid leak-proof and says it keeps drinks cold for 24 hours, in 24, 32 or 40 oz. We earn a commission from some links.",
+            "overlay": "Seals in a backpack",
+            "visual": "product:Owala FreeSip bottle",
+            "board": "Back to school gifts"
+          }
+        ],
+        "tags": [
+          "gifts for teens",
+          "teen gifts",
+          "instax mini 12",
+          "owala freesip",
+          "christmas gifts",
+          "graduation gifts"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Gifts for teens: carousel",
+      "carousel": {
+        "title": "Gifts for teens: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Their face says nothing",
+            "body": "So look at their bag, their room and their friends. That is the list.",
+            "visual": "b-roll:a teen's backpack on a bed"
+          },
+          {
+            "n": 2,
+            "heading": "A bottle that seals",
+            "body": "Owala FreeSip: leak-proof lid, cold for 24 hours.",
+            "visual": "product:Owala FreeSip bottle"
+          },
+          {
+            "n": 3,
+            "heading": "An instant camera",
+            "body": "Instax Mini 12: sets its own exposure, prints in about 90 seconds. Add film.",
+            "visual": "product:Fujifilm Instax Mini 12"
+          },
+          {
+            "n": 4,
+            "heading": "An e-reader",
+            "body": "The Kobo Clara BW has Libby built in for library borrowers.",
+            "visual": "product:Kobo Clara BW e-reader"
+          },
+          {
+            "n": 5,
+            "heading": "Skip the guesses",
+            "body": "Clothes in a guessed size, and anything trying too hard to be cool.",
+            "visual": "text"
+          },
+          {
+            "n": 6,
+            "heading": "More ideas",
+            "body": "The full list is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "Gifts for teens that fit into their day: a bottle that seals, an instant camera, an e-reader. Full list, with what to skip: link in bio. We earn a commission from some links.",
+        "tags": [
+          "giftsforteens",
+          "teengifts",
+          "christmasgifts",
+          "giftideas",
+          "graduationgifts",
+          "giftguide"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Gifts for teens: Facebook post",
+      "body": "Buying for a teen? Look at what they already carry. A bottle that seals in a backpack, an instant camera that prints in about 90 seconds, or an e-reader with the library built in. Skip clothes in a guessed size. Full list: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Gifts for teens: TikTok caption",
+      "body": "Asked my teen what they want. Got a shrug. Gifts for teens they'll actually use, no shrug required. Link in bio. We earn a commission from some links. #giftsforteens #christmasgifts #teengifts #giftideas"
+    }
+  ]
+}

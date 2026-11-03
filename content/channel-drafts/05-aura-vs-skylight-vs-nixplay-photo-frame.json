@@ -1,0 +1,224 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
+    "url": "https://4gift.store/guides/aura-vs-skylight-vs-nixplay-photo-frame/",
+    "file": "src/content/guides/aura-vs-skylight-vs-nixplay-photo-frame.md",
+    "sources": [
+      {
+        "title": "NBC Select: Aura vs Skylight",
+        "url": "https://www.nbcnews.com/select/shopping/aura-vs-skylight-review-rcna204440"
+      },
+      {
+        "title": "PhotoWorkout: best digital picture frames",
+        "url": "https://www.photoworkout.com/best-digital-picture-frames/"
+      },
+      {
+        "title": "Aura Frames",
+        "url": "https://auraframes.com/"
+      },
+      {
+        "title": "Skylight",
+        "url": "https://myskylight.com/"
+      },
+      {
+        "title": "Nixplay",
+        "url": "https://www.nixplay.com/"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
+      "kit": {
+        "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
+        "hook": "Grandma will not load the photo frame. The family will.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "Grandma will not load the photo frame. The family will. So pick by who sends.",
+            "onScreen": "Pick by who sends photos",
+            "visual": "b-roll:a grandparent smiling at a frame as a new photo appears"
+          },
+          {
+            "n": 2,
+            "seconds": 7,
+            "narration": "Phone-first family? Aura. Photos go in from its app, with no subscription and unlimited photos.",
+            "onScreen": "Aura: no subscription",
+            "visual": "product:Aura digital photo frame"
+          },
+          {
+            "n": 3,
+            "seconds": 7,
+            "narration": "Cousins who never install apps? Skylight. They email photos to the frame's own address.",
+            "onScreen": "Skylight: photos by email",
+            "visual": "product:Skylight Frame 2"
+          },
+          {
+            "n": 4,
+            "seconds": 7,
+            "narration": "Two grandmas, two frames? Nixplay's free plan links up to 5 frames.",
+            "onScreen": "Nixplay: up to 5 frames",
+            "visual": "product:Nixplay digital photo frame"
+          },
+          {
+            "n": 5,
+            "seconds": 6,
+            "narration": "Before you wrap it, load 20 or 30 photos, so it is not an empty screen on day one.",
+            "onScreen": "Load 20 photos first",
+            "visual": "product:a photo frame filled with family photos"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "Otherwise it is a very expensive black rectangle. Grandma will be polite about it.",
+            "onScreen": "Not a black rectangle",
+            "visual": "b-roll:a grandparent politely nodding at a blank frame"
+          },
+          {
+            "n": 7,
+            "seconds": 4,
+            "narration": "The full comparison is at the link.",
+            "onScreen": "Full comparison at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "Aura or Skylight?",
+            "scenes": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "title": "The two-grandma frame, and the setup rule",
+            "scenes": [
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "description": "Aura vs Skylight vs Nixplay: how photos reach each frame, what is free, and which suits a grandparent who avoids apps. Full comparison: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "digital photo frame",
+          "aura frame",
+          "skylight frame",
+          "nixplay",
+          "gifts for grandparents",
+          "christmas gifts",
+          "gift ideas",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Aura vs Skylight vs Nixplay: pins",
+      "pinSet": {
+        "title": "Aura vs Skylight vs Nixplay: pins",
+        "pins": [
+          {
+            "title": "Aura vs Skylight vs Nixplay: which digital photo frame to give",
+            "description": "Aura for phone-first families, Skylight for recipients who avoid apps, Nixplay for sharing to up to 5 frames on its free plan. We earn a commission from some links.",
+            "overlay": "Which photo frame to give?",
+            "visual": "product:Aura, Skylight and Nixplay frames side by side",
+            "board": "Gifts for grandparents"
+          },
+          {
+            "title": "The easiest digital photo frame for grandparents",
+            "description": "PhotoWorkout calls Skylight the easiest for less tech-savvy users: family emails photos in, and the Frame 2 is a touchscreen. We earn a commission from some links.",
+            "overlay": "Easiest frame for grandparents",
+            "visual": "product:Skylight Frame 2",
+            "board": "Gifts for grandparents"
+          },
+          {
+            "title": "A photo frame with no subscription: Aura",
+            "description": "Aura says its frames have no subscription fees and unlimited photos and videos. NBC Select preferred the Aura overall. We earn a commission from some links.",
+            "overlay": "No subscription, unlimited photos",
+            "visual": "product:Aura digital photo frame",
+            "board": "Christmas gift ideas"
+          }
+        ],
+        "tags": [
+          "digital photo frame",
+          "gifts for grandparents",
+          "aura frame",
+          "skylight frame",
+          "nixplay",
+          "christmas gifts"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Aura vs Skylight vs Nixplay: carousel",
+      "carousel": {
+        "title": "Aura vs Skylight vs Nixplay: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Who will send the photos?",
+            "body": "The recipient rarely loads the frame. The family does. Pick for them.",
+            "visual": "b-roll:a family taking a photo at dinner"
+          },
+          {
+            "n": 2,
+            "heading": "Aura",
+            "body": "Photos from its app. No subscription, unlimited photos, and NBC Select's overall pick.",
+            "visual": "product:Aura digital photo frame"
+          },
+          {
+            "n": 3,
+            "heading": "Skylight",
+            "body": "Family emails photos to the frame. The Frame 2 is a 10 inch touchscreen.",
+            "visual": "product:Skylight Frame 2"
+          },
+          {
+            "n": 4,
+            "heading": "Nixplay",
+            "body": "App, web or email. The free plan links up to 5 frames.",
+            "visual": "product:Nixplay digital photo frame"
+          },
+          {
+            "n": 5,
+            "heading": "Load it before you wrap it",
+            "body": "20 or 30 photos, or it is a very expensive black rectangle.",
+            "visual": "product:a frame full of family photos"
+          },
+          {
+            "n": 6,
+            "heading": "Which frame for whom",
+            "body": "The full side-by-side is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "A photo frame is a gift that keeps getting new photos long after the holiday. Aura, Skylight or Nixplay, picked by who will send them. Full comparison: link in bio. We earn a commission from some links.",
+        "tags": [
+          "photoframe",
+          "giftsforgrandparents",
+          "christmasgifts",
+          "giftideas",
+          "giftguide",
+          "familygifts"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Aura vs Skylight vs Nixplay: Facebook post",
+      "body": "Grandma won't load the photo frame. The family will. So pick it by who sends the photos: Aura for a phone-first family, Skylight for cousins who'd rather email, Nixplay to link up to 5 frames for free. Which suits whom: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Aura vs Skylight vs Nixplay: TikTok caption",
+      "body": "A photo frame with zero photos on it is just a very expensive black rectangle. Aura vs Skylight vs Nixplay, picked by who sends the photos. Link in bio. We earn a commission from some links. #photoframe #giftsforgrandparents #christmasgifts #giftideas"
+    }
+  ]
+}

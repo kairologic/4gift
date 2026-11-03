@@ -1,0 +1,236 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Bearaby vs Gravity vs YnM: which weighted blanket to give",
+    "url": "https://4gift.store/guides/bearaby-vs-gravity-vs-ynm-weighted-blanket/",
+    "file": "src/content/guides/bearaby-vs-gravity-vs-ynm-weighted-blanket.md",
+    "sources": [
+      {
+        "title": "Sleep Foundation: Bearaby weighted blanket review",
+        "url": "https://www.sleepfoundation.org/best-weighted-blankets/bearaby-weighted-blanket-review"
+      },
+      {
+        "title": "Reviewed: Bearaby Napper review",
+        "url": "https://reviewed.com/home-outdoors/features/bearaby-napper-weighted-blanket-review-does-it-work"
+      },
+      {
+        "title": "Mattress Clarity: Gravity Blanket review",
+        "url": "https://www.mattressclarity.com/weighted-blankets/gravity-blanket/"
+      },
+      {
+        "title": "Mattress Clarity: Bearaby Tree Napper review",
+        "url": "https://www.mattressclarity.com/weighted-blankets/bearaby-weighted-blanket/"
+      },
+      {
+        "title": "Mattress Clarity: best weighted blankets for anxiety",
+        "url": "https://www.mattressclarity.com/weighted-blankets/best-weighted-blankets-anxiety/"
+      },
+      {
+        "title": "Consumer Reports: weighted baby blankets are not safe",
+        "url": "https://www.consumerreports.org/babies-kids/child-safety/weighted-baby-blankets-sleep-sacks-swaddles-are-not-safe-a6236206799"
+      },
+      {
+        "title": "Somerset NHS: guidance on weighted blankets for children",
+        "url": "https://www.somersetft.nhs.uk/children-and-young-peoples-therapy-service/guidance-on-the-use-of-weighted-blankets/"
+      },
+      {
+        "title": "Puffy: how to choose a weighted blanket weight",
+        "url": "https://puffy.com/blogs/best-sleep/how-to-determine-weighted-blanket-weight"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Bearaby vs Gravity vs YnM: which weighted blanket to give",
+      "kit": {
+        "title": "Bearaby vs Gravity vs YnM: which weighted blanket to give",
+        "hook": "Do they run hot or cold? That picks the blanket.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "A weighted blanket gift starts with one question. Do they run hot or cold?",
+            "onScreen": "Hot or cold sleeper?",
+            "visual": "b-roll:two people on a couch, one under three blankets, one fanning themselves"
+          },
+          {
+            "n": 2,
+            "seconds": 7,
+            "narration": "Runs warm? Bearaby's Napper is knit from thick yarn, with no beads. Mattress Clarity calls it incredibly breathable.",
+            "onScreen": "Bearaby: knit, no beads",
+            "visual": "product:Bearaby knit Napper blanket"
+          },
+          {
+            "n": 3,
+            "seconds": 7,
+            "narration": "Always cold? The Gravity Blanket uses glass beads and holds warmth. Reviewed named it its best weighted blanket.",
+            "onScreen": "Gravity: beads, warm",
+            "visual": "product:Gravity weighted blanket"
+          },
+          {
+            "n": 4,
+            "seconds": 7,
+            "narration": "Need an exact weight or a bed size? YnM comes in 10 weights, from 5 to 30 pounds.",
+            "onScreen": "YnM: 10 weights, 5 to 30 lb",
+            "visual": "product:YnM weighted blanket on a bed"
+          },
+          {
+            "n": 5,
+            "seconds": 6,
+            "narration": "Pick about 10 percent of their body weight. A 150 pound adult starts near 15.",
+            "onScreen": "About 10% of body weight",
+            "visual": "product:a folded weighted blanket with a weight label"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "Not for babies, ever. And include a gift receipt in case the weight feels wrong.",
+            "onScreen": "Not for babies. Add a receipt.",
+            "visual": "text"
+          },
+          {
+            "n": 7,
+            "seconds": 4,
+            "narration": "The full comparison is at the link.",
+            "onScreen": "Full comparison at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "Warm sleeper or cold sleeper?",
+            "scenes": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "title": "The 10 percent weight rule",
+            "scenes": [
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "description": "Bearaby vs Gravity vs YnM weighted blankets for gifting: hot or cold sleepers, what weight to give, washing, and who should skip one. Full comparison: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "weighted blanket",
+          "bearaby",
+          "gravity blanket",
+          "ynm weighted blanket",
+          "cozy gifts",
+          "christmas gifts",
+          "gift ideas",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Bearaby vs Gravity vs YnM: pins",
+      "pinSet": {
+        "title": "Bearaby vs Gravity vs YnM: pins",
+        "pins": [
+          {
+            "title": "Bearaby vs Gravity vs YnM: which weighted blanket to give",
+            "description": "Bearaby for warm sleepers (knit, no beads), Gravity for the always-cold, YnM for an exact weight from 5 to 30 lb or a bed size. We earn a commission from some links.",
+            "overlay": "Which weighted blanket to give?",
+            "visual": "product:Bearaby, Gravity and YnM blankets side by side",
+            "board": "Cozy gift ideas"
+          },
+          {
+            "title": "What weight of weighted blanket to give",
+            "description": "About 10% of their body weight: a 150 lb adult starts near 15 lb. If you don't know, go lighter and include a gift receipt. We earn a commission from some links.",
+            "overlay": "The 10% rule",
+            "visual": "product:a folded weighted blanket",
+            "board": "Cozy gift ideas"
+          },
+          {
+            "title": "A breathable weighted blanket for hot sleepers",
+            "description": "Bearaby's Napper is knit from thick yarn with no fill, and the whole blanket is machine washable, per Mattress Clarity. We earn a commission from some links.",
+            "overlay": "For hot sleepers",
+            "visual": "product:Bearaby knit Napper blanket",
+            "board": "Gifts for her"
+          }
+        ],
+        "tags": [
+          "weighted blanket",
+          "cozy gifts",
+          "bearaby",
+          "gravity blanket",
+          "gift ideas",
+          "christmas gifts"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Bearaby vs Gravity vs YnM: carousel",
+      "carousel": {
+        "title": "Bearaby vs Gravity vs YnM: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Hot sleeper or cold sleeper?",
+            "body": "That one answer picks the weighted blanket.",
+            "visual": "b-roll:a couch with a cozy blanket and a mug"
+          },
+          {
+            "n": 2,
+            "heading": "Bearaby Napper",
+            "body": "Knit from thick yarn, no beads. Breathable, and the whole blanket machine washes.",
+            "visual": "product:Bearaby knit Napper blanket"
+          },
+          {
+            "n": 3,
+            "heading": "Gravity Blanket",
+            "body": "Glass beads, warm. Reviewed named it its best weighted blanket.",
+            "visual": "product:Gravity weighted blanket"
+          },
+          {
+            "n": 4,
+            "heading": "YnM",
+            "body": "10 weights from 5 to 30 lb, some in twin, queen or king.",
+            "visual": "product:YnM weighted blanket on a bed"
+          },
+          {
+            "n": 5,
+            "heading": "About 10% of body weight",
+            "body": "A 150 lb adult starts near 15 lb. Never for babies.",
+            "visual": "text"
+          },
+          {
+            "n": 6,
+            "heading": "Who gets which",
+            "body": "The full comparison is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "A weighted blanket is a cozy gift, if you match it to how they sleep. Bearaby, Gravity or YnM, plus the weight rule. Full comparison: link in bio. We earn a commission from some links.",
+        "tags": [
+          "weightedblanket",
+          "cozygifts",
+          "christmasgifts",
+          "giftideas",
+          "giftguide",
+          "giftsforher"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Bearaby vs Gravity vs YnM: Facebook post",
+      "body": "Giving a weighted blanket? Ask one question first: do they run hot or cold? Bearaby's knit Napper breathes, the beaded Gravity Blanket keeps the cold ones warm, and YnM offers 10 weights for an exact fit. Pick about 10% of their body weight: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Bearaby vs Gravity vs YnM: TikTok caption",
+      "body": "The person under three blankets and the person who sleeps with the window open need different weighted blankets. Which one to give. Link in bio. We earn a commission from some links. #weightedblanket #cozygifts #christmasgifts #giftideas"
+    }
+  ]
+}
