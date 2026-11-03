@@ -81,7 +81,7 @@ export function allPins(): Pin[] {
 
 // ---------- drawing ----------
 
-const C = { ink: '#1f2a2e', soft: '#4a575c', paper: '#fbf8f3', card: '#ffffff', line: '#e4ddd2', brand: '#8e2a4c', brandDark: '#6c1f39', accent: '#b85a22' };
+const C = { ink: '#1f2a2e', soft: '#4a575c', paper: '#fbf8f3', card: '#ffffff', line: '#e4ddd2', brand: '#8f2954', brandDark: '#6f1f41', accent: '#1f6f78' };
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 // Greedy word wrap by an average glyph width; good enough for the two fonts used here.
@@ -103,7 +103,7 @@ export function pinSvg(pin: Pin): string {
   parts.push(`<rect width="${PIN_W}" height="${PIN_H}" fill="${C.paper}"/>`);
   // Brand bar
   parts.push(`<rect width="${PIN_W}" height="150" fill="${C.brand}"/>`);
-  parts.push(`<text x="${x}" y="100" font-family="DM Serif Display" font-size="64" fill="${C.paper}"><tspan fill="#f2a46f">4</tspan>Gift</text>`);
+  parts.push(`<text x="${x}" y="100" font-family="DM Serif Display" font-size="64" fill="${C.paper}"><tspan fill="#f2a46f">4</tspan>Gifts</text>`);
   parts.push(`<text x="${PIN_W - x}" y="96" text-anchor="end" font-family="Hind" font-weight="600" font-size="30" fill="${C.paper}" opacity=".85">${esc(SITE.domain)}</text>`);
 
   // Kicker, title and a card with the gift names (list pins) or the pitch (gift pins), centred in the space
