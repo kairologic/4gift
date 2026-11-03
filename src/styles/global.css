@@ -198,3 +198,18 @@ a.chip:hover { border-color: var(--brand); color: var(--brand); }
 .gift-card .actions .pin-save { align-self: center; }
 .list-head { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
 .list-head h1 { margin-bottom: .2em; }
+
+/* Guides (src/pages/guides/) */
+.hero-img { margin: 8px 0 20px; }
+.hero-img img { width: 100%; aspect-ratio: 1200 / 630; object-fit: cover; border-radius: 12px; display: block; }
+.hero-img figcaption { font-size: .8rem; color: var(--ink-soft); margin-top: 6px; }
+.hero-img figcaption a { color: inherit; }
+.prose img { border-radius: 10px; display: block; margin: 20px auto 6px; }
+.shop-lists { margin-top: 32px; }
+.sources { margin-top: 32px; font-size: .95rem; }
+.sources h2 { font-size: 1.1rem; }
+.ai-note { margin-top: 24px; font-size: .9rem; color: var(--ink-soft); border-top: 1px solid #e3e3e3; padding-top: 12px; }
+.video { margin-top: 36px; }
+.video-frame { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; padding: 0; border-radius: 12px; overflow: hidden; background: #000; }
+.video-frame img { width: 100%; height: 100%; object-fit: cover; opacity: .9; }
+.video-frame .play { position: absolute; inset: 0; margin: auto; width: 72px; height: 72px; border-radius: 50%; background: rgba(0,0,0,.65); color: #fff; font-size: 28px; display: grid; place-items: center; }

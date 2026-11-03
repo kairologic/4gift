@@ -1,0 +1,90 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Disclosure from '../../components/Disclosure.astro';
+import { listsFor } from '../../lib/guides';
+import { SITE } from '../../site';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides', (g) => !g.data.draft);
+  return guides.map((g) => ({ params: { slug: g.id }, props: { guide: g } }));
+}
+const { guide } = Astro.props;
+const { data } = guide;
+const { Content } = await render(guide);
+const fmt = (d: Date) => d.toISOString().slice(0, 10);
+const kindLabel: Record<string, string> = { guide: 'Guide', 'quick-review': 'Quick review', review: 'Review', comparison: 'Comparison' };
+const faq = data.faq.filter((e) => e.q.trim() && e.a.trim());
+const lists = listsFor(data.lists);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article',
+      headline: data.title,
+      description: data.description || undefined,
+      datePublished: data.published.toISOString(),
+      dateModified: (data.updated ?? data.published).toISOString(),
+      author: { '@type': 'Organization', name: SITE.name },
+      mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
+    },
+    ...(faq.length
+      ? [{ '@type': 'FAQPage', mainEntity: faq.map((e) => ({ '@type': 'Question', name: e.q, acceptedAnswer: { '@type': 'Answer', text: e.a } })) }]
+      : []),
+  ],
+};
+---
+<Base title={data.title} description={data.description || data.title} type="article" image={data.hero?.src}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </Fragment>
+  <article class="wrap read prose">
+    <Breadcrumbs items={[{ name: 'Gift guides', href: '/guides/' }, { name: kindLabel[data.kind] ?? data.kind }]} />
+    <h1>{data.title}</h1>
+    <p class="meta">
+      {data.byline ? `By ${data.byline} · ` : ''}Published {fmt(data.published)}{data.updated ? ` · Updated ${fmt(data.updated)}` : ''}
+      {data.reviewedBy && <> · Reviewed by {data.reviewedBy}</>}
+    </p>
+    {data.hero && (
+      <figure class="hero-img">
+        <img src={data.hero.src} alt={data.hero.alt} width="1200" height="630" loading="eager" />
+        {data.hero.credit && (
+          <figcaption>Photo: {data.hero.creditUrl ? <a href={data.hero.creditUrl} rel="nofollow noopener">{data.hero.credit}</a> : data.hero.credit}</figcaption>
+        )}
+      </figure>
+    )}
+    {data.affiliate && <Disclosure />}
+    <Content />
+    {lists.length > 0 && (
+      <section class="shop-lists">
+        <h2>Shop the lists</h2>
+        <ul class="list-links">{lists.map((l) => <li><a class="chip" href={l.href}>{l.name}</a></li>)}</ul>
+      </section>
+    )}
+    {faq.length > 0 && (
+      <section class="faq">
+        <h2>Questions people ask</h2>
+        {faq.map((e) => (<details><summary>{e.q}</summary><p>{e.a}</p></details>))}
+      </section>
+    )}
+    {data.video && (
+      <section class="video">
+        <h2>Watch: {data.video.title}</h2>
+        <a class="video-frame" href={`https://www.youtube.com/watch?v=${data.video.id}`} rel="noopener" target="_blank" aria-label={`Play ${data.video.title} on YouTube`}>
+          <img src={`https://i.ytimg.com/vi/${data.video.id}/hqdefault.jpg`} alt="" loading="lazy" width="480" height="360" />
+          <span class="play" aria-hidden="true">▶</span>
+        </a>
+      </section>
+    )}
+    {data.sources.length > 0 && (
+      <section class="sources">
+        <h2>Sources</h2>
+        <ol>{data.sources.map((s) => <li><a href={s.url} rel="nofollow noopener">{s.title}</a></li>)}</ol>
+      </section>
+    )}
+    {data.aiAssisted && (
+      <p class="ai-note">Drafted with AI assistance from maker details and published reviews, and checked by a person before publishing. We have not given, received or used these gifts ourselves; prices on the lists are live, so check before you buy.</p>
+    )}
+  </article>
+</Base>
