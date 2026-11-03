@@ -3,8 +3,8 @@ import '../styles/global.css';
 import { groups, listUrl, menuLabel } from '../data/taxonomy';
 import { SITE } from '../site';
 
-interface Props { title: string; description: string; image?: string; type?: 'website' | 'article' }
-const { title, description, image = '/pins/for-her.png', type = 'website' } = Astro.props;
+interface Props { title: string; description: string; image?: string; type?: 'website' | 'article'; noindex?: boolean }
+const { title, description, image = '/pins/for-her.png', type = 'website', noindex = false } = Astro.props;
 // Top bar: one item per list group, each opening a panel of its lists. Same mega menu as Aging in Place.
 const menu = groups.map((g) => ({
   name: menuLabel[g.slug],
@@ -25,6 +25,7 @@ const pinterestVerify = import.meta.env.PUBLIC_PINTEREST_VERIFY ?? '';
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />

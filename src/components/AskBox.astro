@@ -1,0 +1,22 @@
+---
+// The natural language gift search: one box where readers describe the gift in their own words. It sends them to
+// /find/?q=..., which reads the request in the browser (src/lib/find.ts) and shows matching gift ideas.
+interface Props { value?: string; compact?: boolean }
+const { value = '', compact = false } = Astro.props;
+const examples = [
+  'Birthday present for a 10 year old girl around $50',
+  'Graduation gift for a teenage boy under $100',
+  'Anniversary gift for my wife who loves coffee',
+];
+---
+<form class:list={['ask', { compact }]} action="/find/" method="get" role="search">
+  <label for="ask-q">{compact ? 'Search again' : 'Describe the gift you need'}</label>
+  <div class="ask-row">
+    <input id="ask-q" name="q" type="search" value={value} maxlength="300" autocomplete="off" enterkeyhint="search"
+      placeholder="e.g. birthday present for a 10 year old girl around $50" />
+    <button class="btn" type="submit">Find gifts</button>
+  </div>
+  {!compact && (
+    <p class="ask-try meta">Try: {examples.map((e, i) => <>{i > 0 && ' · '}<a href={`/find/?q=${encodeURIComponent(e)}`}>{e}</a></>)}</p>
+  )}
+</form>

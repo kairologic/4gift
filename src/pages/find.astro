@@ -1,0 +1,149 @@
+---
+// Results for the natural language search. Every gift card is rendered once at build time and hidden; the script
+// below reads ?q= (or structured ?for=&occasion=&interest=&min=&max= links from channels), ranks the gifts with
+// src/lib/find.ts and shows the matches. When the browser rules cannot read a request and PUBLIC_FIND_API is set,
+// it asks HQ's Haiku endpoint for the same kind of filters. Nothing here can show a gift that is not on the site.
+import Base from '../layouts/Base.astro';
+import AskBox from '../components/AskBox.astro';
+import Disclosure from '../components/Disclosure.astro';
+import GiftCard from '../components/GiftCard.astro';
+import { gifts } from '../data/gifts';
+import { groups, listUrl } from '../data/taxonomy';
+
+const names = Object.fromEntries(groups.flatMap((g) => g.categories.map((c) => [c.slug, { name: c.name, href: listUrl(g, c) }])));
+const popular = ['birthday', 'christmas', 'her', 'him', 'kids', 'teens', 'under-50'].map((s) => names[s]).filter(Boolean);
+const api = import.meta.env.PUBLIC_FIND_API ?? '';
+---
+<Base title="Find a gift" description="Describe who it's for, the occasion and your budget, and we'll show the gift ideas that fit." noindex>
+  <div class="wrap">
+    <h1 id="find-title" style="margin-top:32px">Find a gift</h1>
+    <AskBox compact />
+    <div id="read" class="read" hidden aria-live="polite"></div>
+    <p class="meta" id="pet" hidden>Shopping for the pet itself? <a href="https://kinimals.co/?utm_source=4gift&utm_medium=referral&utm_campaign=find">Kinimals</a> has picks for dogs and cats. Below are gifts for the people who love them.</p>
+    <Disclosure />
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="gift-grid" id="gifts">
+      {gifts.map((g, i) => <GiftCard gift={g} rank={i + 1} page="/find/" showRank={false} />)}
+    </div>
+    <h2 id="also" hidden>Also worth a look</h2>
+    <div class="gift-grid" id="also-gifts"></div>
+    <div id="none" hidden>
+      <p class="meta">We couldn't find a gift idea that fits all of that. Try a bigger budget, fewer details, or one of these lists:</p>
+    </div>
+    <ul class="list-links" id="lists">{popular.map((l) => <li><a class="chip" href={l.href}>{l.name}</a></li>)}</ul>
+  </div>
+  <script type="application/json" id="names" set:html={JSON.stringify(names)} />
+  <div id="find-config" data-api={api} hidden></div>
+</Base>
+
+<script>
+  import { filtersFromParams, filtersToParams, parseQuery, rankGifts, type Filters } from '../lib/find';
+
+  type Names = Record<string, { name: string; href: string }>;
+  const names: Names = JSON.parse(document.getElementById('names')!.textContent || '{}');
+  const api = document.getElementById('find-config')!.dataset.api || '';
+  const params = new URLSearchParams(location.search);
+  const q = (params.get('q') || '').trim();
+  const grid = document.getElementById('gifts')!;
+  const also = document.getElementById('also-gifts')!;
+  const cards = [...grid.querySelectorAll<HTMLElement>('.gift-card')].map((el) => ({
+    el,
+    from: Number(el.dataset.from),
+    to: Number(el.dataset.to),
+    tags: (el.dataset.tags || '').split(' '),
+  }));
+  const input = document.getElementById('ask-q') as HTMLInputElement;
+  input.value = q;
+
+  const money = (n: number) => `$${n}`;
+  function chipsFor(f: Filters & { around?: number; age?: number; person?: string }): { label: string; without: Filters }[] {
+    const out: { label: string; without: Filters }[] = [];
+    const who = f.for ? names[f.for]?.name ?? f.for : '';
+    const ageNote = f.age !== undefined ? ` (age ${f.age})` : '';
+    if (f.for) out.push({ label: `${who}${ageNote}`, without: { ...f, for: undefined } });
+    if (f.occasion) out.push({ label: names[f.occasion]?.name ?? f.occasion, without: { ...f, occasion: undefined } });
+    for (const i of f.interests) out.push({ label: names[i]?.name ?? i, without: { ...f, interests: f.interests.filter((x) => x !== i) } });
+    const price = f.around !== undefined ? `Around ${money(f.around)}`
+      : f.min !== undefined && f.max !== undefined ? `${money(f.min)}–${money(f.max)}`
+      : f.max !== undefined ? `Under ${money(f.max)}` : f.min !== undefined ? `${money(f.min)} and up` : '';
+    if (price) out.push({ label: price, without: { ...f, min: undefined, max: undefined, around: undefined } });
+    return out;
+  }
+
+  function show(f: Filters & { around?: number; age?: number; person?: string; pet?: boolean }, via?: string) {
+    const read = document.getElementById('read')!;
+    const chips = chipsFor(f);
+    read.replaceChildren();
+    if (chips.length) {
+      read.append(document.createTextNode(via ? `${via} ` : 'Showing gifts for: '));
+      for (const c of chips) {
+        const a = document.createElement('a');
+        a.className = 'chip on';
+        a.href = `/find/?${filtersToParams(c.without)}`;
+        a.title = `Remove ${c.label}`;
+        a.textContent = `${c.label} ×`;
+        read.append(a, ' ');
+      }
+      read.hidden = false;
+    } else read.hidden = true;
+    document.getElementById('pet')!.hidden = !f.pet;
+
+    const ranked = rankGifts(cards, f);
+    const exact = ranked.filter((r) => r.exact);
+    const near = ranked.filter((r) => !r.exact).slice(0, Math.max(0, 9 - exact.length));
+    for (const c of cards) c.el.hidden = true;
+    for (const r of exact) { r.gift.el.hidden = false; grid.append(r.gift.el); }
+    for (const r of near) { r.gift.el.hidden = false; also.append(r.gift.el); }
+    document.getElementById('also')!.hidden = near.length === 0 || exact.length === 0;
+    document.getElementById('none')!.hidden = exact.length + near.length > 0;
+    const n = exact.length || near.length;
+    document.getElementById('count')!.textContent = !chips.length
+      ? (q ? `We couldn't read that one yet, so here are all ${n} ideas. Try naming the person, the occasion or a budget.` : `${n} gift ideas`)
+      : exact.length
+      ? `${n} gift idea${n === 1 ? '' : 's'} that fit everything`
+      : near.length ? `Nothing fits every detail, so here are the closest ${n}` : '';
+    if (q) document.getElementById('find-title')!.textContent = `Gift ideas: “${q}”`;
+  }
+
+  // Haiku fallback on HQ. It answers with the same filters, drawn from this store's taxonomy, or nothing.
+  async function askHq(text: string): Promise<Filters | undefined> {
+    if (!api) return undefined;
+    try {
+      const res = await fetch(api, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ store: '4gift', q: text }),
+        signal: AbortSignal.timeout(6000),
+      });
+      if (!res.ok) return undefined;
+      const body = await res.json();
+      const f = body?.filters;
+      if (!f) return undefined;
+      const known = (s: unknown) => (typeof s === 'string' && names[s] ? s : undefined);
+      const num = (n: unknown) => (typeof n === 'number' && Number.isFinite(n) && n >= 0 ? n : undefined);
+      return {
+        for: known(f.for),
+        occasion: known(f.occasion),
+        interests: Array.isArray(f.interests) ? f.interests.map(known).filter((s: string | undefined): s is string => Boolean(s)) : [],
+        min: num(f.min),
+        max: num(f.max),
+      };
+    } catch {
+      return undefined;
+    }
+  }
+
+  const structured = filtersFromParams(params);
+  if (structured) show(structured);
+  else if (q) {
+    const parsed = parseQuery(q);
+    show(parsed);
+    if (parsed.unsure) {
+      document.getElementById('count')!.textContent += api ? ' · reading the rest of your request…' : '';
+      askHq(q).then((f) => {
+        if (f && (f.for || f.occasion || f.interests.length || f.min !== undefined || f.max !== undefined)) show({ ...f, pet: parsed.pet }, 'Our gift assistant read this as:');
+        else show(parsed);
+      });
+    }
+  } else show({ interests: [] });
+</script>
