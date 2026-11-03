@@ -1,0 +1,243 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Gifts for new parents: what helps, and what to keep out of the crib",
+    "url": "https://4gift.store/guides/gift-ideas-for-new-parents/",
+    "file": "src/content/guides/gift-ideas-for-new-parents.md",
+    "sources": [
+      {
+        "title": "AAP (HealthyChildren.org): how to keep your sleeping baby safe",
+        "url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/a-parents-guide-to-safe-sleep.aspx"
+      },
+      {
+        "title": "CPSC: safe sleep, cribs and infant products",
+        "url": "https://www.cpsc.gov/SafeSleep"
+      },
+      {
+        "title": "NICHD Safe to Sleep: ways to reduce baby's risk",
+        "url": "https://safetosleep.nichd.nih.gov/reduce-risk/reduce"
+      },
+      {
+        "title": "AAP (HealthyChildren.org): car seats, information for families",
+        "url": "https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/Car-Safety-Seats-Information-for-Families.aspx"
+      },
+      {
+        "title": "Best Buy: Ember Mug 2, 10 oz",
+        "url": "https://www.bestbuy.com/product/ember-temperature-control-smart-mug2-10-oz-white/J3GTZXXQ2T"
+      },
+      {
+        "title": "AOL: Nextmug review",
+        "url": "https://www.aol.com/lifestyle/nextmug-review-finally-self-heating-140412576.html"
+      },
+      {
+        "title": "PhotoWorkout: best digital picture frames",
+        "url": "https://www.photoworkout.com/best-digital-picture-frames/"
+      },
+      {
+        "title": "NBC Select: Aura vs Skylight",
+        "url": "https://www.nbcnews.com/select/shopping/aura-vs-skylight-review-rcna204440"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Gifts for new parents that look after the parents",
+      "kit": {
+        "title": "Gifts for new parents that look after the parents",
+        "hook": "The baby has a registry. The parents have cold coffee.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "The baby has a whole registry. The parents have cold coffee. Gift accordingly.",
+            "onScreen": "Gift the parents",
+            "visual": "b-roll:a full mug left on a counter beside baby bottles"
+          },
+          {
+            "n": 2,
+            "seconds": 8,
+            "narration": "A heated mug. Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half.",
+            "onScreen": "Ember: up to 1.5 hours",
+            "visual": "product:Ember Mug 2"
+          },
+          {
+            "n": 3,
+            "seconds": 6,
+            "narration": "No-app parents? The Nextmug runs on one button with three presets.",
+            "onScreen": "Nextmug: one button",
+            "visual": "product:Nextmug"
+          },
+          {
+            "n": 4,
+            "seconds": 7,
+            "narration": "For the grandparents, a Wi-Fi photo frame. New baby photos arrive without a single text.",
+            "onScreen": "Photos without the texts",
+            "visual": "product:Skylight digital photo frame"
+          },
+          {
+            "n": 5,
+            "seconds": 6,
+            "narration": "For 3 a.m. feeds, a book light. Small, quiet, and very appreciated.",
+            "onScreen": "For the 3 a.m. feed",
+            "visual": "product:rechargeable book light"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "Skip blankets, pillows and stuffed toys for the crib. Bare is best, says the CPSC.",
+            "onScreen": "Crib: bare is best",
+            "visual": "text"
+          },
+          {
+            "n": 7,
+            "seconds": 6,
+            "narration": "Or give help. \"Dinner on the 14th\" gets used. \"Let me know\" never does.",
+            "onScreen": "\"Dinner on the 14th\"",
+            "visual": "b-roll:a handwritten card promising dinner on a date"
+          },
+          {
+            "n": 8,
+            "seconds": 4,
+            "narration": "The full list is at the link.",
+            "onScreen": "Full list at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "The cold coffee fix for new parents",
+            "scenes": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "title": "Frames, book lights and real help",
+            "scenes": [
+              4,
+              5,
+              7
+            ]
+          }
+        ],
+        "description": "Gifts for new parents that look after the parents: a heated mug, a photo frame for the grandparents, a book light for night feeds, and what to keep out of the crib. Full guide: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "gifts for new parents",
+          "baby shower gifts",
+          "new mom gifts",
+          "new dad gifts",
+          "ember mug",
+          "gift ideas",
+          "push present",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Gifts for new parents: pins",
+      "pinSet": {
+        "title": "Gifts for new parents: pins",
+        "pins": [
+          {
+            "title": "Gifts for new parents (not just the baby)",
+            "description": "A heated mug for the coffee that keeps going cold, a photo frame for the grandparents, a book light for night feeds, or a dated promise of dinner. We earn a commission from some links.",
+            "overlay": "Gifts for the parents, not the baby",
+            "visual": "product:Ember Mug 2 beside a baby bottle",
+            "board": "Gifts for new parents"
+          },
+          {
+            "title": "A heated mug for new parents",
+            "description": "The Ember Mug 2 holds 120 to 145°F for up to 1.5 hours off its coaster, per Best Buy. For no app, the Nextmug runs on one button. We earn a commission from some links.",
+            "overlay": "For coffee that keeps going cold",
+            "visual": "product:Ember Mug 2",
+            "board": "Gifts for new parents"
+          },
+          {
+            "title": "Baby gifts to skip: what does not belong in the crib",
+            "description": "The CPSC calls it Bare is Best: nothing but a fitted sheet. No blankets, pillows, bumpers, stuffed toys or weighted items. We earn a commission from some links.",
+            "overlay": "Crib gifts to skip",
+            "visual": "text",
+            "board": "Baby shower gift ideas"
+          }
+        ],
+        "tags": [
+          "gifts for new parents",
+          "baby shower gifts",
+          "new mom gifts",
+          "heated mug",
+          "gift ideas",
+          "new baby"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Gifts for new parents: carousel",
+      "carousel": {
+        "title": "Gifts for new parents: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "The baby has a registry",
+            "body": "The parents have cold coffee and short nights. Gift for them.",
+            "visual": "b-roll:a cold mug beside baby bottles"
+          },
+          {
+            "n": 2,
+            "heading": "A heated mug",
+            "body": "The Ember Mug 2 holds 120 to 145°F for up to 1.5 hours off its coaster.",
+            "visual": "product:Ember Mug 2"
+          },
+          {
+            "n": 3,
+            "heading": "A frame for the grandparents",
+            "body": "New photos arrive without a single text. Load 20 or 30 first.",
+            "visual": "product:Skylight digital photo frame"
+          },
+          {
+            "n": 4,
+            "heading": "A book light",
+            "body": "For the 3 a.m. feed, without waking anyone else.",
+            "visual": "product:rechargeable book light"
+          },
+          {
+            "n": 5,
+            "heading": "Keep the crib bare",
+            "body": "No blankets, pillows, bumpers or stuffed toys, say the AAP and CPSC.",
+            "visual": "text"
+          },
+          {
+            "n": 6,
+            "heading": "Or give help, with a date",
+            "body": "\"Dinner on the 14th\" gets used. The full list is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "The best new-parent gifts look after the parents as much as the baby. A hot drink, photos for the grandparents, help with a date on it. Full guide: link in bio. We earn a commission from some links.",
+        "tags": [
+          "newparents",
+          "babyshowergifts",
+          "newmom",
+          "giftideas",
+          "giftguide",
+          "newbaby"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Gifts for new parents: Facebook post",
+      "body": "The baby has a registry. The parents have cold coffee. A heated mug, a photo frame for the grandparents, or a book light for night feeds all get used every day. Keep the crib bare, and if you offer help, put a date on it. Full list: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Gifts for new parents: TikTok caption",
+      "body": "New parents: has not finished a hot coffee since the due date. Gifts that look after the parents, not just the baby. Link in bio. We earn a commission from some links. #newparents #babyshowergifts #newmom #giftideas"
+    }
+  ]
+}

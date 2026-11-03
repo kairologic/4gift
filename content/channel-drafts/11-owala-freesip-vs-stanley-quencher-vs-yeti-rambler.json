@@ -1,0 +1,221 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Owala FreeSip vs Stanley Quencher vs YETI Rambler: which to give",
+    "url": "https://4gift.store/guides/owala-freesip-vs-stanley-quencher-vs-yeti-rambler/",
+    "file": "src/content/guides/owala-freesip-vs-stanley-quencher-vs-yeti-rambler.md",
+    "sources": [
+      {
+        "title": "Owala FreeSip",
+        "url": "https://owalalife.com/en-gb/products/freesip"
+      },
+      {
+        "title": "REI: Stanley Quencher H2.0 FlowState Tumbler 40 fl. oz.",
+        "url": "https://www.rei.com/product/220438/stanley-quencher-h20-flowstate-tumbler-40-fl-oz"
+      },
+      {
+        "title": "Stanley: The Quencher H2.0 FlowState Tumbler 40 oz",
+        "url": "https://www.stanley1913.com/products/the-quencher-h2-0-flowstate%e2%84%a2-tumbler-40-oz-sc"
+      },
+      {
+        "title": "REI: YETI Rambler 26 oz bottle with Chug Cap",
+        "url": "https://www.rei.com/product/177272"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Owala vs Stanley vs YETI: which bottle to give",
+      "kit": {
+        "title": "Owala vs Stanley vs YETI: which bottle to give",
+        "hook": "Bag, car or trail? That picks the bottle.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "Owala, Stanley or YETI? Ask where it will ride: bag, car or trail.",
+            "onScreen": "Bag, car or trail?",
+            "visual": "b-roll:three bottles on a kitchen counter"
+          },
+          {
+            "n": 2,
+            "seconds": 7,
+            "narration": "In a bag, it has to seal. Owala calls the FreeSip lid leak-proof, and it stays cold for 24 hours.",
+            "onScreen": "Owala: leak-proof, 24 hours",
+            "visual": "product:Owala FreeSip bottle"
+          },
+          {
+            "n": 3,
+            "seconds": 7,
+            "narration": "In a car? The Stanley Quencher. REI says the 40 ounce fits most cup holders, with a handle.",
+            "onScreen": "Stanley: fits cup holders",
+            "visual": "product:Stanley Quencher H2.0 40 oz"
+          },
+          {
+            "n": 4,
+            "seconds": 6,
+            "narration": "But it resists splashes. It is not leakproof. Do not trust it on its side in a tote.",
+            "onScreen": "Splash-resistant, not leakproof",
+            "visual": "product:Stanley Quencher lying on its side in a tote bag"
+          },
+          {
+            "n": 5,
+            "seconds": 7,
+            "narration": "On the trail? The YETI Rambler with Chug Cap. REI lists it as 100 percent leakproof.",
+            "onScreen": "YETI: 100% leakproof",
+            "visual": "product:YETI Rambler 26 oz with Chug Cap"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "And tell an Owala owner: hand-wash the cup. The lid can go on the top rack.",
+            "onScreen": "Owala: hand-wash the cup",
+            "visual": "text"
+          },
+          {
+            "n": 7,
+            "seconds": 4,
+            "narration": "The full comparison is at the link.",
+            "onScreen": "Full comparison at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "Owala or Stanley?",
+            "scenes": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "title": "The YETI and the dishwasher note",
+            "scenes": [
+              5,
+              6,
+              7
+            ]
+          }
+        ],
+        "description": "Owala FreeSip vs Stanley Quencher vs YETI Rambler for gifting: which seals for a bag, which fits a car, which suits a trail, and how to wash each. Full comparison: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "owala freesip",
+          "stanley quencher",
+          "yeti rambler",
+          "water bottle gift",
+          "gifts for teens",
+          "stocking stuffers",
+          "gift ideas",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Owala vs Stanley vs YETI: pins",
+      "pinSet": {
+        "title": "Owala vs Stanley vs YETI: pins",
+        "pins": [
+          {
+            "title": "Owala FreeSip vs Stanley Quencher vs YETI Rambler: which to give",
+            "description": "Owala for a bag (leak-proof lid), Stanley for the car (fits most cup holders), YETI for the trail (100% leakproof per REI). We earn a commission from some links.",
+            "overlay": "Bag, car or trail?",
+            "visual": "product:Owala, Stanley and YETI bottles side by side",
+            "board": "Gift ideas"
+          },
+          {
+            "title": "A water bottle that fits a car cup holder: Stanley Quencher",
+            "description": "REI says the 40 oz Quencher fits most car cup holders. It resists splashes rather than being leakproof, so it suits a car or desk. We earn a commission from some links.",
+            "overlay": "Fits most cup holders",
+            "visual": "product:Stanley Quencher H2.0 40 oz",
+            "board": "Gifts for commuters"
+          },
+          {
+            "title": "A leak-proof water bottle for a backpack",
+            "description": "Owala calls the FreeSip lid leak-proof and says it keeps drinks cold for 24 hours. Hand-wash the cup; the lid is top-rack safe. We earn a commission from some links.",
+            "overlay": "Seals in a backpack",
+            "visual": "product:Owala FreeSip bottle",
+            "board": "Gifts for teens"
+          }
+        ],
+        "tags": [
+          "owala freesip",
+          "stanley quencher",
+          "yeti rambler",
+          "water bottle",
+          "gift ideas",
+          "stocking stuffers"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Owala vs Stanley vs YETI: carousel",
+      "carousel": {
+        "title": "Owala vs Stanley vs YETI: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Bag, car or trail?",
+            "body": "Where the bottle rides decides which one to give.",
+            "visual": "b-roll:three bottles on a counter"
+          },
+          {
+            "n": 2,
+            "heading": "Owala FreeSip: the bag",
+            "body": "Leak-proof lid, straw or swig, cold for 24 hours.",
+            "visual": "product:Owala FreeSip bottle"
+          },
+          {
+            "n": 3,
+            "heading": "Stanley Quencher: the car",
+            "body": "Fits most cup holders, side handle. Splash-resistant, not leakproof.",
+            "visual": "product:Stanley Quencher H2.0 40 oz"
+          },
+          {
+            "n": 4,
+            "heading": "YETI Rambler: the trail",
+            "body": "100% leakproof per REI, with a handle on the cap.",
+            "visual": "product:YETI Rambler with Chug Cap"
+          },
+          {
+            "n": 5,
+            "heading": "The dishwasher note",
+            "body": "Stanley and YETI are dishwasher safe. Owala says hand-wash the cup.",
+            "visual": "text"
+          },
+          {
+            "n": 6,
+            "heading": "Who gets which",
+            "body": "The full comparison is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "Owala, Stanley or YETI? Match the bottle to where it rides: bag, car or trail. Full comparison: link in bio. We earn a commission from some links.",
+        "tags": [
+          "owala",
+          "stanleycup",
+          "yeti",
+          "waterbottle",
+          "giftideas",
+          "stockingstuffers"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Owala vs Stanley vs YETI: Facebook post",
+      "body": "Owala, Stanley or YETI for the bottle lover on your list? Ask where it rides. A bag needs a seal: the Owala FreeSip. A car needs a cup-holder fit: the Stanley Quencher. A trail needs leakproof and a handle: the YETI Rambler. Full comparison: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Owala vs Stanley vs YETI: TikTok caption",
+      "body": "The Stanley is a cup-holder hero. It is not a backpack hero. Owala vs Stanley vs YETI, by where it rides. Link in bio. We earn a commission from some links. #owala #stanleycup #yeti #giftideas"
+    }
+  ]
+}
