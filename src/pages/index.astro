@@ -4,6 +4,8 @@ import { budgets, groups, listUrl } from '../data/taxonomy';
 import { giftsFor } from '../lib/gifts';
 import { SITE } from '../site';
 import AskBox from '../components/AskBox.astro';
+import HeaderPhoto from '../components/HeaderPhoto.astro';
+import { listPhoto, photoSrc } from '../data/list-photos';
 
 const recipients = groups.find((g) => g.slug === 'for')!;
 const popular = ['her', 'him', 'mom', 'dad', 'kids', 'christmas', 'under-25', 'cooks'];
@@ -12,7 +14,8 @@ const lists = groups.flatMap((g) => g.categories.map((c) => ({ g, c }))).filter(
 ---
 <Base title={SITE.name} description={SITE.tagline}>
   <section class="hero">
-    <div class="wrap">
+    <div class="wrap hero-split">
+      <div class="hero-text">
       <h1>Find the right gift, fast</h1>
       <p class="lede">Gift ideas sorted into short, honest lists: by who it's for, the occasion, your budget and what they love. Pick a list and you're a few minutes from done.</p>
       <AskBox />
@@ -29,6 +32,8 @@ const lists = groups.flatMap((g) => g.categories.map((c) => ({ g, c }))).filter(
         </label>
         <button class="btn" type="submit">Show gift ideas</button>
       </form>
+      </div>
+      {listPhoto('/') && <HeaderPhoto photo={listPhoto('/')!} tall />}
     </div>
   </section>
 
@@ -37,7 +42,8 @@ const lists = groups.flatMap((g) => g.categories.map((c) => ({ g, c }))).filter(
       <h2 style="margin-top:0">Popular lists</h2>
       <div class="grid">
         {lists.map(({ g, c }) => (
-          <div class="card">
+          <div class:list={['card', { 'with-photo': listPhoto(listUrl(g, c)) }]}>
+            {listPhoto(listUrl(g, c)) && <img class="card-photo" src={photoSrc(listPhoto(listUrl(g, c))!, 640, 360)} alt="" width="640" height="360" loading="lazy" decoding="async" />}
             <p class="kind">{giftsFor(c).length} ideas</p>
             <h3><a href={listUrl(g, c)}>{c.title}</a></h3>
             <p>{c.blurb}</p>
