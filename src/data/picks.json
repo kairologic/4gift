@@ -1,3 +1,84 @@
 {
-  "picks": []
+  "picks": [
+    {
+      "gift": "e-reader",
+      "asin": "B0CFPJYX7P",
+      "name": "Amazon Kindle Paperwhite 16GB (2024)",
+      "brand": "Amazon",
+      "note": "A standard gift for readers, mothers and travelers, sold directly by Amazon at the 4% device rate.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "cast-iron-skillet",
+      "asin": "B07413Z1SD",
+      "name": "Lodge L8SK3 10.25\" Cast Iron Skillet with Assist Handle",
+      "brand": "Lodge",
+      "note": "A low-price bestseller that suits the under-$25 lists, Father's Day and housewarming gifts.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "instant-camera",
+      "asin": "B0BWNYBRNL",
+      "name": "Fujifilm Instax Mini 12 Instant Camera (Clay White)",
+      "brand": "Fujifilm",
+      "note": "A top-selling instant camera for birthdays and teens, and film refills bring repeat purchases.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "dutch-oven",
+      "asin": "B0076NOGPY",
+      "name": "Le Creuset Signature Enameled Cast Iron Round Dutch Oven 5.5 qt (Cerise)",
+      "brand": "Le Creuset",
+      "note": "A colorful, photogenic heirloom that suits wedding and housewarming gift lists, and its high price means a large commission per sale.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "building-set",
+      "asin": "B08HW1L75J",
+      "name": "LEGO Botanicals Flower Bouquet 10280",
+      "brand": "LEGO",
+      "note": "A buildable bouquet for adults that suits the big occasions and recipient lists and looks great on Pinterest.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "mug-warmer",
+      "asin": "B08D3XPCZR",
+      "name": "Ember Temperature Control Smart Mug 2, 10 oz (White)",
+      "brand": "Ember",
+      "note": "A well-known gadget gift for coffee lovers, office workers and parents that fits the birthday and holiday lists.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "silk-pillowcase",
+      "asin": "B0BBSSRNHM",
+      "name": "Blissy Silk Pillowcase, 22 Momme Mulberry Silk (Standard)",
+      "brand": "Blissy",
+      "note": "A beauty-sleep gift in giftable colors for Mother's Day and gifts for her, and buyers often come back for a second case.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "strategy-board-game",
+      "asin": "B00U26V4VQ",
+      "name": "CATAN Board Game (Base Game)",
+      "brand": "CATAN Studio",
+      "note": "A widely known strategy game for family Christmas and game-night gift lists, with expansions that drive repeat sales.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "meat-thermometer",
+      "asin": "B0BMLDL5GM",
+      "name": "ThermoPro TempSpike Wireless Meat Thermometer (2 probes, 500ft)",
+      "brand": "ThermoPro",
+      "note": "A popular grilling gadget for Father's Day and gifts for dads and BBQ fans.",
+      "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "plush-robe",
+      "asin": "B0B8117MDZ",
+      "name": "Barefoot Dreams CozyChic Adult Robe",
+      "brand": "Barefoot Dreams",
+      "note": "A well-known luxury robe that suits the cozy, gifts-for-her and Mother's Day lists.",
+      "addedOn": "2026-11-03"
+    }
+  ]
 }
