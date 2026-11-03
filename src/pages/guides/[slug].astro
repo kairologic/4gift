@@ -43,7 +43,7 @@ const jsonLd = {
     <Breadcrumbs items={[{ name: 'Gift guides', href: '/guides/' }, { name: kindLabel[data.kind] ?? data.kind }]} />
     <h1>{data.title}</h1>
     <p class="meta">
-      {data.byline ? `By ${data.byline} · ` : ''}Published {fmt(data.published)}{data.updated ? ` · Updated ${fmt(data.updated)}` : ''}
+      {data.byline ? `By ${data.byline.replace(/^By\s+/i, '')} · ` : ''}Published {fmt(data.published)}{data.updated ? ` · Updated ${fmt(data.updated)}` : ''}
       {data.reviewedBy && <> · Reviewed by {data.reviewedBy}</>}
     </p>
     {data.hero && (
