@@ -1,0 +1,235 @@
+{
+  "brand": "4gift",
+  "source": {
+    "title": "Gifts for coworkers: what to give at the office, and what to skip",
+    "url": "https://4gift.store/guides/gift-ideas-for-coworkers/",
+    "file": "src/content/guides/gift-ideas-for-coworkers.md",
+    "sources": [
+      {
+        "title": "HGTV: best self-heating mugs",
+        "url": "https://www.hgtv.com/shopping/product-reviews/best-self-heating-mugs"
+      },
+      {
+        "title": "Bob Vila: best mug warmers",
+        "url": "https://www.bobvila.com/articles/best-mug-warmers/"
+      },
+      {
+        "title": "Cool Mom Tech: OHOM Ui self-heating mug review",
+        "url": "https://coolmomtech.com/2022/01/ohom-ui-self-heating-mug-review/"
+      },
+      {
+        "title": "Best Buy: Ember Mug 2, 10 oz",
+        "url": "https://www.bestbuy.com/product/ember-temperature-control-smart-mug2-10-oz-white/J3GTZXXQ2T"
+      },
+      {
+        "title": "Owala FreeSip",
+        "url": "https://owalalife.com/en-gb/products/freesip"
+      },
+      {
+        "title": "REI: Stanley Quencher H2.0 FlowState Tumbler 40 fl. oz.",
+        "url": "https://www.rei.com/product/220438/stanley-quencher-h20-flowstate-tumbler-40-fl-oz"
+      }
+    ]
+  },
+  "pieces": [
+    {
+      "format": "video-script",
+      "title": "Coworker gifts, sorted by how well you know them",
+      "kit": {
+        "title": "Coworker gifts, sorted by how well you know them",
+        "hook": "Office gift swap tomorrow, and you barely know Steve.",
+        "scenes": [
+          {
+            "n": 1,
+            "seconds": 5,
+            "narration": "Office gift swap tomorrow, and you barely know Steve. Here is the plan.",
+            "onScreen": "You barely know Steve",
+            "visual": "b-roll:an office gift-swap sign-up sheet with one name circled"
+          },
+          {
+            "n": 2,
+            "seconds": 7,
+            "narration": "Barely know them? Something they use up: a tea sampler, a candle or a snack box.",
+            "onScreen": "Barely know them? Use it up",
+            "visual": "product:loose-leaf tea sampler"
+          },
+          {
+            "n": 3,
+            "seconds": 8,
+            "narration": "Sit near them? A heated mug. HGTV named the OHOM Ui Plus its best for the office.",
+            "onScreen": "Best for the office: OHOM Ui",
+            "visual": "product:OHOM Ui Plus mug on its pad"
+          },
+          {
+            "n": 4,
+            "seconds": 7,
+            "narration": "It warms to 130 degrees on its pad, with no battery and no app to pair.",
+            "onScreen": "No battery, no app",
+            "visual": "product:OHOM Ui mug on a desk"
+          },
+          {
+            "n": 5,
+            "seconds": 7,
+            "narration": "The gym-goer? Owala says the FreeSip keeps drinks cold for 24 hours, with a leak-proof lid.",
+            "onScreen": "Cold for 24 hours",
+            "visual": "product:Owala FreeSip bottle"
+          },
+          {
+            "n": 6,
+            "seconds": 6,
+            "narration": "Whole team? One identical gift per desk, so nobody compares.",
+            "onScreen": "Same gift for every desk",
+            "visual": "product:a row of small desk plants"
+          },
+          {
+            "n": 7,
+            "seconds": 5,
+            "narration": "And skip the joke gift. Half the office will not laugh.",
+            "onScreen": "Skip the joke gift",
+            "visual": "b-roll:a gag gift slowly slid back into a drawer"
+          },
+          {
+            "n": 8,
+            "seconds": 4,
+            "narration": "The full list is at the link.",
+            "onScreen": "Full list at 4gift.store",
+            "visual": "text"
+          }
+        ],
+        "cuts": [
+          {
+            "title": "The coworker you barely know",
+            "scenes": [
+              1,
+              2,
+              7
+            ]
+          },
+          {
+            "title": "The heated mug for the office",
+            "scenes": [
+              3,
+              4,
+              6
+            ]
+          }
+        ],
+        "description": "Coworker gifts sorted by how well you know them: something they use up, a heated mug for the desk, a bottle for the gym-goer, and one gift for the whole team. The full guide: [LINK]. We earn a commission from some links.",
+        "tags": [
+          "coworker gifts",
+          "office gift ideas",
+          "secret santa",
+          "gift ideas",
+          "gifts for coworkers",
+          "ohom ui",
+          "holiday gifts",
+          "4gifts"
+        ]
+      }
+    },
+    {
+      "format": "pin-set",
+      "title": "Gifts for coworkers: pins",
+      "pinSet": {
+        "title": "Gifts for coworkers: pins",
+        "pins": [
+          {
+            "title": "Coworker gift ideas, sorted by how well you know them",
+            "description": "Barely know them: a tea sampler or a candle. Sit near them: a heated mug. Know their habits: a bottle or a book light. Whole team: one gift per desk. We earn a commission from some links.",
+            "overlay": "Coworker gifts, by how well you know them",
+            "visual": "product:loose-leaf tea sampler",
+            "board": "Gifts for coworkers"
+          },
+          {
+            "title": "The best heated mug for an office desk",
+            "description": "HGTV named the OHOM Ui Plus its best self-heating mug for the office. It warms to 130°F on its pad, with no battery and no app. We earn a commission from some links.",
+            "overlay": "The office pick for cold coffee",
+            "visual": "product:OHOM Ui Plus mug on its pad",
+            "board": "Gifts for coworkers"
+          },
+          {
+            "title": "Secret Santa gifts for someone you barely know",
+            "description": "Pick something they use up: a candle, a tea sampler, a coffee bean sampler or chocolates. Nothing that clutters a desk for a year. We earn a commission from some links.",
+            "overlay": "Secret Santa for a near-stranger",
+            "visual": "product:soy candle and a box of chocolates",
+            "board": "Secret Santa ideas"
+          }
+        ],
+        "tags": [
+          "coworker gifts",
+          "secret santa gifts",
+          "office gifts",
+          "gift ideas",
+          "heated mug",
+          "team gifts"
+        ]
+      }
+    },
+    {
+      "format": "carousel",
+      "title": "Gifts for coworkers: carousel",
+      "carousel": {
+        "title": "Gifts for coworkers: carousel",
+        "slides": [
+          {
+            "n": 1,
+            "heading": "Gift swap tomorrow. Who is Steve?",
+            "body": "Coworker gifts, sorted by how well you know them.",
+            "visual": "b-roll:an office gift-swap sign-up sheet"
+          },
+          {
+            "n": 2,
+            "heading": "Barely know them",
+            "body": "Something they use up: a tea sampler, a candle or a snack box.",
+            "visual": "product:loose-leaf tea sampler"
+          },
+          {
+            "n": 3,
+            "heading": "Sit near them",
+            "body": "A heated mug. HGTV named the OHOM Ui Plus its best for the office: 130°F, no battery.",
+            "visual": "product:OHOM Ui Plus mug"
+          },
+          {
+            "n": 4,
+            "heading": "Know they hit the gym",
+            "body": "Owala says the FreeSip keeps drinks cold for 24 hours.",
+            "visual": "product:Owala FreeSip bottle"
+          },
+          {
+            "n": 5,
+            "heading": "The whole team",
+            "body": "One identical gift for every desk, like a low-light desk plant. Nobody compares.",
+            "visual": "product:small desk plant"
+          },
+          {
+            "n": 6,
+            "heading": "Skip the joke gift",
+            "body": "Half the office will not laugh. The full list is at the link in bio.",
+            "visual": "text"
+          }
+        ],
+        "caption": "Coworker gifts that are safe to open in front of the team, sorted by how well you know them. Full guide, with what to skip: link in bio. We earn a commission from some links.",
+        "tags": [
+          "coworkergifts",
+          "secretsanta",
+          "officegifts",
+          "giftideas",
+          "holidaygifts",
+          "giftguide"
+        ]
+      }
+    },
+    {
+      "format": "social",
+      "channel": "Facebook post",
+      "title": "Gifts for coworkers: Facebook post",
+      "body": "Office gift swap, and you drew the coworker you barely know. Pick something they use up, like a tea sampler or a candle. For the desk neighbor, a heated mug: HGTV named the OHOM Ui Plus its office pick. For the whole team, one identical gift per desk. Full guide: [LINK]\n\nWe earn a commission from some links."
+    },
+    {
+      "format": "social",
+      "channel": "TikTok caption",
+      "title": "Gifts for coworkers: TikTok caption",
+      "body": "When you draw the coworker whose name you had to look up. Coworker gifts, sorted by how well you know them. Link in bio. We earn a commission from some links. #secretsanta #coworkergifts #officegifts #giftideas"
+    }
+  ]
+}
