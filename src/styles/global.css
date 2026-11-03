@@ -157,14 +157,14 @@ article.prose { padding-bottom: 48px; }
 .gift-card { display: flex; flex-direction: column; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
 .gift-card[hidden] { display: none; }
 .gift-card h3 { margin: 0; font-size: 1.2rem; }
-.gift-card .rank { font: 700 .8rem var(--sans); color: var(--accent-dark); text-transform: uppercase; letter-spacing: .06em; }
+.gift-card .rank { font: 700 .8rem var(--sans); color: var(--ink-soft); text-transform: uppercase; letter-spacing: .06em; }
 .gift-card p { margin: 0; }
 .gift-card .why { font-size: 1rem; color: var(--ink-soft); }
 .gift-card .picks { margin: 0.25rem 0 0.75rem; }
 .gift-card .picks-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 0.25rem; }
 .gift-card .picks ul { margin: 0; padding-left: 1.1rem; }
 .gift-card .picks li { margin: 0.2rem 0; font-size: 0.95rem; }
-.gift-card .price { font-weight: 700; color: var(--brand-dark); }
+.gift-card .price { font-weight: 700; color: var(--ink); }
 .gift-card .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
 .gift-card .btn { align-self: start; }
 .chip {
@@ -204,12 +204,14 @@ a.chip:hover { border-color: var(--brand); color: var(--brand); }
 .contact-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
 .form-status { margin: 0; min-height: 1.5em; }
 
-/* Pinterest */
+/* Pinterest: a quiet secondary button, so the orange buy button stays the one thing to click (Ravi, 2026-11-03).
+   Only the small Pinterest mark keeps Pinterest's red. */
 .pin-save {
-  display: inline-flex; align-items: center; gap: 6px; font: 700 .95rem var(--sans); color: #fff; background: #e60023;
-  padding: 8px 14px; border-radius: 999px; text-decoration: none; align-self: start;
+  display: inline-flex; align-items: center; gap: 6px; font: 600 .95rem var(--sans); color: var(--ink); background: var(--card);
+  border: 1.5px solid var(--line); padding: 7px 14px; border-radius: 999px; text-decoration: none; align-self: start;
 }
-.pin-save:hover { background: #ad081b; color: #fff; }
+.pin-save svg { color: #e60023; }
+.pin-save:hover { border-color: var(--ink-soft); color: var(--ink); }
 .gift-card .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 .gift-card .actions .pin-save { align-self: center; }
 .list-head { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
