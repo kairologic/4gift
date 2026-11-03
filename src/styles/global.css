@@ -162,6 +162,8 @@ article.prose { padding-bottom: 48px; }
 .gift-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); margin: 8px 0 32px; }
 .gift-card { display: flex; flex-direction: column; gap: 8px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; }
 .gift-card[hidden] { display: none; }
+/* The gift's drawing runs edge to edge across the card top; it is decoration, so alt is empty. */
+.gift-card .gift-art { display: block; width: calc(100% + 40px); max-width: none; height: auto; aspect-ratio: 8 / 5; margin: -20px -20px 4px; border-radius: var(--radius) var(--radius) 0 0; }
 .gift-card h3 { margin: 0; font-size: 1.2rem; }
 .gift-card .rank { font: 700 .8rem var(--sans); color: var(--brand); text-transform: uppercase; letter-spacing: .06em; }
 .gift-card p { margin: 0; }

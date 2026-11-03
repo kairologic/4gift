@@ -2,6 +2,7 @@
 import SaveButton from './SaveButton.astro';
 import { buyUrl, listsOf, pickUrl, picksFor, priceLabel, type Gift } from '../lib/gifts';
 import { allPins, giftPinName, pinPath } from '../lib/pins';
+import { ART_H, ART_W, giftArtPath, giftArtSlugs } from '../lib/gift-art';
 interface Props { gift: Gift; rank: number; except?: string; page: string; showRank?: boolean }
 const { gift, rank, except, page, showRank = true } = Astro.props;
 const pin = allPins().find((p) => p.name === giftPinName(gift))!;
@@ -9,8 +10,10 @@ const pin = allPins().find((p) => p.name === giftPinName(gift))!;
 const lists = listsOf(gift).filter((l) => !except || !l.href.endsWith(`/${except}/`)).slice(0, 4);
 // Named products first; the search button stays for readers who want to browse the whole gift idea.
 const named = picksFor(gift).slice(0, 4);
+const hasArt = giftArtSlugs().includes(gift.slug);
 ---
 <article class="gift-card" id={gift.slug} data-from={gift.from} data-to={gift.to} data-tags={gift.tags.join(' ')} data-rank={rank}>
+  {hasArt && <img class="gift-art" src={giftArtPath(gift.slug)} alt="" width={ART_W} height={ART_H} loading="lazy" decoding="async" />}
   {showRank && <span class="rank">No. {rank}</span>}
   <h3>{gift.name}</h3>
   <p class="price">{priceLabel(gift)} <small class="meta">typical price</small></p>
