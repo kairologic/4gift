@@ -42,6 +42,7 @@ const occasions: Category[] = [
   { slug: 'housewarming', name: 'Housewarming', title: 'Housewarming gift ideas', blurb: 'For a new home: kitchen upgrades, plants and things to share.' },
   { slug: 'mothers-day', name: "Mother's Day", title: "Mother's Day gift ideas", blurb: 'Ways to say thanks, from keepsakes to a proper day off.' },
   { slug: 'fathers-day', name: "Father's Day", title: "Father's Day gift ideas", blurb: 'Gifts for the grill, the garage, the desk and the armchair.' },
+  { slug: 'graduation', name: 'Graduation', title: 'Graduation gift ideas', blurb: 'For the next step: dorm, first job, first trip and the commute in between.' },
   { slug: 'thank-you', name: 'Thank you', title: 'Thank-you gift ideas', blurb: 'Small gifts for teachers, hosts, neighbours and helpers.' },
 ];
 

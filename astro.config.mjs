@@ -6,5 +6,6 @@ export default defineConfig({
   site: process.env.SITE_URL || 'https://4gift.store',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  integrations: [sitemap()],
+  // /find/ is search results for whatever the reader typed, so it stays out of the sitemap (and is noindex).
+  integrations: [sitemap({ filter: (page) => !new URL(page).pathname.startsWith('/find/') })],
 });

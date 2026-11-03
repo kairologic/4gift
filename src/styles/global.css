@@ -182,6 +182,18 @@ a.chip:hover { border-color: var(--brand); color: var(--brand); }
 .finder { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; margin-top: 24px; max-width: 720px; }
 .finder label { display: grid; gap: 4px; font-weight: 600; font-size: 1rem; flex: 1 1 180px; }
 .finder select { font: inherit; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+.ask { background: var(--card); border: 2px solid var(--brand); border-radius: var(--radius); padding: 20px; margin-top: 24px; max-width: 720px; }
+.ask label { display: block; font-weight: 600; font-size: 1.1rem; margin-bottom: 8px; }
+.ask-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.ask input { flex: 1 1 260px; font: inherit; font-size: 1.1rem; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; background: #fff; min-width: 0; }
+.ask input:focus { outline: 2px solid var(--brand); outline-offset: 1px; }
+.ask-try { margin: 10px 0 0; font-size: .95rem; }
+.ask.compact { margin-top: 12px; padding: 14px; border-width: 1px; }
+.ask.compact label { font-size: 1rem; }
+.finder-or { margin: 18px 0 -12px; }
+.read { margin: 16px 0 0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.read a.chip.on { background: var(--brand); border-color: var(--brand); color: #fff; text-decoration: none; }
+.read a.chip.on:hover { background: var(--brand-dark); }
 .list-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 0; padding: 0; list-style: none; }
 .group-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .group-head h2 { margin-bottom: .3em; }

@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import { budgets, groups, listUrl } from '../data/taxonomy';
 import { giftsFor } from '../lib/gifts';
 import { SITE } from '../site';
+import AskBox from '../components/AskBox.astro';
 
 const recipients = groups.find((g) => g.slug === 'for')!;
 const popular = ['her', 'him', 'mom', 'dad', 'kids', 'christmas', 'under-25', 'cooks'];
@@ -14,6 +15,8 @@ const lists = groups.flatMap((g) => g.categories.map((c) => ({ g, c }))).filter(
     <div class="wrap">
       <h1>Find the right gift, fast</h1>
       <p class="lede">Gift ideas sorted into short, honest lists: by who it's for, the occasion, your budget and what they love. Pick a list and you're a few minutes from done.</p>
+      <AskBox />
+      <p class="finder-or meta">Or pick from the lists:</p>
       <form class="finder" id="finder" action="/for/her/" method="get">
         <label>Who is it for?
           <select name="who">{recipients.categories.map((c) => <option value={c.slug}>{c.name.replace(/^For (\w)/, (_, l) => l.toUpperCase())}</option>)}</select>
