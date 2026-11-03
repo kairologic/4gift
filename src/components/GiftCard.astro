@@ -1,20 +1,35 @@
 ---
 import SaveButton from './SaveButton.astro';
-import { buyUrl, listsOf, priceLabel, type Gift } from '../lib/gifts';
+import { buyUrl, listsOf, pickUrl, picksFor, priceLabel, type Gift } from '../lib/gifts';
 import { allPins, giftPinName, pinPath } from '../lib/pins';
 interface Props { gift: Gift; rank: number; except?: string; page: string }
 const { gift, rank, except, page } = Astro.props;
 const pin = allPins().find((p) => p.name === giftPinName(gift))!;
 // data-* drive the list page's budget filter and sort without a round trip.
 const lists = listsOf(gift).filter((l) => !except || !l.href.endsWith(`/${except}/`)).slice(0, 4);
+// Named products first; the search button stays for readers who want to browse the whole gift idea.
+const named = picksFor(gift).slice(0, 4);
 ---
 <article class="gift-card" id={gift.slug} data-from={gift.from} data-rank={rank}>
   <span class="rank">No. {rank}</span>
   <h3>{gift.name}</h3>
   <p class="price">{priceLabel(gift)} <small class="meta">typical price</small></p>
   <p class="why">{gift.why}</p>
+  {named.length > 0 && (
+    <div class="picks">
+      <p class="picks-label">Our picks</p>
+      <ul>
+        {named.map((p) => (
+          <li>
+            <a href={pickUrl(p)} rel="sponsored noopener" target="_blank" data-gift={gift.slug} data-asin={p.asin}><strong>{p.name}</strong></a>
+            <span class="meta"> by {p.brand}.</span> {p.note}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
   <div class="actions">
-    <a class="btn" href={buyUrl(gift)} rel="sponsored noopener" target="_blank">Shop on Amazon</a>
+    <a class="btn" href={buyUrl(gift)} rel="sponsored noopener" target="_blank">{named.length ? 'See more on Amazon' : 'Shop on Amazon'}</a>
     <SaveButton url={`${page}#${gift.slug}`} image={pinPath(pin.name)} description={pin.description} />
   </div>
   {lists.length > 0 && <div class="tags">{lists.map((l) => <a class="chip" href={l.href}>{l.name}</a>)}</div>}

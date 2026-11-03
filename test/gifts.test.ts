@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { gifts } from '../src/data/gifts';
 import { budgets, groups, tagSlugs } from '../src/data/taxonomy';
-import { buyUrl, giftsFor, inBudget, relatedLists } from '../src/lib/gifts';
+import picksFile from '../src/data/picks.json';
+import { buyUrl, giftsFor, inBudget, isAsin, pickUrl, picksFor, productCount, relatedLists, type ProductPick } from '../src/lib/gifts';
 
 const MIN_PER_LIST = 6;
 
@@ -90,5 +91,34 @@ describe('the tracking id file', () => {
     const { AMAZON_TAG } = await import('../src/data/affiliate');
     expect(typeof AMAZON_TAG).toBe('string');
     expect(AMAZON_TAG).toMatch(/^([a-z0-9-]+-2[0-9])?$/); // an Associates tag ends in -20, -21, ... or is not set
+  });
+});
+
+describe('named product picks', () => {
+  const pick = (gift: string, asin = 'B0ABCD1234'): ProductPick => ({ gift, asin, name: 'Acme blanket', brand: 'Acme', note: 'Soft.', addedOn: '2026-11-03' });
+
+  it('every pick in the file names a real gift and a real ASIN, once', () => {
+    const all = picksFile.picks as ProductPick[];
+    const slugs = new Set(gifts.map((g) => g.slug));
+    for (const p of all) {
+      expect(slugs.has(p.gift), p.asin).toBe(true);
+      expect(isAsin(p.asin), p.asin).toBe(true);
+      expect(p.name.trim() && p.brand.trim(), p.asin).toBeTruthy();
+    }
+    const keys = all.map((p) => `${p.gift}|${p.asin}`);
+    expect(new Set(keys).size).toBe(keys.length);
+  });
+
+  it('link to the listing with the tag and sit under their gift', () => {
+    expect(pickUrl(pick('weighted-blanket'), '4-gift-20')).toBe('https://www.amazon.com/dp/B0ABCD1234?tag=4-gift-20');
+    expect(pickUrl(pick('weighted-blanket'), '')).toBe('https://www.amazon.com/dp/B0ABCD1234');
+    const all = [pick('weighted-blanket'), pick('cast-iron-skillet', 'B0ZZZZ9999')];
+    expect(picksFor(gifts[0], all).map((p) => p.asin)).toEqual(['B0ABCD1234']);
+    expect(isAsin('B0abc')).toBe(false);
+  });
+
+  it('counts the named products a list carries', () => {
+    const her = groups[0].categories.find((c) => c.slug === 'her')!;
+    expect(productCount(her)).toBe(giftsFor(her).reduce((n, g) => n + picksFor(g).length, 0));
   });
 });
