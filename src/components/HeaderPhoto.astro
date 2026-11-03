@@ -1,0 +1,13 @@
+---
+// A list's or hub's header photo with its credit: a short banner, so the gift list still starts near the top.
+// Unsplash photos get smaller sizes for phones (their URLs take w and h).
+import { photoSrc, type ListPhoto } from '../data/list-photos';
+interface Props { photo: ListPhoto; tall?: boolean }
+const { photo, tall = false } = Astro.props;
+const h = (w: number) => Math.round(tall ? (w * 630) / 1200 : w / 3);
+const srcset = [600, 900, 1400].map((w) => `${photoSrc(photo, w, h(w))} ${w}w`).join(', ');
+---
+<figure class:list={['header-photo', { tall }]}>
+  <img src={photoSrc(photo, 1400, h(1400))} srcset={srcset} sizes="(max-width: 1100px) calc(100vw - 32px), 1068px" alt={photo.alt} width="1400" height={h(1400)} fetchpriority="high" decoding="async" />
+  <figcaption>Photo: <a href={photo.creditUrl} rel="nofollow noopener" target="_blank">{photo.credit}</a></figcaption>
+</figure>

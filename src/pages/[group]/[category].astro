@@ -4,6 +4,8 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Disclosure from '../../components/Disclosure.astro';
 import GiftCard from '../../components/GiftCard.astro';
 import SaveButton from '../../components/SaveButton.astro';
+import HeaderPhoto from '../../components/HeaderPhoto.astro';
+import { listPhoto } from '../../data/list-photos';
 import { budgets, groups, listUrl, type Category, type Group } from '../../data/taxonomy';
 import { giftsFor, relatedLists } from '../../lib/gifts';
 import { allPins, listPinName, pinPath } from '../../lib/pins';
@@ -23,6 +25,7 @@ const cheapest = Math.min(...list.map((g) => g.from));
 const description = `${list.length} ${category.title.toLowerCase()}, starting at $${cheapest}. ${category.blurb}`;
 const pin = allPins().find((p) => p.name === listPinName(group, category))!;
 const url = listUrl(group, category);
+const photo = listPhoto(url);
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
@@ -39,6 +42,7 @@ const schema = {
       <h1>{category.title}</h1>
       <SaveButton url={url} image={pinPath(pin.name)} description={pin.description} label="Save this list" />
     </div>
+    {photo && <HeaderPhoto photo={photo} />}
     <p class="lede meta" style="font-size:1.15rem">{category.blurb} {list.length} ideas, in the order we'd suggest them. Prices are typical ranges for each kind of gift; check the retailer for today's price.</p>
     <Disclosure />
 

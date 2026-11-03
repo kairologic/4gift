@@ -3,6 +3,8 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { groups, listUrl, type Group } from '../../data/taxonomy';
 import { giftsFor } from '../../lib/gifts';
+import HeaderPhoto from '../../components/HeaderPhoto.astro';
+import { listPhoto, photoSrc } from '../../data/list-photos';
 
 export function getStaticPaths() {
   return groups.map((group) => ({ params: { group: group.slug }, props: { group } }));
@@ -15,9 +17,11 @@ const { group } = Astro.props;
     <Breadcrumbs items={[{ name: group.name }]} />
     <h1>{group.name}</h1>
     <p class="meta" style="font-size:1.15rem">{group.blurb}</p>
+    {listPhoto(`/${group.slug}/`) && <HeaderPhoto photo={listPhoto(`/${group.slug}/`)!} />}
     <div class="grid">
       {group.categories.map((c) => (
-        <div class="card">
+        <div class:list={['card', { 'with-photo': listPhoto(listUrl(group, c)) }]}>
+          {listPhoto(listUrl(group, c)) && <img class="card-photo" src={photoSrc(listPhoto(listUrl(group, c))!, 640, 360)} alt="" width="640" height="360" loading="lazy" decoding="async" />}
           <p class="kind">{giftsFor(c).length} ideas</p>
           <h3><a href={listUrl(group, c)}>{c.title}</a></h3>
           <p>{c.blurb}</p>

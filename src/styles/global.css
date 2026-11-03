@@ -229,6 +229,18 @@ a.chip:hover { border-color: var(--brand); color: var(--brand); }
 
 /* Guides (src/pages/guides/) */
 .hero-img { margin: 8px 0 20px; }
+/* Header photos (src/data/list-photos.ts): a short banner on list and hub pages, beside the text on the home page. */
+.header-photo { margin: 4px 0 18px; }
+.header-photo img { width: 100%; height: auto; aspect-ratio: 3 / 1; object-fit: cover; border-radius: var(--radius); display: block; background: var(--tag-bg); }
+.header-photo.tall img { aspect-ratio: 1200 / 630; }
+.header-photo figcaption { font-size: .78rem; color: var(--ink-soft); margin-top: 6px; }
+.header-photo figcaption a { color: inherit; }
+.hero-split { display: grid; gap: 28px; align-items: center; }
+.hero-split .header-photo { margin: 0; }
+@media (min-width: 900px) { .hero-split { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); } }
+/* Image-led list cards: the list's photo across the top of the card. */
+.card.with-photo { padding-top: 0; overflow: hidden; }
+.card.with-photo .card-photo { display: block; margin: 0 -20px 14px; aspect-ratio: 16 / 9; object-fit: cover; width: calc(100% + 40px); max-width: none; background: var(--tag-bg); }
 .hero-img img { width: 100%; aspect-ratio: 1200 / 630; object-fit: cover; border-radius: 12px; display: block; }
 .hero-img figcaption { font-size: .8rem; color: var(--ink-soft); margin-top: 6px; }
 .hero-img figcaption a { color: inherit; }
