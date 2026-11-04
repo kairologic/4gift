@@ -32,6 +32,8 @@ const pinterestVerify = import.meta.env.PUBLIC_PINTEREST_VERIFY ?? '';
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {/* Impact needs the nonstandard "value" attribute, which Astro types reject, so it is written as raw HTML. */}
+    <Fragment set:html={`<meta name="impact-site-verification" value="a7fc5f93-3aa2-47b0-9514-00533c01f87b">`} />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
