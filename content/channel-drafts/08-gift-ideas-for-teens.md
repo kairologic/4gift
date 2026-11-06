@@ -4,24 +4,22 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-teens/ (merged 
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Gifts for teens they will actually use
 
-**Hook (the team):** Buying for a teen? Look at their bag, not their face.
+**Hook (the team):** Picture this: you ask your nephew what he wants. He says "I don't know."
 
-**Runs:** 41 seconds, 7 scenes, vertical.
+**Runs:** 68 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
-| # | Time | Narration | On screen | Visual |
-| --- | --- | --- | --- | --- |
-| 1 | 5s | Buying for a teen? Their face says nothing. Look at their bag instead. | Look at the bag | b-roll:a teen's open backpack on a bed |
-| 2 | 7s | Always on the move? Owala says the FreeSip seals with a leak-proof lid and stays cold for 24 hours. | Leak-proof, cold 24 hours | product:Owala FreeSip bottle |
-| 3 | 7s | Always with friends? The Instax Mini 12 sets its own exposure, and prints develop in about 90 seconds. | Prints in about 90 seconds | product:Fujifilm Instax Mini 12 |
-| 4 | 5s | Add film packs. A camera with no film is a sad first hour. | Add film packs | product:Instax Mini film packs |
-| 5 | 7s | A reader who borrows from the library? The Kobo Clara BW has Libby built in. | Kobo: Libby built in | product:Kobo Clara BW e-reader |
-| 6 | 6s | Skip clothes in a guessed size, and anything that tries too hard to be cool. | Skip "trying to be cool" | b-roll:a gift sweater slowly folded back into its box |
-| 7 | 4s | The full list is at the link. | Full list at 4gift.store | text |
+| # | Time | Narration | On screen | Visual | Beat |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 11s | Picture this: you ask your teen nephew what he wants. "I don't know." You ask what he likes. "Stuff." Thank you, very helpful. | "I don't know." "Stuff." | b-roll:a teen shrugging over a phone | opening |
+| 2 | 5s | Their face says nothing. Look at their bag instead. | Look at the bag | b-roll:a teen's open backpack on a bed | opening |
+| 3 | 9s | Always on the move? Owala says the FreeSip seals with a leak-proof lid and stays cold for 24 hours. | Leak-proof, cold 24 hours | product:Owala FreeSip bottle | middle |
+| 4 | 9s | Always with friends? The Instax Mini 12 sets its own exposure, and prints develop in about 90 seconds. | Prints in about 90 seconds | product:Fujifilm Instax Mini 12 | middle |
+| 5 | 7s | Add film packs. A camera with no film is a sad first hour. | Add film packs | product:Instax Mini film packs | middle |
+| 6 | 7s | A reader who borrows from the library? The Kobo Clara BW has Libby built in. | Kobo: Libby built in | product:Kobo Clara BW e-reader | middle |
+| 7 | 7s | Skip clothes in a guessed size, and anything that tries too hard to be cool. | Skip "trying to be cool" | b-roll:a gift sweater slowly folded back into its box | middle |
+| 8 | 13s | A week later, there is a print of his friends stuck to the fridge. He says it's "fine." That means he loves it. The full list is at the link. | Full list at 4gift.store | text | end |
 
-**Cuts:**
-
-1. The bottle and the camera (scenes 1, 2, 3)
-2. Film, books and what to skip (scenes 4, 5, 6)
+**Cuts:** none (the story runs whole on Shorts, Reels and TikTok).
 
 **Description:** Gifts for teens they will actually use: a bottle that seals, an instant camera, an e-reader, and what to skip. Full guide: [LINK]. We earn a commission from some links.
 

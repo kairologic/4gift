@@ -37,83 +37,74 @@
       "title": "Coworker gifts, sorted by how well you know them",
       "kit": {
         "title": "Coworker gifts, sorted by how well you know them",
-        "hook": "Office gift swap tomorrow, and you barely know Steve.",
+        "hook": "Picture this: office gift swap tomorrow, and you drew Steve. Who is Steve?",
         "scenes": [
           {
             "n": 1,
-            "seconds": 5,
-            "narration": "Office gift swap tomorrow, and you barely know Steve. Here is the plan.",
-            "onScreen": "You barely know Steve",
-            "visual": "b-roll:an office gift-swap sign-up sheet with one name circled"
+            "seconds": 11,
+            "narration": "Picture this: the office gift swap is tomorrow, and you drew Steve. You have said four words to Steve. Two were \"good morning.\"",
+            "onScreen": "You drew Steve",
+            "visual": "b-roll:an office gift-swap sign-up sheet with one name circled",
+            "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 7,
+            "seconds": 8,
             "narration": "Barely know them? Something they use up: a tea sampler, a candle or a snack box.",
             "onScreen": "Barely know them? Use it up",
-            "visual": "product:loose-leaf tea sampler"
+            "visual": "product:loose-leaf tea sampler",
+            "beat": "middle"
           },
           {
             "n": 3,
             "seconds": 8,
             "narration": "Sit near them? A heated mug. HGTV named the OHOM Ui Plus its best for the office.",
             "onScreen": "Best for the office: OHOM Ui",
-            "visual": "product:OHOM Ui Plus mug on its pad"
+            "visual": "product:OHOM Ui Plus mug on its pad",
+            "beat": "middle"
           },
           {
             "n": 4,
-            "seconds": 7,
+            "seconds": 8,
             "narration": "It warms to 130 degrees on its pad, with no battery and no app to pair.",
             "onScreen": "No battery, no app",
-            "visual": "product:OHOM Ui mug on a desk"
+            "visual": "product:OHOM Ui mug on a desk",
+            "beat": "middle"
           },
           {
             "n": 5,
-            "seconds": 7,
+            "seconds": 8,
             "narration": "The gym-goer? Owala says the FreeSip keeps drinks cold for 24 hours, with a leak-proof lid.",
             "onScreen": "Cold for 24 hours",
-            "visual": "product:Owala FreeSip bottle"
+            "visual": "product:Owala FreeSip bottle",
+            "beat": "middle"
           },
           {
             "n": 6,
-            "seconds": 6,
+            "seconds": 5,
             "narration": "Whole team? One identical gift per desk, so nobody compares.",
             "onScreen": "Same gift for every desk",
-            "visual": "product:a row of small desk plants"
+            "visual": "product:a row of small desk plants",
+            "beat": "middle"
           },
           {
             "n": 7,
-            "seconds": 5,
+            "seconds": 6,
             "narration": "And skip the joke gift. Half the office will not laugh.",
             "onScreen": "Skip the joke gift",
-            "visual": "b-roll:a gag gift slowly slid back into a drawer"
+            "visual": "b-roll:a gag gift slowly slid back into a drawer",
+            "beat": "middle"
           },
           {
             "n": 8,
-            "seconds": 4,
-            "narration": "The full list is at the link.",
+            "seconds": 11,
+            "narration": "Next morning, Steve's tea is on his desk, and you have said five words to Steve. Progress. The full list is at the link.",
             "onScreen": "Full list at 4gift.store",
-            "visual": "text"
+            "visual": "text",
+            "beat": "end"
           }
         ],
-        "cuts": [
-          {
-            "title": "The coworker you barely know",
-            "scenes": [
-              1,
-              2,
-              7
-            ]
-          },
-          {
-            "title": "The heated mug for the office",
-            "scenes": [
-              3,
-              4,
-              6
-            ]
-          }
-        ],
+        "cuts": [],
         "description": "Coworker gifts sorted by how well you know them: something they use up, a heated mug for the desk, a bottle for the gym-goer, and one gift for the whole team. The full guide: [LINK]. We earn a commission from some links.",
         "tags": [
           "coworker gifts",

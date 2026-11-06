@@ -33,76 +33,74 @@
       "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
       "kit": {
         "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
-        "hook": "Kindle or Kobo? Ask where their books come from.",
+        "hook": "Picture this: Kindle or Kobo, two tabs open, and the birthday is Saturday.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 5,
-            "narration": "Kindle or Kobo? One question decides it. Where do their books come from?",
-            "onScreen": "Where do their books come from?",
-            "visual": "b-roll:a stack of library books next to a phone"
+            "seconds": 9,
+            "narration": "Picture this: the birthday is Saturday. You have a Kindle tab open, a Kobo tab open, and no idea.",
+            "onScreen": "Two tabs, no idea",
+            "visual": "b-roll:a laptop with two shopping tabs open",
+            "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 7,
-            "narration": "Years of Kindle purchases, or Audible? The Paperwhite. Bigger 7 inch screen, and Amazon claims up to 12 weeks a charge.",
-            "onScreen": "Paperwhite: up to 12 weeks",
-            "visual": "product:Kindle Paperwhite"
+            "seconds": 5,
+            "narration": "One question decides it. Where do their books come from?",
+            "onScreen": "Where do their books come from?",
+            "visual": "b-roll:a stack of library books next to a phone",
+            "beat": "opening"
           },
           {
             "n": 3,
-            "seconds": 7,
-            "narration": "Library borrower? The Kobo Clara BW has Libby built in, and no ads by default.",
-            "onScreen": "Kobo: Libby built in",
-            "visual": "product:Kobo Clara BW"
+            "seconds": 10,
+            "narration": "Years of Kindle purchases, or Audible? The Paperwhite. Bigger 7 inch screen, and Amazon claims up to 12 weeks a charge.",
+            "onScreen": "Paperwhite: up to 12 weeks",
+            "visual": "product:Kindle Paperwhite",
+            "beat": "middle"
           },
           {
             "n": 4,
-            "seconds": 6,
-            "narration": "Reads lying down? The Kobo is lighter, 174 grams to the Kindle's 214.",
-            "onScreen": "174 g vs 214 g",
-            "visual": "product:Kobo Clara BW held above a pillow"
+            "seconds": 7,
+            "narration": "Library borrower? The Kobo Clara BW has Libby built in, and no ads by default.",
+            "onScreen": "Kobo: Libby built in",
+            "visual": "product:Kobo Clara BW",
+            "beat": "middle"
           },
           {
             "n": 5,
-            "seconds": 6,
-            "narration": "Both are rated IPX8, good for 2 meters of water for an hour. Bath reading approved.",
-            "onScreen": "Both IPX8",
-            "visual": "product:Kindle Paperwhite beside a bathtub"
+            "seconds": 7,
+            "narration": "Reads lying down? The Kobo is lighter, 174 grams to the Kindle's 214.",
+            "onScreen": "174 g vs 214 g",
+            "visual": "product:Kobo Clara BW held above a pillow",
+            "beat": "middle"
           },
           {
             "n": 6,
-            "seconds": 6,
-            "narration": "Add a book gift card. An e-reader with nothing on it is a very nice coaster.",
-            "onScreen": "Add a book gift card",
-            "visual": "b-roll:an e-reader holding up a coffee cup"
+            "seconds": 8,
+            "narration": "Both are rated IPX8, good for 2 meters of water for an hour. Bath reading approved.",
+            "onScreen": "Both IPX8",
+            "visual": "product:Kindle Paperwhite beside a bathtub",
+            "beat": "middle"
           },
           {
             "n": 7,
-            "seconds": 4,
-            "narration": "The full comparison is at the link.",
-            "onScreen": "Full comparison at 4gift.store",
-            "visual": "text"
-          }
-        ],
-        "cuts": [
-          {
-            "title": "Kindle or Kobo in 20 seconds",
-            "scenes": [
-              1,
-              2,
-              3
-            ]
+            "seconds": 8,
+            "narration": "Add a book gift card. An e-reader with nothing on it is a very nice coaster.",
+            "onScreen": "Add a book gift card",
+            "visual": "b-roll:an e-reader holding up a coffee cup",
+            "beat": "middle"
           },
           {
-            "title": "Weight, water and the coaster rule",
-            "scenes": [
-              4,
-              5,
-              6
-            ]
+            "n": 8,
+            "seconds": 9,
+            "narration": "One tab closes. Saturday, they are three chapters in by dinner. The full comparison is at the link.",
+            "onScreen": "Full comparison at 4gift.store",
+            "visual": "text",
+            "beat": "end"
           }
         ],
+        "cuts": [],
         "description": "Kindle Paperwhite vs Kobo Clara BW for gifting: where their books come from, screen and weight, ads, battery and library borrowing. Full comparison: [LINK]. We earn a commission from some links.",
         "tags": [
           "kindle paperwhite",

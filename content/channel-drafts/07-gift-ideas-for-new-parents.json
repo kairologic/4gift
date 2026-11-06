@@ -45,83 +45,74 @@
       "title": "Gifts for new parents that look after the parents",
       "kit": {
         "title": "Gifts for new parents that look after the parents",
-        "hook": "The baby has a registry. The parents have cold coffee.",
+        "hook": "Picture this: the baby has a whole registry. The parents have cold coffee.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 5,
-            "narration": "The baby has a whole registry. The parents have cold coffee. Gift accordingly.",
+            "seconds": 10,
+            "narration": "Picture this: you visit the new parents. The baby has a whole registry. The parents have cold coffee and one sock each.",
             "onScreen": "Gift the parents",
-            "visual": "b-roll:a full mug left on a counter beside baby bottles"
+            "visual": "b-roll:a full mug left on a counter beside baby bottles",
+            "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 8,
+            "seconds": 11,
             "narration": "A heated mug. Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half.",
             "onScreen": "Ember: up to 1.5 hours",
-            "visual": "product:Ember Mug 2"
+            "visual": "product:Ember Mug 2",
+            "beat": "middle"
           },
           {
             "n": 3,
             "seconds": 6,
             "narration": "No-app parents? The Nextmug runs on one button with three presets.",
             "onScreen": "Nextmug: one button",
-            "visual": "product:Nextmug"
+            "visual": "product:Nextmug",
+            "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 7,
             "narration": "For the grandparents, a Wi-Fi photo frame. New baby photos arrive without a single text.",
             "onScreen": "Photos without the texts",
-            "visual": "product:Skylight digital photo frame"
+            "visual": "product:Skylight digital photo frame",
+            "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 6,
             "narration": "For 3 a.m. feeds, a book light. Small, quiet, and very appreciated.",
             "onScreen": "For the 3 a.m. feed",
-            "visual": "product:rechargeable book light"
+            "visual": "product:rechargeable book light",
+            "beat": "middle"
           },
           {
             "n": 6,
-            "seconds": 6,
+            "seconds": 7,
             "narration": "Skip blankets, pillows and stuffed toys for the crib. Bare is best, says the CPSC.",
             "onScreen": "Crib: bare is best",
-            "visual": "text"
+            "visual": "text",
+            "beat": "middle"
           },
           {
             "n": 7,
-            "seconds": 6,
+            "seconds": 7,
             "narration": "Or give help. \"Dinner on the 14th\" gets used. \"Let me know\" never does.",
             "onScreen": "\"Dinner on the 14th\"",
-            "visual": "b-roll:a handwritten card promising dinner on a date"
+            "visual": "b-roll:a handwritten card promising dinner on a date",
+            "beat": "end"
           },
           {
             "n": 8,
-            "seconds": 4,
-            "narration": "The full list is at the link.",
+            "seconds": 9,
+            "narration": "On the 14th, dinner arrives, and the coffee is still warm. The full list is at the link.",
             "onScreen": "Full list at 4gift.store",
-            "visual": "text"
+            "visual": "text",
+            "beat": "end"
           }
         ],
-        "cuts": [
-          {
-            "title": "The cold coffee fix for new parents",
-            "scenes": [
-              1,
-              2,
-              3
-            ]
-          },
-          {
-            "title": "Frames, book lights and real help",
-            "scenes": [
-              4,
-              5,
-              7
-            ]
-          }
-        ],
+        "cuts": [],
         "description": "Gifts for new parents that look after the parents: a heated mug, a photo frame for the grandparents, a book light for night feeds, and what to keep out of the crib. Full guide: [LINK]. We earn a commission from some links.",
         "tags": [
           "gifts for new parents",

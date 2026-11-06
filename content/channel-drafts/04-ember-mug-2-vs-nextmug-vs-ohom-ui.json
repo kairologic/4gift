@@ -37,76 +37,74 @@
       "title": "Ember vs Nextmug vs OHOM Ui: which heated mug to give",
       "kit": {
         "title": "Ember vs Nextmug vs OHOM Ui: which heated mug to give",
-        "hook": "Three heated mugs. Pick by where they drink, not the brand.",
+        "hook": "Picture this: three heated mugs in your cart, and you can only give one.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 5,
-            "narration": "Three heated mugs. Pick by where they drink, not by the brand.",
-            "onScreen": "Which heated mug to give",
-            "visual": "b-roll:three mugs side by side, steam rising"
+            "seconds": 11,
+            "narration": "Picture this: three heated mugs in your cart, and one person to give to. You have read the reviews twice. Still three mugs.",
+            "onScreen": "Three mugs, one gift",
+            "visual": "b-roll:three mugs side by side, steam rising",
+            "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 8,
-            "narration": "Ember Mug 2 for the exact-temperature person. Set 120 to 145 degrees in its app.",
-            "onScreen": "Ember: 120 to 145°F",
-            "visual": "product:Ember Mug 2"
+            "seconds": 5,
+            "narration": "Pick by where they drink, not by the brand.",
+            "onScreen": "Pick by where they drink",
+            "visual": "text",
+            "beat": "opening"
           },
           {
             "n": 3,
             "seconds": 7,
-            "narration": "It holds heat up to an hour and a half off its coaster. The longest of the three.",
-            "onScreen": "Up to 1.5 hours off base",
-            "visual": "product:Ember Mug 2 lifted off its coaster"
+            "narration": "Ember Mug 2 for the exact-temperature person. Set 120 to 145 degrees in its app.",
+            "onScreen": "Ember: 120 to 145°F",
+            "visual": "product:Ember Mug 2",
+            "beat": "middle"
           },
           {
             "n": 4,
-            "seconds": 7,
-            "narration": "Nextmug for the app-hater. Fourteen ounces, one button, three heat settings.",
-            "onScreen": "Nextmug: 14 oz, one button",
-            "visual": "product:Nextmug"
+            "seconds": 9,
+            "narration": "It holds heat up to an hour and a half off its coaster. The longest of the three.",
+            "onScreen": "Up to 1.5 hours off base",
+            "visual": "product:Ember Mug 2 lifted off its coaster",
+            "beat": "middle"
           },
           {
             "n": 5,
-            "seconds": 7,
-            "narration": "OHOM Ui for the desk worker. No battery, no app, and the Artist mug is dishwasher safe.",
-            "onScreen": "OHOM Ui: dishwasher safe",
-            "visual": "product:OHOM Ui mug on its pad"
+            "seconds": 6,
+            "narration": "Nextmug for the app-hater. Fourteen ounces, one button, three heat settings.",
+            "onScreen": "Nextmug: 14 oz, one button",
+            "visual": "product:Nextmug",
+            "beat": "middle"
           },
           {
             "n": 6,
-            "seconds": 6,
-            "narration": "The catch: it only warms on its pad. Walk to a meeting and it is just a mug.",
-            "onScreen": "Only warm on its pad",
-            "visual": "b-roll:someone carrying a mug away from a desk as it stops steaming"
+            "seconds": 8,
+            "narration": "OHOM Ui for the desk worker. No battery, no app, and the Artist mug is dishwasher safe.",
+            "onScreen": "OHOM Ui: dishwasher safe",
+            "visual": "product:OHOM Ui mug on its pad",
+            "beat": "middle"
           },
           {
             "n": 7,
-            "seconds": 5,
-            "narration": "Full side-by-side table at the link.",
-            "onScreen": "Full comparison at 4gift.store",
-            "visual": "text"
-          }
-        ],
-        "cuts": [
-          {
-            "title": "Ember Mug 2 in 20 seconds",
-            "scenes": [
-              1,
-              2,
-              3
-            ]
+            "seconds": 9,
+            "narration": "The catch: it only warms on its pad. Walk to a meeting and it is just a mug.",
+            "onScreen": "Only warm on its pad",
+            "visual": "b-roll:someone carrying a mug away from a desk as it stops steaming",
+            "beat": "middle"
           },
           {
-            "title": "Nextmug or OHOM Ui",
-            "scenes": [
-              4,
-              5,
-              6
-            ]
+            "n": 8,
+            "seconds": 9,
+            "narration": "Two mugs go back in the cart. One goes in the box. Full side-by-side table at the link.",
+            "onScreen": "Full comparison at 4gift.store",
+            "visual": "text",
+            "beat": "end"
           }
         ],
+        "cuts": [],
         "description": "Ember Mug 2 vs Nextmug vs OHOM Ui: app or button, how long each stays hot off its base, cleaning, and which suits an office desk. The full comparison: [LINK]. We earn a commission from some links.",
         "tags": [
           "ember mug 2",
