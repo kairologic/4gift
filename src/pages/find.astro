@@ -55,6 +55,14 @@ const api = import.meta.env.PUBLIC_FIND_API ?? '';
   const input = document.getElementById('ask-q') as HTMLInputElement;
   input.value = q;
 
+  // Count what was typed (words only, no visitor id) for the Topics page in the admin tool. HQ drops anything that
+  // looks like contact details. Fire and forget: a text/plain beacon needs no preflight and never delays the page.
+  if (q && api && navigator.sendBeacon) {
+    try {
+      navigator.sendBeacon(api.replace(/\/find$/, '/search-log'), new Blob([JSON.stringify({ store: '4gift', q })], { type: 'text/plain' }));
+    } catch {}
+  }
+
   const money = (n: number) => `$${n}`;
   function chipsFor(f: Filters & { around?: number; age?: number; person?: string }): { label: string; without: Filters }[] {
     const out: { label: string; without: Filters }[] = [];

@@ -4,8 +4,9 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { SITE } from '../site';
 
 // Keep this page in step with what the code actually collects: no analytics or cookies on the site itself, and the
-// contact form (infra/lambda/contact.ts), which stores the message and emails it to the store's inbox.
-const updated = '2026-10-30';
+// contact form (infra/lambda/contact.ts), which stores the message and emails it to the store's inbox, and the gift
+// search (pages/find.astro), which counts typed searches and may send them to HQ's /public/find.
+const updated = '2026-11-06';
 ---
 <Base title="Privacy policy" description={`What ${SITE.name} collects, why, and how to have it deleted.`}>
   <div class="wrap read prose" style="padding-bottom:48px">
@@ -18,6 +19,9 @@ const updated = '2026-10-30';
     <h3>When you read the site</h3>
     <p>Our pages set no cookies and run no analytics. Like any website, our hosting provider keeps standard server logs (such as the page requested and the time) for security and to keep the site running.</p>
 
+    <h3>When you search for a gift</h3>
+    <p>When you type a search into "Find a gift", we count the words you typed, by day, to learn which gift ideas people look for. We keep only the words, not who searched, and we drop anything that looks like an email address, phone number or link. If our page can't read a search on its own, it is sent to our AI service to be matched to our gift lists; only the words are sent, and the answer is not linked to you. To stop abuse, both are limited per visitor per day using a scrambled version of your IP address that is never stored with the search. Please don't type personal details into the search box.</p>
+
     <h3>When you contact us</h3>
     <p>The contact form sends us your name, email address, the topic you picked, your message and the page you came from. We store it and email it to our own inbox so a person can read and answer it. To stop spam, we count messages per visitor per day using a scrambled, salted version of your IP address that can't be turned back into the address; the raw address is never stored.</p>
 
@@ -28,6 +32,7 @@ const updated = '2026-10-30';
     <h2>How we use it</h2>
     <ul>
       <li>To answer your message and fix mistakes you report.</li>
+      <li>To choose which gift guides to write next, from what people search for.</li>
       <li>To keep the site and contact form working and free of abuse.</li>
     </ul>
     <p>We don't sell or rent personal information, and we don't share it for cross-site advertising.</p>
