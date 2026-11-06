@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { SITE } from '../site';
 
-// Keep this page in step with what the code actually collects: no analytics or cookies on the site itself, and the
+// Keep this page in step with what the code actually collects: no cookies; Cloudflare Web Analytics (CloudflareAnalytics.astro); the
 // contact form (infra/lambda/contact.ts), which stores the message and emails it to the store's inbox, and the gift
 // search (pages/find.astro), which counts typed searches and may send them to HQ's /public/find.
 const updated = '2026-11-06';
@@ -17,7 +17,8 @@ const updated = '2026-11-06';
 
     <h2>What we collect</h2>
     <h3>When you read the site</h3>
-    <p>Our pages set no cookies and run no analytics. Like any website, our hosting provider keeps standard server logs (such as the page requested and the time) for security and to keep the site running.</p>
+    <p>Our pages set no cookies. Like any website, our hosting provider keeps standard server logs (such as the page requested and the time) for security and to keep the site running.</p>
+    <p>We also use Cloudflare Web Analytics to see how many people visit, which pages they read, which site sent them, and roughly where and on what kind of device (country, browser, phone or computer) and how fast pages load. It sets no cookies, stores nothing in your browser, and Cloudflare says it does not use your IP address or browser details to follow you from visit to visit or across sites. We see only totals.</p>
 
     <h3>When you search for a gift</h3>
     <p>When you type a search into "Find a gift", we count the words you typed, by day, to learn which gift ideas people look for. We keep only the words, not who searched, and we drop anything that looks like an email address, phone number or link. If our page can't read a search on its own, it is sent to our AI service to be matched to our gift lists; only the words are sent, and the answer is not linked to you. To stop abuse, both are limited per visitor per day using a scrambled version of your IP address that is never stored with the search. Please don't type personal details into the search box.</p>
@@ -38,7 +39,7 @@ const updated = '2026-11-06';
     <p>We don't sell or rent personal information, and we don't share it for cross-site advertising.</p>
 
     <h2>Who handles it for us</h2>
-    <p>The site and its data run on Amazon Web Services in the United States, and contact emails are sent through Amazon SES to our email inbox. These providers process data on our behalf under their own security terms.</p>
+    <p>The site and its data run on Amazon Web Services in the United States, and contact emails are sent through Amazon SES to our email inbox. Visit totals come from Cloudflare Web Analytics. These providers process data on our behalf under their own security terms.</p>
 
     <h2>How long we keep it</h2>
     <p>Contact messages are kept as long as we need them to answer and follow up, and deleted when you ask.</p>
