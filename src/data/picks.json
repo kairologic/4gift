@@ -79,6 +79,86 @@
       "brand": "Barefoot Dreams",
       "note": "A well-known luxury robe that suits the cozy, gifts-for-her and Mother's Day lists.",
       "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "insulated-water-bottle",
+      "asin": "B0BY9FP62P",
+      "name": "Stanley Quencher H2.0 FlowState Tumbler 40 oz",
+      "brand": "Stanley",
+      "note": "It is a top-selling gift with strong pin appeal, and people often buy a second one in a new color for birthdays and holidays.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "weighted-blanket",
+      "asin": "B0C1F9MFH1",
+      "name": "Bearaby Cotton Napper Hand-Knit Weighted Blanket",
+      "brand": "Bearaby",
+      "note": "It is a boutique-style, design-led take on a weighted blanket, which fits Mother's Day, Christmas and wellness gift lists.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "pour-over-coffee-set",
+      "asin": "B0BF7HJ8MX",
+      "name": "Fellow Stagg EKG Pro Electric Gooseneck Kettle",
+      "brand": "Fellow",
+      "note": "It is a design-forward upgrade that pairs with the pour-over set and suits coffee-lover birthday and Father's Day lists.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "pour-over-coffee-set",
+      "asin": "B002S01CKW",
+      "name": "Hario V60 Ceramic Coffee Dripper, Size 02",
+      "brand": "Hario",
+      "note": "It is a cheap, classic pour-over pick for budget lists, and the filters give readers a reason to buy again.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "item-tracker",
+      "asin": "B0932QJ2JZ",
+      "name": "Apple AirTag 4 Pack",
+      "brand": "Apple",
+      "note": "It is a practical gift for travelers and forgetful friends, and the four-pack gives enough for gift sets.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "yoga-mat",
+      "asin": "B07NCJFJ89",
+      "name": "Manduka PRO Yoga Mat 6mm",
+      "brand": "Manduka",
+      "note": "It is the premium yoga mat with a long-lasting reputation, which suits a splurge gift for wellness lists.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "mini-massage-gun",
+      "asin": "B0DV71V4R7",
+      "name": "Therabody Theragun Mini (3rd Gen) Massage Gun",
+      "brand": "Therabody",
+      "note": "It is a recognizable premium gift for active and wellness-minded recipients, and it can sit in fitness and Father's Day lists.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "jigsaw-puzzle",
+      "asin": "B01NAPZIS0",
+      "name": "Ravensburger The Bookshop 1000 Piece Jigsaw Puzzle",
+      "brand": "Ravensburger",
+      "note": "It is an inexpensive pin-friendly gift for book lovers and puzzle fans, and it works for birthday and budget lists.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "power-bank",
+      "asin": "B0C9CJKCH3",
+      "name": "Anker Nano Power Bank 10,000mAh 30W with Built-In USB-C Cable",
+      "brand": "Anker",
+      "note": "It is a low-price, useful tech gift that fits gift lists for travelers, students and secret-Santa budgets.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "e-reader",
+      "asin": "B0CZXYV8GT",
+      "name": "Kobo Clara BW eReader (16GB)",
+      "brand": "Kobo",
+      "note": "It is a non-Amazon e-reader alternative for book-lover lists, and bundles with cases make good gift sets.",
+      "addedOn": "2026-11-06"
     }
   ]
 }
