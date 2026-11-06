@@ -4,25 +4,22 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-new-parents/ (m
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Gifts for new parents that look after the parents
 
-**Hook (the team):** The baby has a registry. The parents have cold coffee.
+**Hook (the team):** Picture this: the baby has a whole registry. The parents have cold coffee.
 
-**Runs:** 48 seconds, 8 scenes, vertical.
+**Runs:** 63 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
-| # | Time | Narration | On screen | Visual |
-| --- | --- | --- | --- | --- |
-| 1 | 5s | The baby has a whole registry. The parents have cold coffee. Gift accordingly. | Gift the parents | b-roll:a full mug left on a counter beside baby bottles |
-| 2 | 8s | A heated mug. Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half. | Ember: up to 1.5 hours | product:Ember Mug 2 |
-| 3 | 6s | No-app parents? The Nextmug runs on one button with three presets. | Nextmug: one button | product:Nextmug |
-| 4 | 7s | For the grandparents, a Wi-Fi photo frame. New baby photos arrive without a single text. | Photos without the texts | product:Skylight digital photo frame |
-| 5 | 6s | For 3 a.m. feeds, a book light. Small, quiet, and very appreciated. | For the 3 a.m. feed | product:rechargeable book light |
-| 6 | 6s | Skip blankets, pillows and stuffed toys for the crib. Bare is best, says the CPSC. | Crib: bare is best | text |
-| 7 | 6s | Or give help. "Dinner on the 14th" gets used. "Let me know" never does. | "Dinner on the 14th" | b-roll:a handwritten card promising dinner on a date |
-| 8 | 4s | The full list is at the link. | Full list at 4gift.store | text |
+| # | Time | Narration | On screen | Visual | Beat |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 10s | Picture this: you visit the new parents. The baby has a whole registry. The parents have cold coffee and one sock each. | Gift the parents | b-roll:a full mug left on a counter beside baby bottles | opening |
+| 2 | 11s | A heated mug. Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half. | Ember: up to 1.5 hours | product:Ember Mug 2 | middle |
+| 3 | 6s | No-app parents? The Nextmug runs on one button with three presets. | Nextmug: one button | product:Nextmug | middle |
+| 4 | 7s | For the grandparents, a Wi-Fi photo frame. New baby photos arrive without a single text. | Photos without the texts | product:Skylight digital photo frame | middle |
+| 5 | 6s | For 3 a.m. feeds, a book light. Small, quiet, and very appreciated. | For the 3 a.m. feed | product:rechargeable book light | middle |
+| 6 | 7s | Skip blankets, pillows and stuffed toys for the crib. Bare is best, says the CPSC. | Crib: bare is best | text | middle |
+| 7 | 7s | Or give help. "Dinner on the 14th" gets used. "Let me know" never does. | "Dinner on the 14th" | b-roll:a handwritten card promising dinner on a date | end |
+| 8 | 9s | On the 14th, dinner arrives, and the coffee is still warm. The full list is at the link. | Full list at 4gift.store | text | end |
 
-**Cuts:**
-
-1. The cold coffee fix for new parents (scenes 1, 2, 3)
-2. Frames, book lights and real help (scenes 4, 5, 7)
+**Cuts:** none (the story runs whole on Shorts, Reels and TikTok).
 
 **Description:** Gifts for new parents that look after the parents: a heated mug, a photo frame for the grandparents, a book light for night feeds, and what to keep out of the crib. Full guide: [LINK]. We earn a commission from some links.
 

@@ -4,24 +4,22 @@ Cut from the live page https://4gift.store/guides/ember-mug-2-vs-nextmug-vs-ohom
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Ember vs Nextmug vs OHOM Ui: which heated mug to give
 
-**Hook (the team):** Three heated mugs. Pick by where they drink, not the brand.
+**Hook (the team):** Picture this: three heated mugs in your cart, and you can only give one.
 
-**Runs:** 45 seconds, 7 scenes, vertical.
+**Runs:** 64 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
-| # | Time | Narration | On screen | Visual |
-| --- | --- | --- | --- | --- |
-| 1 | 5s | Three heated mugs. Pick by where they drink, not by the brand. | Which heated mug to give | b-roll:three mugs side by side, steam rising |
-| 2 | 8s | Ember Mug 2 for the exact-temperature person. Set 120 to 145 degrees in its app. | Ember: 120 to 145°F | product:Ember Mug 2 |
-| 3 | 7s | It holds heat up to an hour and a half off its coaster. The longest of the three. | Up to 1.5 hours off base | product:Ember Mug 2 lifted off its coaster |
-| 4 | 7s | Nextmug for the app-hater. Fourteen ounces, one button, three heat settings. | Nextmug: 14 oz, one button | product:Nextmug |
-| 5 | 7s | OHOM Ui for the desk worker. No battery, no app, and the Artist mug is dishwasher safe. | OHOM Ui: dishwasher safe | product:OHOM Ui mug on its pad |
-| 6 | 6s | The catch: it only warms on its pad. Walk to a meeting and it is just a mug. | Only warm on its pad | b-roll:someone carrying a mug away from a desk as it stops steaming |
-| 7 | 5s | Full side-by-side table at the link. | Full comparison at 4gift.store | text |
+| # | Time | Narration | On screen | Visual | Beat |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 11s | Picture this: three heated mugs in your cart, and one person to give to. You have read the reviews twice. Still three mugs. | Three mugs, one gift | b-roll:three mugs side by side, steam rising | opening |
+| 2 | 5s | Pick by where they drink, not by the brand. | Pick by where they drink | text | opening |
+| 3 | 7s | Ember Mug 2 for the exact-temperature person. Set 120 to 145 degrees in its app. | Ember: 120 to 145°F | product:Ember Mug 2 | middle |
+| 4 | 9s | It holds heat up to an hour and a half off its coaster. The longest of the three. | Up to 1.5 hours off base | product:Ember Mug 2 lifted off its coaster | middle |
+| 5 | 6s | Nextmug for the app-hater. Fourteen ounces, one button, three heat settings. | Nextmug: 14 oz, one button | product:Nextmug | middle |
+| 6 | 8s | OHOM Ui for the desk worker. No battery, no app, and the Artist mug is dishwasher safe. | OHOM Ui: dishwasher safe | product:OHOM Ui mug on its pad | middle |
+| 7 | 9s | The catch: it only warms on its pad. Walk to a meeting and it is just a mug. | Only warm on its pad | b-roll:someone carrying a mug away from a desk as it stops steaming | middle |
+| 8 | 9s | Two mugs go back in the cart. One goes in the box. Full side-by-side table at the link. | Full comparison at 4gift.store | text | end |
 
-**Cuts:**
-
-1. Ember Mug 2 in 20 seconds (scenes 1, 2, 3)
-2. Nextmug or OHOM Ui (scenes 4, 5, 6)
+**Cuts:** none (the story runs whole on Shorts, Reels and TikTok).
 
 **Description:** Ember Mug 2 vs Nextmug vs OHOM Ui: app or button, how long each stays hot off its base, cleaning, and which suits an office desk. The full comparison: [LINK]. We earn a commission from some links.
 

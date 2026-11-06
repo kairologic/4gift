@@ -41,76 +41,74 @@
       "title": "Gifts for teens they will actually use",
       "kit": {
         "title": "Gifts for teens they will actually use",
-        "hook": "Buying for a teen? Look at their bag, not their face.",
+        "hook": "Picture this: you ask your nephew what he wants. He says \"I don't know.\"",
         "scenes": [
           {
             "n": 1,
-            "seconds": 5,
-            "narration": "Buying for a teen? Their face says nothing. Look at their bag instead.",
-            "onScreen": "Look at the bag",
-            "visual": "b-roll:a teen's open backpack on a bed"
+            "seconds": 11,
+            "narration": "Picture this: you ask your teen nephew what he wants. \"I don't know.\" You ask what he likes. \"Stuff.\" Thank you, very helpful.",
+            "onScreen": "\"I don't know.\" \"Stuff.\"",
+            "visual": "b-roll:a teen shrugging over a phone",
+            "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 7,
-            "narration": "Always on the move? Owala says the FreeSip seals with a leak-proof lid and stays cold for 24 hours.",
-            "onScreen": "Leak-proof, cold 24 hours",
-            "visual": "product:Owala FreeSip bottle"
+            "seconds": 5,
+            "narration": "Their face says nothing. Look at their bag instead.",
+            "onScreen": "Look at the bag",
+            "visual": "b-roll:a teen's open backpack on a bed",
+            "beat": "opening"
           },
           {
             "n": 3,
-            "seconds": 7,
-            "narration": "Always with friends? The Instax Mini 12 sets its own exposure, and prints develop in about 90 seconds.",
-            "onScreen": "Prints in about 90 seconds",
-            "visual": "product:Fujifilm Instax Mini 12"
+            "seconds": 9,
+            "narration": "Always on the move? Owala says the FreeSip seals with a leak-proof lid and stays cold for 24 hours.",
+            "onScreen": "Leak-proof, cold 24 hours",
+            "visual": "product:Owala FreeSip bottle",
+            "beat": "middle"
           },
           {
             "n": 4,
-            "seconds": 5,
-            "narration": "Add film packs. A camera with no film is a sad first hour.",
-            "onScreen": "Add film packs",
-            "visual": "product:Instax Mini film packs"
+            "seconds": 9,
+            "narration": "Always with friends? The Instax Mini 12 sets its own exposure, and prints develop in about 90 seconds.",
+            "onScreen": "Prints in about 90 seconds",
+            "visual": "product:Fujifilm Instax Mini 12",
+            "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 7,
-            "narration": "A reader who borrows from the library? The Kobo Clara BW has Libby built in.",
-            "onScreen": "Kobo: Libby built in",
-            "visual": "product:Kobo Clara BW e-reader"
+            "narration": "Add film packs. A camera with no film is a sad first hour.",
+            "onScreen": "Add film packs",
+            "visual": "product:Instax Mini film packs",
+            "beat": "middle"
           },
           {
             "n": 6,
-            "seconds": 6,
-            "narration": "Skip clothes in a guessed size, and anything that tries too hard to be cool.",
-            "onScreen": "Skip \"trying to be cool\"",
-            "visual": "b-roll:a gift sweater slowly folded back into its box"
+            "seconds": 7,
+            "narration": "A reader who borrows from the library? The Kobo Clara BW has Libby built in.",
+            "onScreen": "Kobo: Libby built in",
+            "visual": "product:Kobo Clara BW e-reader",
+            "beat": "middle"
           },
           {
             "n": 7,
-            "seconds": 4,
-            "narration": "The full list is at the link.",
-            "onScreen": "Full list at 4gift.store",
-            "visual": "text"
-          }
-        ],
-        "cuts": [
-          {
-            "title": "The bottle and the camera",
-            "scenes": [
-              1,
-              2,
-              3
-            ]
+            "seconds": 7,
+            "narration": "Skip clothes in a guessed size, and anything that tries too hard to be cool.",
+            "onScreen": "Skip \"trying to be cool\"",
+            "visual": "b-roll:a gift sweater slowly folded back into its box",
+            "beat": "middle"
           },
           {
-            "title": "Film, books and what to skip",
-            "scenes": [
-              4,
-              5,
-              6
-            ]
+            "n": 8,
+            "seconds": 13,
+            "narration": "A week later, there is a print of his friends stuck to the fridge. He says it's \"fine.\" That means he loves it. The full list is at the link.",
+            "onScreen": "Full list at 4gift.store",
+            "visual": "text",
+            "beat": "end"
           }
         ],
+        "cuts": [],
         "description": "Gifts for teens they will actually use: a bottle that seals, an instant camera, an e-reader, and what to skip. Full guide: [LINK]. We earn a commission from some links.",
         "tags": [
           "gifts for teens",

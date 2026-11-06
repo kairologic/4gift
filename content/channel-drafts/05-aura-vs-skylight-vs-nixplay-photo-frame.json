@@ -33,76 +33,66 @@
       "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
       "kit": {
         "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
-        "hook": "Grandma will not load the photo frame. The family will.",
+        "hook": "Picture this: Grandma's new photo frame stays black for a month.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 5,
-            "narration": "Grandma will not load the photo frame. The family will. So pick by who sends.",
-            "onScreen": "Pick by who sends photos",
-            "visual": "b-roll:a grandparent smiling at a frame as a new photo appears"
+            "seconds": 10,
+            "narration": "Picture this: you give Grandma a photo frame. A month later it is still a black screen, and she dusts it.",
+            "onScreen": "Still a black screen",
+            "visual": "b-roll:a grandparent politely nodding at a blank frame",
+            "beat": "opening"
           },
           {
             "n": 2,
             "seconds": 7,
-            "narration": "Phone-first family? Aura. Photos go in from its app, with no subscription and unlimited photos.",
-            "onScreen": "Aura: no subscription",
-            "visual": "product:Aura digital photo frame"
+            "narration": "Grandma will not load the photo frame. The family will. So pick by who sends.",
+            "onScreen": "Pick by who sends photos",
+            "visual": "text",
+            "beat": "opening"
           },
           {
             "n": 3,
             "seconds": 7,
-            "narration": "Cousins who never install apps? Skylight. They email photos to the frame's own address.",
-            "onScreen": "Skylight: photos by email",
-            "visual": "product:Skylight Frame 2"
+            "narration": "Phone-first family? Aura. Photos go in from its app, with no subscription and unlimited photos.",
+            "onScreen": "Aura: no subscription",
+            "visual": "product:Aura digital photo frame",
+            "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 7,
-            "narration": "Two grandmas, two frames? Nixplay's free plan links up to 5 frames.",
-            "onScreen": "Nixplay: up to 5 frames",
-            "visual": "product:Nixplay digital photo frame"
+            "narration": "Cousins who never install apps? Skylight. They email photos to the frame's own address.",
+            "onScreen": "Skylight: photos by email",
+            "visual": "product:Skylight Frame 2",
+            "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 6,
-            "narration": "Before you wrap it, load 20 or 30 photos, so it is not an empty screen on day one.",
-            "onScreen": "Load 20 photos first",
-            "visual": "product:a photo frame filled with family photos"
+            "narration": "Two grandmas, two frames? Nixplay's free plan links up to 5 frames.",
+            "onScreen": "Nixplay: up to 5 frames",
+            "visual": "product:Nixplay digital photo frame",
+            "beat": "middle"
           },
           {
             "n": 6,
-            "seconds": 6,
-            "narration": "Otherwise it is a very expensive black rectangle. Grandma will be polite about it.",
-            "onScreen": "Not a black rectangle",
-            "visual": "b-roll:a grandparent politely nodding at a blank frame"
+            "seconds": 9,
+            "narration": "Before you wrap it, load 20 or 30 photos, so it is not an empty screen on day one.",
+            "onScreen": "Load 20 photos first",
+            "visual": "product:a photo frame filled with family photos",
+            "beat": "middle"
           },
           {
             "n": 7,
-            "seconds": 4,
-            "narration": "The full comparison is at the link.",
+            "seconds": 10,
+            "narration": "This time a new photo arrives while she is still unwrapping. She stops dusting it. The full comparison is at the link.",
             "onScreen": "Full comparison at 4gift.store",
-            "visual": "text"
+            "visual": "b-roll:a grandparent smiling at a frame as a new photo appears",
+            "beat": "end"
           }
         ],
-        "cuts": [
-          {
-            "title": "Aura or Skylight?",
-            "scenes": [
-              1,
-              2,
-              3
-            ]
-          },
-          {
-            "title": "The two-grandma frame, and the setup rule",
-            "scenes": [
-              4,
-              5,
-              6
-            ]
-          }
-        ],
+        "cuts": [],
         "description": "Aura vs Skylight vs Nixplay: how photos reach each frame, what is free, and which suits a grandparent who avoids apps. Full comparison: [LINK]. We earn a commission from some links.",
         "tags": [
           "digital photo frame",

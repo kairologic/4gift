@@ -49,84 +49,82 @@
       "title": "Christmas gifts for mom she will actually use",
       "kit": {
         "title": "Christmas gifts for mom she will actually use",
-        "hook": "Mom says she wants nothing. Here is what she will use.",
+        "hook": "Picture this: December 23rd, and Mom still says she wants nothing.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 5,
-            "narration": "Mom says she wants nothing for Christmas. Here is what she will actually use.",
-            "onScreen": "What mom actually uses",
-            "visual": "b-roll:a wrapped gift on a kitchen table next to a cold cup of tea"
+            "seconds": 8,
+            "narration": "Picture this: it is December 23rd. You ask Mom what she wants, again. \"Nothing, sweetheart.\" Again.",
+            "onScreen": "December 23rd. \"Nothing.\"",
+            "visual": "b-roll:a calendar page on December 23 next to a phone mid-call",
+            "beat": "opening"
           },
           {
             "n": 2,
             "seconds": 7,
-            "narration": "Misses the grandkids? A Wi-Fi photo frame the whole family can send photos to.",
-            "onScreen": "Misses the grandkids? Photo frame",
-            "visual": "product:Skylight digital photo frame"
+            "narration": "Nothing means nothing she can name. So look at what she does all day.",
+            "onScreen": "Watch what she does",
+            "visual": "b-roll:a wrapped gift on a kitchen table next to a cold cup of tea",
+            "beat": "opening"
           },
           {
             "n": 3,
-            "seconds": 7,
-            "narration": "Skylight takes photos by email, so nobody needs an app. Load twenty before Christmas morning.",
+            "seconds": 11,
+            "narration": "Misses the grandkids? A Wi-Fi photo frame the whole family can send photos to. Skylight takes photos by email, so nobody needs an app.",
             "onScreen": "Photos by email, no app",
-            "visual": "product:Skylight frame with a new photo arriving"
+            "visual": "product:Skylight digital photo frame",
+            "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 7,
             "narration": "Always cold on the couch? A weighted blanket, about ten percent of her body weight.",
             "onScreen": "About 10% of her weight",
-            "visual": "product:Gravity weighted blanket on a couch"
+            "visual": "product:Gravity weighted blanket on a couch",
+            "beat": "middle"
           },
           {
             "n": 5,
-            "seconds": 7,
+            "seconds": 10,
             "narration": "Tea always goes cold? The Ember Mug 2 holds her temperature up to an hour and a half off its coaster.",
             "onScreen": "Warm up to 1.5 hours",
-            "visual": "product:Ember Mug 2"
+            "visual": "product:Ember Mug 2",
+            "beat": "middle"
           },
           {
             "n": 6,
-            "seconds": 6,
+            "seconds": 8,
             "narration": "Reads in bed? An e-reader. The Kobo Clara BW is the lighter one, at 174 grams.",
             "onScreen": "Kobo Clara BW: 174 g",
-            "visual": "product:Kobo Clara BW e-reader"
+            "visual": "product:Kobo Clara BW e-reader",
+            "beat": "middle"
           },
           {
             "n": 7,
-            "seconds": 6,
+            "seconds": 7,
             "narration": "And skip the vacuum. A chore with a bow on it is still a chore.",
             "onScreen": "Skip the vacuum",
-            "visual": "b-roll:a vacuum with a big red bow, slowly wheeled back out of frame"
+            "visual": "b-roll:a vacuum with a big red bow, slowly wheeled back out of frame",
+            "beat": "middle"
           },
           {
             "n": 8,
-            "seconds": 5,
-            "narration": "The full list, and what to skip, is at the link.",
-            "onScreen": "Full list at 4gift.store",
-            "visual": "text"
-          }
-        ],
-        "cuts": [
-          {
-            "title": "Photo frame or blanket for mom",
-            "scenes": [
-              1,
-              2,
-              3,
-              4
-            ]
+            "seconds": 9,
+            "narration": "Christmas morning: twenty grandkid photos are already on the frame. She says you shouldn't have. She means it kindly.",
+            "onScreen": "Load twenty photos first",
+            "visual": "product:Skylight frame with a new photo arriving",
+            "beat": "end"
           },
           {
-            "title": "The mug, the e-reader and the vacuum rule",
-            "scenes": [
-              5,
-              6,
-              7
-            ]
+            "n": 9,
+            "seconds": 6,
+            "narration": "The full list, and what to skip, is at the link.",
+            "onScreen": "Full list at 4gift.store",
+            "visual": "text",
+            "beat": "end"
           }
         ],
+        "cuts": [],
         "description": "Christmas gifts for mom, matched to how she spends her quiet time: a photo frame, a weighted blanket, a heated mug or an e-reader. The full guide: [LINK]. We earn a commission from some links.",
         "tags": [
           "christmas gifts for mom",

@@ -4,25 +4,22 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-coworkers/ (mer
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Coworker gifts, sorted by how well you know them
 
-**Hook (the team):** Office gift swap tomorrow, and you barely know Steve.
+**Hook (the team):** Picture this: office gift swap tomorrow, and you drew Steve. Who is Steve?
 
-**Runs:** 49 seconds, 8 scenes, vertical.
+**Runs:** 65 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
-| # | Time | Narration | On screen | Visual |
-| --- | --- | --- | --- | --- |
-| 1 | 5s | Office gift swap tomorrow, and you barely know Steve. Here is the plan. | You barely know Steve | b-roll:an office gift-swap sign-up sheet with one name circled |
-| 2 | 7s | Barely know them? Something they use up: a tea sampler, a candle or a snack box. | Barely know them? Use it up | product:loose-leaf tea sampler |
-| 3 | 8s | Sit near them? A heated mug. HGTV named the OHOM Ui Plus its best for the office. | Best for the office: OHOM Ui | product:OHOM Ui Plus mug on its pad |
-| 4 | 7s | It warms to 130 degrees on its pad, with no battery and no app to pair. | No battery, no app | product:OHOM Ui mug on a desk |
-| 5 | 7s | The gym-goer? Owala says the FreeSip keeps drinks cold for 24 hours, with a leak-proof lid. | Cold for 24 hours | product:Owala FreeSip bottle |
-| 6 | 6s | Whole team? One identical gift per desk, so nobody compares. | Same gift for every desk | product:a row of small desk plants |
-| 7 | 5s | And skip the joke gift. Half the office will not laugh. | Skip the joke gift | b-roll:a gag gift slowly slid back into a drawer |
-| 8 | 4s | The full list is at the link. | Full list at 4gift.store | text |
+| # | Time | Narration | On screen | Visual | Beat |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 11s | Picture this: the office gift swap is tomorrow, and you drew Steve. You have said four words to Steve. Two were "good morning." | You drew Steve | b-roll:an office gift-swap sign-up sheet with one name circled | opening |
+| 2 | 8s | Barely know them? Something they use up: a tea sampler, a candle or a snack box. | Barely know them? Use it up | product:loose-leaf tea sampler | middle |
+| 3 | 8s | Sit near them? A heated mug. HGTV named the OHOM Ui Plus its best for the office. | Best for the office: OHOM Ui | product:OHOM Ui Plus mug on its pad | middle |
+| 4 | 8s | It warms to 130 degrees on its pad, with no battery and no app to pair. | No battery, no app | product:OHOM Ui mug on a desk | middle |
+| 5 | 8s | The gym-goer? Owala says the FreeSip keeps drinks cold for 24 hours, with a leak-proof lid. | Cold for 24 hours | product:Owala FreeSip bottle | middle |
+| 6 | 5s | Whole team? One identical gift per desk, so nobody compares. | Same gift for every desk | product:a row of small desk plants | middle |
+| 7 | 6s | And skip the joke gift. Half the office will not laugh. | Skip the joke gift | b-roll:a gag gift slowly slid back into a drawer | middle |
+| 8 | 11s | Next morning, Steve's tea is on his desk, and you have said five words to Steve. Progress. The full list is at the link. | Full list at 4gift.store | text | end |
 
-**Cuts:**
-
-1. The coworker you barely know (scenes 1, 2, 7)
-2. The heated mug for the office (scenes 3, 4, 6)
+**Cuts:** none (the story runs whole on Shorts, Reels and TikTok).
 
 **Description:** Coworker gifts sorted by how well you know them: something they use up, a heated mug for the desk, a bottle for the gym-goer, and one gift for the whole team. The full guide: [LINK]. We earn a commission from some links.
 

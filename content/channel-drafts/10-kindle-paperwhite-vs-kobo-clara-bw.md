@@ -4,24 +4,22 @@ Cut from the live page https://4gift.store/guides/kindle-paperwhite-vs-kobo-clar
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Kindle Paperwhite vs Kobo Clara BW: which e-reader to give
 
-**Hook (the team):** Kindle or Kobo? Ask where their books come from.
+**Hook (the team):** Picture this: Kindle or Kobo, two tabs open, and the birthday is Saturday.
 
-**Runs:** 41 seconds, 7 scenes, vertical.
+**Runs:** 63 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
-| # | Time | Narration | On screen | Visual |
-| --- | --- | --- | --- | --- |
-| 1 | 5s | Kindle or Kobo? One question decides it. Where do their books come from? | Where do their books come from? | b-roll:a stack of library books next to a phone |
-| 2 | 7s | Years of Kindle purchases, or Audible? The Paperwhite. Bigger 7 inch screen, and Amazon claims up to 12 weeks a charge. | Paperwhite: up to 12 weeks | product:Kindle Paperwhite |
-| 3 | 7s | Library borrower? The Kobo Clara BW has Libby built in, and no ads by default. | Kobo: Libby built in | product:Kobo Clara BW |
-| 4 | 6s | Reads lying down? The Kobo is lighter, 174 grams to the Kindle's 214. | 174 g vs 214 g | product:Kobo Clara BW held above a pillow |
-| 5 | 6s | Both are rated IPX8, good for 2 meters of water for an hour. Bath reading approved. | Both IPX8 | product:Kindle Paperwhite beside a bathtub |
-| 6 | 6s | Add a book gift card. An e-reader with nothing on it is a very nice coaster. | Add a book gift card | b-roll:an e-reader holding up a coffee cup |
-| 7 | 4s | The full comparison is at the link. | Full comparison at 4gift.store | text |
+| # | Time | Narration | On screen | Visual | Beat |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 9s | Picture this: the birthday is Saturday. You have a Kindle tab open, a Kobo tab open, and no idea. | Two tabs, no idea | b-roll:a laptop with two shopping tabs open | opening |
+| 2 | 5s | One question decides it. Where do their books come from? | Where do their books come from? | b-roll:a stack of library books next to a phone | opening |
+| 3 | 10s | Years of Kindle purchases, or Audible? The Paperwhite. Bigger 7 inch screen, and Amazon claims up to 12 weeks a charge. | Paperwhite: up to 12 weeks | product:Kindle Paperwhite | middle |
+| 4 | 7s | Library borrower? The Kobo Clara BW has Libby built in, and no ads by default. | Kobo: Libby built in | product:Kobo Clara BW | middle |
+| 5 | 7s | Reads lying down? The Kobo is lighter, 174 grams to the Kindle's 214. | 174 g vs 214 g | product:Kobo Clara BW held above a pillow | middle |
+| 6 | 8s | Both are rated IPX8, good for 2 meters of water for an hour. Bath reading approved. | Both IPX8 | product:Kindle Paperwhite beside a bathtub | middle |
+| 7 | 8s | Add a book gift card. An e-reader with nothing on it is a very nice coaster. | Add a book gift card | b-roll:an e-reader holding up a coffee cup | middle |
+| 8 | 9s | One tab closes. Saturday, they are three chapters in by dinner. The full comparison is at the link. | Full comparison at 4gift.store | text | end |
 
-**Cuts:**
-
-1. Kindle or Kobo in 20 seconds (scenes 1, 2, 3)
-2. Weight, water and the coaster rule (scenes 4, 5, 6)
+**Cuts:** none (the story runs whole on Shorts, Reels and TikTok).
 
 **Description:** Kindle Paperwhite vs Kobo Clara BW for gifting: where their books come from, screen and weight, ads, battery and library borrowing. Full comparison: [LINK]. We earn a commission from some links.
 

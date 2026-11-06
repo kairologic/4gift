@@ -4,24 +4,21 @@ Cut from the live page https://4gift.store/guides/aura-vs-skylight-vs-nixplay-ph
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Aura vs Skylight vs Nixplay: which photo frame to give
 
-**Hook (the team):** Grandma will not load the photo frame. The family will.
+**Hook (the team):** Picture this: Grandma's new photo frame stays black for a month.
 
-**Runs:** 42 seconds, 7 scenes, vertical.
+**Runs:** 56 seconds, 7 scenes, vertical. A short story: opening, middle, end.
 
-| # | Time | Narration | On screen | Visual |
-| --- | --- | --- | --- | --- |
-| 1 | 5s | Grandma will not load the photo frame. The family will. So pick by who sends. | Pick by who sends photos | b-roll:a grandparent smiling at a frame as a new photo appears |
-| 2 | 7s | Phone-first family? Aura. Photos go in from its app, with no subscription and unlimited photos. | Aura: no subscription | product:Aura digital photo frame |
-| 3 | 7s | Cousins who never install apps? Skylight. They email photos to the frame's own address. | Skylight: photos by email | product:Skylight Frame 2 |
-| 4 | 7s | Two grandmas, two frames? Nixplay's free plan links up to 5 frames. | Nixplay: up to 5 frames | product:Nixplay digital photo frame |
-| 5 | 6s | Before you wrap it, load 20 or 30 photos, so it is not an empty screen on day one. | Load 20 photos first | product:a photo frame filled with family photos |
-| 6 | 6s | Otherwise it is a very expensive black rectangle. Grandma will be polite about it. | Not a black rectangle | b-roll:a grandparent politely nodding at a blank frame |
-| 7 | 4s | The full comparison is at the link. | Full comparison at 4gift.store | text |
+| # | Time | Narration | On screen | Visual | Beat |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 10s | Picture this: you give Grandma a photo frame. A month later it is still a black screen, and she dusts it. | Still a black screen | b-roll:a grandparent politely nodding at a blank frame | opening |
+| 2 | 7s | Grandma will not load the photo frame. The family will. So pick by who sends. | Pick by who sends photos | text | opening |
+| 3 | 7s | Phone-first family? Aura. Photos go in from its app, with no subscription and unlimited photos. | Aura: no subscription | product:Aura digital photo frame | middle |
+| 4 | 7s | Cousins who never install apps? Skylight. They email photos to the frame's own address. | Skylight: photos by email | product:Skylight Frame 2 | middle |
+| 5 | 6s | Two grandmas, two frames? Nixplay's free plan links up to 5 frames. | Nixplay: up to 5 frames | product:Nixplay digital photo frame | middle |
+| 6 | 9s | Before you wrap it, load 20 or 30 photos, so it is not an empty screen on day one. | Load 20 photos first | product:a photo frame filled with family photos | middle |
+| 7 | 10s | This time a new photo arrives while she is still unwrapping. She stops dusting it. The full comparison is at the link. | Full comparison at 4gift.store | b-roll:a grandparent smiling at a frame as a new photo appears | end |
 
-**Cuts:**
-
-1. Aura or Skylight? (scenes 1, 2, 3)
-2. The two-grandma frame, and the setup rule (scenes 4, 5, 6)
+**Cuts:** none (the story runs whole on Shorts, Reels and TikTok).
 
 **Description:** Aura vs Skylight vs Nixplay: how photos reach each frame, what is free, and which suits a grandparent who avoids apps. Full comparison: [LINK]. We earn a commission from some links.
 
