@@ -79,6 +79,54 @@
       "brand": "Barefoot Dreams",
       "note": "A well-known luxury robe that suits the cozy, gifts-for-her and Mother's Day lists.",
       "addedOn": "2026-11-03"
+    },
+    {
+      "gift": "noise-cancelling-headphones",
+      "asin": "B0B5F363Z3",
+      "name": "Sony WH-1000XM5 Wireless Noise-Canceling Headphones",
+      "brand": "Sony",
+      "note": "This is a premium gift for Christmas, Father's Day and the tech-lover list, with a high ticket price per sale.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "instant-camera",
+      "asin": "B0BWNZLQ69",
+      "name": "Fujifilm Instax Mini 12 Instant Camera",
+      "brand": "Fujifilm",
+      "note": "This is the best-known instant camera for gifts, and its pastel colours photograph well. Film refills bring repeat purchases.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "air-fryer",
+      "asin": "B07JGF236Q",
+      "name": "Ninja AF101 4-Qt Air Fryer",
+      "brand": "Ninja",
+      "note": "This is a very popular, widely reviewed air fryer for housewarming, wedding and Christmas lists.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "cast-iron-skillet",
+      "asin": "B00006JSUA",
+      "name": "Lodge 10.25-Inch Pre-Seasoned Cast Iron Skillet",
+      "brand": "Lodge",
+      "note": "This is the standard cast iron gift for home cooks, at a low price that suits housewarming, wedding and Father's Day lists.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "building-set",
+      "asin": "B08HVXZW8X",
+      "name": "LEGO Botanical Collection Bonsai Tree (10281)",
+      "brand": "LEGO",
+      "note": "This adult LEGO set suits Mother's Day, birthday and plant-lover lists, and it looks good on a pin.",
+      "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "power-bank",
+      "asin": "B0DGKWTQQC",
+      "name": "Anker Nano Power Bank 10K 45W with Built-In USB-C Cable",
+      "brand": "Anker",
+      "note": "This is a compact, useful gift for travellers and stocking stuffers that photographs cleanly.",
+      "addedOn": "2026-11-06"
     }
   ]
 }
