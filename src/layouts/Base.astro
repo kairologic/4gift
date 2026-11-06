@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import CloudflareAnalytics from '../components/CloudflareAnalytics.astro';
 import { groups, listUrl, menuLabel } from '../data/taxonomy';
 import { SITE } from '../site';
 import { sharePath, SHARE_H, SHARE_W } from '../lib/share';
@@ -115,5 +116,6 @@ const pinterestVerify = import.meta.env.PUBLIC_PINTEREST_VERIFY ?? '';
         document.getElementById('main-nav')?.classList.toggle('open', open);
       });
     </script>
+    <CloudflareAnalytics />
   </body>
 </html>
