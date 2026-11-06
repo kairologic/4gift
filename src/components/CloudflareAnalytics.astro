@@ -3,7 +3,7 @@
 // countries and devices, which the daily store review uses for traffic.
 // The token comes from Cloudflare (Analytics & Logs -> Web Analytics -> this site -> JS snippet). It is not a
 // secret: it appears in every page's source. Empty means off. PUBLIC_CF_BEACON_TOKEN overrides it at build time.
-const TOKEN = '';
+const TOKEN = '2c9516a8405a4e62ba0fd82a59e06686';
 const token = import.meta.env.PUBLIC_CF_BEACON_TOKEN || TOKEN;
 const on = Boolean(token) && import.meta.env.PROD;
 ---
