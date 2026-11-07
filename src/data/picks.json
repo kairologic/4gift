@@ -215,6 +215,62 @@
       "brand": "Anker",
       "note": "This is a compact, useful gift for travellers and stocking stuffers that photographs cleanly.",
       "addedOn": "2026-11-06"
+    },
+    {
+      "gift": "insulated-water-bottle",
+      "asin": "B085DTZQNZ",
+      "name": "Owala FreeSip Insulated Stainless Steel Water Bottle 24 oz",
+      "brand": "Owala",
+      "note": "It is a top-ranked Amazon water bottle and an easy, colorful gift for teens, friends and coworkers, so it suits recipient and birthday lists.",
+      "addedOn": "2026-11-07"
+    },
+    {
+      "gift": "chefs-knife",
+      "asin": "B0922MFRM7",
+      "name": "Victorinox Fibrox Pro 8-Inch Chef's Knife",
+      "brand": "Victorinox",
+      "note": "It is a low-risk, well-reviewed kitchen gift for housewarming, wedding and Father's Day or Mother's Day lists.",
+      "addedOn": "2026-11-07"
+    },
+    {
+      "gift": "smart-speaker",
+      "asin": "B09B8V1LZ3",
+      "name": "Echo Dot (5th Gen, 2022 release) Smart Speaker with Alexa",
+      "brand": "Amazon",
+      "note": "It is a best-selling, affordable tech gift that fits Christmas and housewarming lists and the under-$50 budget list.",
+      "addedOn": "2026-11-07"
+    },
+    {
+      "gift": "cookbook",
+      "asin": "1476753830",
+      "name": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking (Hardcover)",
+      "brand": "Samin Nosrat / Simon & Schuster",
+      "note": "It is a long-time best-selling cookbook that fits Mother's Day, wedding and housewarming lists, and its price is easy to gift.",
+      "addedOn": "2026-11-07"
+    },
+    {
+      "gift": "slim-wallet",
+      "asin": "B0CZY6ZH2L",
+      "name": "The Ridge Wallet (Slim Minimalist, RFID)",
+      "brand": "Ridge",
+      "note": "It is a popular men's gift that fits Father's Day, birthday and groomsmen lists.",
+      "addedOn": "2026-11-07"
+    },
+    {
+      "gift": "led-light-strip",
+      "asin": "B0991Q94KP",
+      "name": "Govee RGBIC LED Strip Lights 16.4ft (Bluetooth, App Control)",
+      "brand": "Govee",
+      "note": "It is a cheap, popular gift for teens and gamers, and it fits under-$25 budget lists and the gaming and dorm recipient lists.",
+      "addedOn": "2026-11-07"
+    },
+    {
+      "gift": "mug-warmer",
+      "asin": "B07G9J4745",
+      "name": "COSORI Coffee Mug Warmer & Mug Set",
+      "brand": "COSORI",
+      "note": "It is a practical desk gift for coffee drinkers and coworkers, so it suits Secret Santa and under-$50 lists.",
+      "addedOn": "2026-11-07"
     }
   ]
 }
