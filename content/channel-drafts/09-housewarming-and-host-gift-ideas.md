@@ -4,14 +4,14 @@ Cut from the live page https://4gift.store/guides/housewarming-and-host-gift-ide
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Housewarming and host gifts that fit in a new home
 
-**Hook (the team):** Picture this: they just unpacked forty boxes. Do not bring box forty-one.
+**Hook (the team):** They unpacked forty boxes. Don't bring forty-one.
 
-**Runs:** 60 seconds, 7 scenes, vertical. A short story: opening, middle, end.
+**Runs:** 56 seconds, 7 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 9s | Picture this: your friends just unpacked forty boxes. You are on their doorstep with a large, mysterious box forty-one. | Not box 41 | b-roll:a hallway stacked with moving boxes | opening |
-| 2 | 9s | For the host tonight: a soy candle or a snack box. Easy to hand over at the door. | Hand it over at the door | product:scented soy candle and a snack box | middle |
+| 1 | 4s | They unpacked forty boxes. Don't bring forty-one. | Not box 41 | b-roll:a hallway stacked with moving boxes | opening |
+| 2 | 10s | For the host tonight: a soy candle or a snack box, easy to hand over at the door. Stay for the plant rule if they have a cat. | Hand it over at the door | product:scented soy candle and a snack box | middle |
 | 3 | 8s | For the new kitchen: an engraved cutting board or an indoor herb garden kit for the sill. | For the new kitchen | product:engraved cutting board | middle |
 | 4 | 9s | Pets in the house? The ASPCA lists the spider plant and the parlor palm as safe for dogs and cats. | Pet-safe: spider plant | product:spider plant in a pot | middle |
 | 5 | 7s | Skip pothos and snake plants, and never bring lilies to a home with a cat. | No lilies with cats | text | middle |

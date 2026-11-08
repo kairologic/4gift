@@ -4,14 +4,14 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-new-parents/ (m
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Gifts for new parents that look after the parents
 
-**Hook (the team):** Picture this: the baby has a whole registry. The parents have cold coffee.
+**Hook (the team):** The baby has a registry. The parents?
 
-**Runs:** 63 seconds, 8 scenes, vertical. A short story: opening, middle, end.
+**Runs:** 60 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 10s | Picture this: you visit the new parents. The baby has a whole registry. The parents have cold coffee and one sock each. | Gift the parents | b-roll:a full mug left on a counter beside baby bottles | opening |
-| 2 | 11s | A heated mug. Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half. | Ember: up to 1.5 hours | product:Ember Mug 2 | middle |
+| 1 | 5s | The baby has a registry. The parents? Cold coffee. | Gift the parents | b-roll:a full mug left on a counter beside baby bottles | opening |
+| 2 | 13s | So gift the parents, and stay for the gift that always gets used. First, a heated mug: Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half. | Ember: up to 1.5 hours | product:Ember Mug 2 | middle |
 | 3 | 6s | No-app parents? The Nextmug runs on one button with three presets. | Nextmug: one button | product:Nextmug | middle |
 | 4 | 7s | For the grandparents, a Wi-Fi photo frame. New baby photos arrive without a single text. | Photos without the texts | product:Skylight digital photo frame | middle |
 | 5 | 6s | For 3 a.m. feeds, a book light. Small, quiet, and very appreciated. | For the 3 a.m. feed | product:rechargeable book light | middle |

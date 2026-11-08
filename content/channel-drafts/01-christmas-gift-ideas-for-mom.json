@@ -49,20 +49,20 @@
       "title": "Christmas gifts for mom she will actually use",
       "kit": {
         "title": "Christmas gifts for mom she will actually use",
-        "hook": "Picture this: December 23rd, and Mom still says she wants nothing.",
+        "hook": "December 23rd. Mom still wants \"nothing.\"",
         "scenes": [
           {
             "n": 1,
-            "seconds": 8,
-            "narration": "Picture this: it is December 23rd. You ask Mom what she wants, again. \"Nothing, sweetheart.\" Again.",
+            "seconds": 4,
+            "narration": "December 23rd. Mom still wants \"nothing.\"",
             "onScreen": "December 23rd. \"Nothing.\"",
             "visual": "b-roll:a calendar page on December 23 next to a phone mid-call",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 7,
-            "narration": "Nothing means nothing she can name. So look at what she does all day.",
+            "seconds": 8,
+            "narration": "Nothing means nothing she can name. So watch what she does all day, and stay for the twenty-photo trick.",
             "onScreen": "Watch what she does",
             "visual": "b-roll:a wrapped gift on a kitchen table next to a cold cup of tea",
             "beat": "opening"
@@ -118,7 +118,7 @@
           {
             "n": 9,
             "seconds": 6,
-            "narration": "The full list, and what to skip, is at the link.",
+            "narration": "No fruitcake on it, promise. The full list, and what to skip, is at the link.",
             "onScreen": "Full list at 4gift.store",
             "visual": "text",
             "beat": "end"

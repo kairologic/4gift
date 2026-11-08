@@ -41,20 +41,20 @@
       "title": "Gifts for teens they will actually use",
       "kit": {
         "title": "Gifts for teens they will actually use",
-        "hook": "Picture this: you ask your nephew what he wants. He says \"I don't know.\"",
+        "hook": "\"I don't know.\" \"Stuff.\" Very helpful.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 11,
-            "narration": "Picture this: you ask your teen nephew what he wants. \"I don't know.\" You ask what he likes. \"Stuff.\" Thank you, very helpful.",
+            "seconds": 4,
+            "narration": "\"I don't know.\" \"Stuff.\" Very helpful. That's your nephew.",
             "onScreen": "\"I don't know.\" \"Stuff.\"",
             "visual": "b-roll:a teen shrugging over a phone",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 5,
-            "narration": "Their face says nothing. Look at their bag instead.",
+            "seconds": 7,
+            "narration": "Their face says nothing. Look at their bag instead, and stay for the word that means he loves it.",
             "onScreen": "Look at the bag",
             "visual": "b-roll:a teen's open backpack on a bed",
             "beat": "opening"

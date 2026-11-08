@@ -49,20 +49,20 @@
       "title": "What to give the dad who says he needs nothing",
       "kit": {
         "title": "What to give the dad who says he needs nothing",
-        "hook": "Picture this: you ask Dad what he wants. \"I need nothing.\" Every year.",
+        "hook": "Dad \"needs nothing.\" Every year.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 11,
-            "narration": "Picture this: you ask Dad what he wants. He says \"I need nothing,\" and goes back to the game. Every dad, every year.",
+            "seconds": 4,
+            "narration": "Dad \"needs nothing.\" Every year. Back to the game.",
             "onScreen": "Dad \"needs nothing\"",
             "visual": "b-roll:a dad on the couch shrugging at a gift catalog",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 7,
-            "narration": "Nothing usually means nothing he can think of. So upgrade what he already uses.",
+            "seconds": 8,
+            "narration": "Nothing usually means nothing he can think of. So upgrade what he already uses. Stay for the last-resort gift.",
             "onScreen": "Upgrade what he uses",
             "visual": "b-roll:a coffee cup going into the microwave for the third time",
             "beat": "opening"

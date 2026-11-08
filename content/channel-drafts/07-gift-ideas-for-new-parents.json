@@ -45,20 +45,20 @@
       "title": "Gifts for new parents that look after the parents",
       "kit": {
         "title": "Gifts for new parents that look after the parents",
-        "hook": "Picture this: the baby has a whole registry. The parents have cold coffee.",
+        "hook": "The baby has a registry. The parents?",
         "scenes": [
           {
             "n": 1,
-            "seconds": 10,
-            "narration": "Picture this: you visit the new parents. The baby has a whole registry. The parents have cold coffee and one sock each.",
+            "seconds": 5,
+            "narration": "The baby has a registry. The parents? Cold coffee.",
             "onScreen": "Gift the parents",
             "visual": "b-roll:a full mug left on a counter beside baby bottles",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 11,
-            "narration": "A heated mug. Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half.",
+            "seconds": 13,
+            "narration": "So gift the parents, and stay for the gift that always gets used. First, a heated mug: Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half.",
             "onScreen": "Ember: up to 1.5 hours",
             "visual": "product:Ember Mug 2",
             "beat": "middle"

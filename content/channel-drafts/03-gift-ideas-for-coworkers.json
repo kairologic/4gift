@@ -37,20 +37,20 @@
       "title": "Coworker gifts, sorted by how well you know them",
       "kit": {
         "title": "Coworker gifts, sorted by how well you know them",
-        "hook": "Picture this: office gift swap tomorrow, and you drew Steve. Who is Steve?",
+        "hook": "Office gift swap. You drew Steve.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 11,
-            "narration": "Picture this: the office gift swap is tomorrow, and you drew Steve. You have said four words to Steve. Two were \"good morning.\"",
+            "seconds": 5,
+            "narration": "Office gift swap. You drew Steve. You've said four words to him.",
             "onScreen": "You drew Steve",
             "visual": "b-roll:an office gift-swap sign-up sheet with one name circled",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 8,
-            "narration": "Barely know them? Something they use up: a tea sampler, a candle or a snack box.",
+            "seconds": 9,
+            "narration": "Barely know them? Something they use up: a tea sampler, a candle or a snack box. And stay for Steve's verdict.",
             "onScreen": "Barely know them? Use it up",
             "visual": "product:loose-leaf tea sampler",
             "beat": "middle"

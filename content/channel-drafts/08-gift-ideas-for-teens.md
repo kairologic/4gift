@@ -4,14 +4,14 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-teens/ (merged 
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Gifts for teens they will actually use
 
-**Hook (the team):** Picture this: you ask your nephew what he wants. He says "I don't know."
+**Hook (the team):** "I don't know." "Stuff." Very helpful.
 
-**Runs:** 68 seconds, 8 scenes, vertical. A short story: opening, middle, end.
+**Runs:** 63 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 11s | Picture this: you ask your teen nephew what he wants. "I don't know." You ask what he likes. "Stuff." Thank you, very helpful. | "I don't know." "Stuff." | b-roll:a teen shrugging over a phone | opening |
-| 2 | 5s | Their face says nothing. Look at their bag instead. | Look at the bag | b-roll:a teen's open backpack on a bed | opening |
+| 1 | 4s | "I don't know." "Stuff." Very helpful. That's your nephew. | "I don't know." "Stuff." | b-roll:a teen shrugging over a phone | opening |
+| 2 | 7s | Their face says nothing. Look at their bag instead, and stay for the word that means he loves it. | Look at the bag | b-roll:a teen's open backpack on a bed | opening |
 | 3 | 9s | Always on the move? Owala says the FreeSip seals with a leak-proof lid and stays cold for 24 hours. | Leak-proof, cold 24 hours | product:Owala FreeSip bottle | middle |
 | 4 | 9s | Always with friends? The Instax Mini 12 sets its own exposure, and prints develop in about 90 seconds. | Prints in about 90 seconds | product:Fujifilm Instax Mini 12 | middle |
 | 5 | 7s | Add film packs. A camera with no film is a sad first hour. | Add film packs | product:Instax Mini film packs | middle |

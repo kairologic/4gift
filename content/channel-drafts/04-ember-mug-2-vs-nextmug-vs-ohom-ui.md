@@ -4,14 +4,14 @@ Cut from the live page https://4gift.store/guides/ember-mug-2-vs-nextmug-vs-ohom
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Ember vs Nextmug vs OHOM Ui: which heated mug to give
 
-**Hook (the team):** Picture this: three heated mugs in your cart, and you can only give one.
+**Hook (the team):** Three heated mugs. One gift.
 
-**Runs:** 64 seconds, 8 scenes, vertical. A short story: opening, middle, end.
+**Runs:** 59 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 11s | Picture this: three heated mugs in your cart, and one person to give to. You have read the reviews twice. Still three mugs. | Three mugs, one gift | b-roll:three mugs side by side, steam rising | opening |
-| 2 | 5s | Pick by where they drink, not by the brand. | Pick by where they drink | text | opening |
+| 1 | 4s | Three heated mugs. One gift. Which one? | Three mugs, one gift | b-roll:three mugs side by side, steam rising | opening |
+| 2 | 7s | Pick by where they drink, not by the brand. Stay for the catch on the desk mug. | Pick by where they drink | text | opening |
 | 3 | 7s | Ember Mug 2 for the exact-temperature person. Set 120 to 145 degrees in its app. | Ember: 120 to 145°F | product:Ember Mug 2 | middle |
 | 4 | 9s | It holds heat up to an hour and a half off its coaster. The longest of the three. | Up to 1.5 hours off base | product:Ember Mug 2 lifted off its coaster | middle |
 | 5 | 6s | Nextmug for the app-hater. Fourteen ounces, one button, three heat settings. | Nextmug: 14 oz, one button | product:Nextmug | middle |

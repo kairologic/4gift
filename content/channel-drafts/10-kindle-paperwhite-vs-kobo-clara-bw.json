@@ -33,20 +33,20 @@
       "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
       "kit": {
         "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
-        "hook": "Picture this: Kindle or Kobo, two tabs open, and the birthday is Saturday.",
+        "hook": "Kindle or Kobo? The birthday is Saturday.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 9,
-            "narration": "Picture this: the birthday is Saturday. You have a Kindle tab open, a Kobo tab open, and no idea.",
+            "seconds": 4,
+            "narration": "Kindle or Kobo? The birthday is Saturday.",
             "onScreen": "Two tabs, no idea",
             "visual": "b-roll:a laptop with two shopping tabs open",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 5,
-            "narration": "One question decides it. Where do their books come from?",
+            "seconds": 6,
+            "narration": "One question decides it: where do their books come from? Stay for the gift that makes it work.",
             "onScreen": "Where do their books come from?",
             "visual": "b-roll:a stack of library books next to a phone",
             "beat": "opening"
