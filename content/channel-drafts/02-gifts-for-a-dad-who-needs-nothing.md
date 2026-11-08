@@ -4,14 +4,14 @@ Cut from the live page https://4gift.store/guides/gifts-for-a-dad-who-needs-noth
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): What to give the dad who says he needs nothing
 
-**Hook (the team):** Picture this: you ask Dad what he wants. "I need nothing." Every year.
+**Hook (the team):** Dad "needs nothing." Every year.
 
-**Runs:** 66 seconds, 8 scenes, vertical. A short story: opening, middle, end.
+**Runs:** 60 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 11s | Picture this: you ask Dad what he wants. He says "I need nothing," and goes back to the game. Every dad, every year. | Dad "needs nothing" | b-roll:a dad on the couch shrugging at a gift catalog | opening |
-| 2 | 7s | Nothing usually means nothing he can think of. So upgrade what he already uses. | Upgrade what he uses | b-roll:a coffee cup going into the microwave for the third time | opening |
+| 1 | 4s | Dad "needs nothing." Every year. Back to the game. | Dad "needs nothing" | b-roll:a dad on the couch shrugging at a gift catalog | opening |
+| 2 | 8s | Nothing usually means nothing he can think of. So upgrade what he already uses. Stay for the last-resort gift. | Upgrade what he uses | b-roll:a coffee cup going into the microwave for the third time | opening |
 | 3 | 9s | Reheats his coffee? The Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half. | Ember Mug 2: up to 1.5 hours | product:Ember Mug 2 | middle |
 | 4 | 8s | Hates apps? The Nextmug has no app at all, just one button and three heat settings. | Nextmug: one button, no app | product:Nextmug | middle |
 | 5 | 7s | Carries a water bottle everywhere? Owala says the FreeSip keeps drinks cold for 24 hours. | Cold for 24 hours | product:Owala FreeSip bottle | middle |

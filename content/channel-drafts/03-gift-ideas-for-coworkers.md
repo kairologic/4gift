@@ -4,14 +4,14 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-coworkers/ (mer
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Coworker gifts, sorted by how well you know them
 
-**Hook (the team):** Picture this: office gift swap tomorrow, and you drew Steve. Who is Steve?
+**Hook (the team):** Office gift swap. You drew Steve.
 
-**Runs:** 65 seconds, 8 scenes, vertical. A short story: opening, middle, end.
+**Runs:** 60 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 11s | Picture this: the office gift swap is tomorrow, and you drew Steve. You have said four words to Steve. Two were "good morning." | You drew Steve | b-roll:an office gift-swap sign-up sheet with one name circled | opening |
-| 2 | 8s | Barely know them? Something they use up: a tea sampler, a candle or a snack box. | Barely know them? Use it up | product:loose-leaf tea sampler | middle |
+| 1 | 5s | Office gift swap. You drew Steve. You've said four words to him. | You drew Steve | b-roll:an office gift-swap sign-up sheet with one name circled | opening |
+| 2 | 9s | Barely know them? Something they use up: a tea sampler, a candle or a snack box. And stay for Steve's verdict. | Barely know them? Use it up | product:loose-leaf tea sampler | middle |
 | 3 | 8s | Sit near them? A heated mug. HGTV named the OHOM Ui Plus its best for the office. | Best for the office: OHOM Ui | product:OHOM Ui Plus mug on its pad | middle |
 | 4 | 8s | It warms to 130 degrees on its pad, with no battery and no app to pair. | No battery, no app | product:OHOM Ui mug on a desk | middle |
 | 5 | 8s | The gym-goer? Owala says the FreeSip keeps drinks cold for 24 hours, with a leak-proof lid. | Cold for 24 hours | product:Owala FreeSip bottle | middle |

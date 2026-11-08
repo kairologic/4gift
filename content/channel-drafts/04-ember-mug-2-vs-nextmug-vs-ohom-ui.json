@@ -37,20 +37,20 @@
       "title": "Ember vs Nextmug vs OHOM Ui: which heated mug to give",
       "kit": {
         "title": "Ember vs Nextmug vs OHOM Ui: which heated mug to give",
-        "hook": "Picture this: three heated mugs in your cart, and you can only give one.",
+        "hook": "Three heated mugs. One gift.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 11,
-            "narration": "Picture this: three heated mugs in your cart, and one person to give to. You have read the reviews twice. Still three mugs.",
+            "seconds": 4,
+            "narration": "Three heated mugs. One gift. Which one?",
             "onScreen": "Three mugs, one gift",
             "visual": "b-roll:three mugs side by side, steam rising",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 5,
-            "narration": "Pick by where they drink, not by the brand.",
+            "seconds": 7,
+            "narration": "Pick by where they drink, not by the brand. Stay for the catch on the desk mug.",
             "onScreen": "Pick by where they drink",
             "visual": "text",
             "beat": "opening"

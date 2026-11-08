@@ -33,20 +33,20 @@
       "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
       "kit": {
         "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
-        "hook": "Picture this: Grandma's new photo frame stays black for a month.",
+        "hook": "Grandma's new photo frame is still black.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 10,
-            "narration": "Picture this: you give Grandma a photo frame. A month later it is still a black screen, and she dusts it.",
+            "seconds": 5,
+            "narration": "Grandma's new photo frame is still black. A month later.",
             "onScreen": "Still a black screen",
             "visual": "b-roll:a grandparent politely nodding at a blank frame",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 7,
-            "narration": "Grandma will not load the photo frame. The family will. So pick by who sends.",
+            "seconds": 8,
+            "narration": "Grandma won't load the frame. The family will. So pick by who sends, and stay for the day-one fix.",
             "onScreen": "Pick by who sends photos",
             "visual": "text",
             "beat": "opening"

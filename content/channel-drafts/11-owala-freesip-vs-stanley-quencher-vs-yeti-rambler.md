@@ -4,14 +4,14 @@ Cut from the live page https://4gift.store/guides/owala-freesip-vs-stanley-quenc
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Owala vs Stanley vs YETI: which bottle to give
 
-**Hook (the team):** Picture this: you gift a giant tumbler, and it leaks all over their bag.
+**Hook (the team):** Day one, the tumbler leaked in her tote.
 
-**Runs:** 70 seconds, 8 scenes, vertical. A short story: opening, middle, end.
+**Runs:** 65 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 11s | Picture this: you gift your friend a giant tumbler. Day one, it tips over in her tote. Her notebook is now a sponge. | Day one: a wet tote | b-roll:a soaked notebook pulled out of a tote bag | opening |
-| 2 | 7s | Owala, Stanley or YETI? Ask where it will ride: bag, car or trail. | Bag, car or trail? | b-roll:three bottles on a kitchen counter | opening |
+| 1 | 5s | Day one, the tumbler leaked in her tote. Her notebook is a sponge. | Day one: a wet tote | b-roll:a soaked notebook pulled out of a tote bag | opening |
+| 2 | 8s | Owala, Stanley or YETI? Ask where it will ride: bag, car or trail. Stay for the one marked splash-resistant. | Bag, car or trail? | b-roll:three bottles on a kitchen counter | opening |
 | 3 | 9s | In a bag, it has to seal. Owala calls the FreeSip lid leak-proof, and it stays cold for 24 hours. | Owala: leak-proof, 24 hours | product:Owala FreeSip bottle | middle |
 | 4 | 9s | In a car? The Stanley Quencher. REI says the 40 ounce fits most cup holders, with a handle. | Stanley: fits cup holders | product:Stanley Quencher H2.0 40 oz | middle |
 | 5 | 9s | But it resists splashes. It is not leakproof. Do not trust it on its side in a tote. | Splash-resistant, not leakproof | product:Stanley Quencher lying on its side in a tote bag | middle |

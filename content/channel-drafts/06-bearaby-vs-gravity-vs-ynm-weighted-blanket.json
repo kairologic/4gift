@@ -45,20 +45,20 @@
       "title": "Bearaby vs Gravity vs YnM: which weighted blanket to give",
       "kit": {
         "title": "Bearaby vs Gravity vs YnM: which weighted blanket to give",
-        "hook": "Picture this: you bought a cozy blanket for the warmest sleeper you know.",
+        "hook": "A cozy gift for the hottest sleeper?",
         "scenes": [
           {
             "n": 1,
-            "seconds": 9,
-            "narration": "Picture this: you wrap a heavy, cozy blanket for your sister. Your sister sleeps with the window open in January.",
+            "seconds": 5,
+            "narration": "A cozy gift for the hottest sleeper? She sleeps with the window open.",
             "onScreen": "For the warmest sleeper",
             "visual": "b-roll:two people on a couch, one under three blankets, one fanning themselves",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 7,
-            "narration": "A weighted blanket gift starts with one question. Do they run hot or cold?",
+            "seconds": 8,
+            "narration": "A weighted blanket gift starts with one question: hot or cold sleeper? Stay for the weight rule.",
             "onScreen": "Hot or cold sleeper?",
             "visual": "text",
             "beat": "opening"

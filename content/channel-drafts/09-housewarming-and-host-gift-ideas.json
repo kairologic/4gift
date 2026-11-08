@@ -49,20 +49,20 @@
       "title": "Housewarming and host gifts that fit in a new home",
       "kit": {
         "title": "Housewarming and host gifts that fit in a new home",
-        "hook": "Picture this: they just unpacked forty boxes. Do not bring box forty-one.",
+        "hook": "They unpacked forty boxes. Don't bring forty-one.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 9,
-            "narration": "Picture this: your friends just unpacked forty boxes. You are on their doorstep with a large, mysterious box forty-one.",
+            "seconds": 4,
+            "narration": "They unpacked forty boxes. Don't bring forty-one.",
             "onScreen": "Not box 41",
             "visual": "b-roll:a hallway stacked with moving boxes",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 9,
-            "narration": "For the host tonight: a soy candle or a snack box. Easy to hand over at the door.",
+            "seconds": 10,
+            "narration": "For the host tonight: a soy candle or a snack box, easy to hand over at the door. Stay for the plant rule if they have a cat.",
             "onScreen": "Hand it over at the door",
             "visual": "product:scented soy candle and a snack box",
             "beat": "middle"

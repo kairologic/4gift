@@ -29,20 +29,20 @@
       "title": "Owala vs Stanley vs YETI: which bottle to give",
       "kit": {
         "title": "Owala vs Stanley vs YETI: which bottle to give",
-        "hook": "Picture this: you gift a giant tumbler, and it leaks all over their bag.",
+        "hook": "Day one, the tumbler leaked in her tote.",
         "scenes": [
           {
             "n": 1,
-            "seconds": 11,
-            "narration": "Picture this: you gift your friend a giant tumbler. Day one, it tips over in her tote. Her notebook is now a sponge.",
+            "seconds": 5,
+            "narration": "Day one, the tumbler leaked in her tote. Her notebook is a sponge.",
             "onScreen": "Day one: a wet tote",
             "visual": "b-roll:a soaked notebook pulled out of a tote bag",
             "beat": "opening"
           },
           {
             "n": 2,
-            "seconds": 7,
-            "narration": "Owala, Stanley or YETI? Ask where it will ride: bag, car or trail.",
+            "seconds": 8,
+            "narration": "Owala, Stanley or YETI? Ask where it will ride: bag, car or trail. Stay for the one marked splash-resistant.",
             "onScreen": "Bag, car or trail?",
             "visual": "b-roll:three bottles on a kitchen counter",
             "beat": "opening"

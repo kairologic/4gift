@@ -4,14 +4,14 @@ Cut from the live page https://4gift.store/guides/bearaby-vs-gravity-vs-ynm-weig
 
 ## Short (YouTube Shorts, Instagram Reels, TikTok): Bearaby vs Gravity vs YnM: which weighted blanket to give
 
-**Hook (the team):** Picture this: you bought a cozy blanket for the warmest sleeper you know.
+**Hook (the team):** A cozy gift for the hottest sleeper?
 
-**Runs:** 66 seconds, 8 scenes, vertical. A short story: opening, middle, end.
+**Runs:** 63 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 9s | Picture this: you wrap a heavy, cozy blanket for your sister. Your sister sleeps with the window open in January. | For the warmest sleeper | b-roll:two people on a couch, one under three blankets, one fanning themselves | opening |
-| 2 | 7s | A weighted blanket gift starts with one question. Do they run hot or cold? | Hot or cold sleeper? | text | opening |
+| 1 | 5s | A cozy gift for the hottest sleeper? She sleeps with the window open. | For the warmest sleeper | b-roll:two people on a couch, one under three blankets, one fanning themselves | opening |
+| 2 | 8s | A weighted blanket gift starts with one question: hot or cold sleeper? Stay for the weight rule. | Hot or cold sleeper? | text | opening |
 | 3 | 9s | Runs warm? Bearaby's Napper is knit from thick yarn, with no beads. Mattress Clarity calls it incredibly breathable. | Bearaby: knit, no beads | product:Bearaby knit Napper blanket | middle |
 | 4 | 9s | Always cold? The Gravity Blanket uses glass beads and holds warmth. Reviewed named it its best weighted blanket. | Gravity: beads, warm | product:Gravity weighted blanket | middle |
 | 5 | 9s | Need an exact weight or a bed size? YnM comes in 10 weights, from 5 to 30 pounds. | YnM: 10 weights, 5 to 30 lb | product:YnM weighted blanket on a bed | middle |
