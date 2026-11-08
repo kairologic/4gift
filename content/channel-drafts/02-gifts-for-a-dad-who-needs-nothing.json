@@ -70,25 +70,25 @@
           {
             "n": 3,
             "seconds": 9,
-            "narration": "Reheats his coffee? The Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half.",
-            "onScreen": "Ember Mug 2: up to 1.5 hours",
-            "visual": "product:Ember Mug 2",
+            "narration": "Reheats his coffee? A heated mug holds 120 to 145 degrees for up to an hour and a half.",
+            "onScreen": "Hot up to 1.5 hours",
+            "visual": "product:app-controlled heated mug",
             "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 8,
-            "narration": "Hates apps? The Nextmug has no app at all, just one button and three heat settings.",
-            "onScreen": "Nextmug: one button, no app",
-            "visual": "product:Nextmug",
+            "narration": "Hates apps? One heated mug has no app at all, just one button and three heat settings.",
+            "onScreen": "One button, no app",
+            "visual": "product:one-button heated mug",
             "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 7,
-            "narration": "Carries a water bottle everywhere? Owala says the FreeSip keeps drinks cold for 24 hours.",
+            "narration": "Carries a water bottle everywhere? A good insulated one keeps drinks cold for 24 hours.",
             "onScreen": "Cold for 24 hours",
-            "visual": "product:Owala FreeSip bottle",
+            "visual": "product:insulated water bottle with a sip lid",
             "beat": "middle"
           },
           {
@@ -96,7 +96,7 @@
             "seconds": 8,
             "narration": "Misses the grandkids? A photo frame the family emails photos to. Load it before he opens it.",
             "onScreen": "Photo frame, preloaded",
-            "visual": "product:Skylight digital photo frame",
+            "visual": "product:Wi-Fi digital photo frame",
             "beat": "middle"
           },
           {

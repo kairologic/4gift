@@ -15,7 +15,7 @@ Cut from the live page https://4gift.store/guides/housewarming-and-host-gift-ide
 | 3 | 8s | For the new kitchen: an engraved cutting board or an indoor herb garden kit for the sill. | For the new kitchen | product:engraved cutting board | middle |
 | 4 | 9s | Pets in the house? The ASPCA lists the spider plant and the parlor palm as safe for dogs and cats. | Pet-safe: spider plant | product:spider plant in a pot | middle |
 | 5 | 7s | Skip pothos and snake plants, and never bring lilies to a home with a cat. | No lilies with cats | text | middle |
-| 6 | 7s | Family far away? A Wi-Fi photo frame they can keep filling. Load it first. | A frame that keeps filling | product:Skylight digital photo frame | middle |
+| 6 | 7s | Family far away? A Wi-Fi photo frame they can keep filling. Load it first. | A frame that keeps filling | product:Wi-Fi digital photo frame | middle |
 | 7 | 11s | You hand over a candle at the door. Nobody has to find a shelf for it tonight. The full list is at the link. | Full list at 4gift.store | text | end |
 
 **Cuts:** none (the story runs whole on Shorts, Reels and TikTok).

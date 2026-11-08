@@ -12,10 +12,10 @@ Cut from the live page https://4gift.store/guides/gifts-for-a-dad-who-needs-noth
 | --- | --- | --- | --- | --- | --- |
 | 1 | 4s | Dad "needs nothing." Every year. Back to the game. | Dad "needs nothing" | b-roll:a dad on the couch shrugging at a gift catalog | opening |
 | 2 | 8s | Nothing usually means nothing he can think of. So upgrade what he already uses. Stay for the last-resort gift. | Upgrade what he uses | b-roll:a coffee cup going into the microwave for the third time | opening |
-| 3 | 9s | Reheats his coffee? The Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half. | Ember Mug 2: up to 1.5 hours | product:Ember Mug 2 | middle |
-| 4 | 8s | Hates apps? The Nextmug has no app at all, just one button and three heat settings. | Nextmug: one button, no app | product:Nextmug | middle |
-| 5 | 7s | Carries a water bottle everywhere? Owala says the FreeSip keeps drinks cold for 24 hours. | Cold for 24 hours | product:Owala FreeSip bottle | middle |
-| 6 | 8s | Misses the grandkids? A photo frame the family emails photos to. Load it before he opens it. | Photo frame, preloaded | product:Skylight digital photo frame | middle |
+| 3 | 9s | Reheats his coffee? A heated mug holds 120 to 145 degrees for up to an hour and a half. | Hot up to 1.5 hours | product:app-controlled heated mug | middle |
+| 4 | 8s | Hates apps? One heated mug has no app at all, just one button and three heat settings. | One button, no app | product:one-button heated mug | middle |
+| 5 | 7s | Carries a water bottle everywhere? A good insulated one keeps drinks cold for 24 hours. | Cold for 24 hours | product:insulated water bottle with a sip lid | middle |
+| 6 | 8s | Misses the grandkids? A photo frame the family emails photos to. Load it before he opens it. | Photo frame, preloaded | product:Wi-Fi digital photo frame | middle |
 | 7 | 7s | Still stuck? Give him an afternoon. Write the plan on a card, with a date. | Or give him an afternoon | b-roll:a handwritten card that says "Saturday, fishing, you and me" | end |
 | 8 | 9s | He still says he needed nothing. The card goes on the fridge anyway. The full list is at the link. | Full list at 4gift.store | text | end |
 

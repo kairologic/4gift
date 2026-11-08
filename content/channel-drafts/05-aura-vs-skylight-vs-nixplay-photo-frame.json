@@ -30,9 +30,9 @@
   "pieces": [
     {
       "format": "video-script",
-      "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
+      "title": "Which photo frame to give, by who sends the photos",
       "kit": {
-        "title": "Aura vs Skylight vs Nixplay: which photo frame to give",
+        "title": "Which photo frame to give, by who sends the photos",
         "hook": "Grandma's new photo frame is still black.",
         "scenes": [
           {
@@ -54,25 +54,25 @@
           {
             "n": 3,
             "seconds": 7,
-            "narration": "Phone-first family? Aura. Photos go in from its app, with no subscription and unlimited photos.",
-            "onScreen": "Aura: no subscription",
-            "visual": "product:Aura digital photo frame",
+            "narration": "Phone-first family? Pick the app frame. Photos go in from its app, with no subscription and unlimited photos.",
+            "onScreen": "App frame: no subscription",
+            "visual": "product:app-connected digital photo frame",
             "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 7,
-            "narration": "Cousins who never install apps? Skylight. They email photos to the frame's own address.",
-            "onScreen": "Skylight: photos by email",
-            "visual": "product:Skylight Frame 2",
+            "narration": "Cousins who never install apps? An email frame. They send photos to the frame's own address.",
+            "onScreen": "Photos by email",
+            "visual": "product:digital photo frame with its own email address",
             "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 6,
-            "narration": "Two grandmas, two frames? Nixplay's free plan links up to 5 frames.",
-            "onScreen": "Nixplay: up to 5 frames",
-            "visual": "product:Nixplay digital photo frame",
+            "narration": "Two grandmas, two frames? One free plan links up to 5 frames.",
+            "onScreen": "Up to 5 frames, free",
+            "visual": "product:two linked digital photo frames",
             "beat": "middle"
           },
           {

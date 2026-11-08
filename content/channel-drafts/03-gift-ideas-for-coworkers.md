@@ -12,9 +12,9 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-coworkers/ (mer
 | --- | --- | --- | --- | --- | --- |
 | 1 | 5s | Office gift swap. You drew Steve. You've said four words to him. | You drew Steve | b-roll:an office gift-swap sign-up sheet with one name circled | opening |
 | 2 | 9s | Barely know them? Something they use up: a tea sampler, a candle or a snack box. And stay for Steve's verdict. | Barely know them? Use it up | product:loose-leaf tea sampler | middle |
-| 3 | 8s | Sit near them? A heated mug. HGTV named the OHOM Ui Plus its best for the office. | Best for the office: OHOM Ui | product:OHOM Ui Plus mug on its pad | middle |
-| 4 | 8s | It warms to 130 degrees on its pad, with no battery and no app to pair. | No battery, no app | product:OHOM Ui mug on a desk | middle |
-| 5 | 8s | The gym-goer? Owala says the FreeSip keeps drinks cold for 24 hours, with a leak-proof lid. | Cold for 24 hours | product:Owala FreeSip bottle | middle |
+| 3 | 8s | Sit near them? A heated mug that lives on a desk pad. HGTV named one its best for the office. | Best for the office | product:heated mug on its desk pad | middle |
+| 4 | 8s | It warms to 130 degrees on its pad, with no battery and no app to pair. | No battery, no app | product:heated mug on a desk | middle |
+| 5 | 8s | The gym-goer? An insulated bottle that keeps drinks cold for 24 hours, with a leak-proof lid. | Cold for 24 hours | product:insulated water bottle with a leak-proof lid | middle |
 | 6 | 5s | Whole team? One identical gift per desk, so nobody compares. | Same gift for every desk | product:a row of small desk plants | middle |
 | 7 | 6s | And skip the joke gift. Half the office will not laugh. | Skip the joke gift | b-roll:a gag gift slowly slid back into a drawer | middle |
 | 8 | 11s | Next morning, Steve's tea is on his desk, and you have said five words to Steve. Progress. The full list is at the link. | Full list at 4gift.store | text | end |

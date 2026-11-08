@@ -11,9 +11,9 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-new-parents/ (m
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 5s | The baby has a registry. The parents? Cold coffee. | Gift the parents | b-roll:a full mug left on a counter beside baby bottles | opening |
-| 2 | 13s | So gift the parents, and stay for the gift that always gets used. First, a heated mug: Best Buy says the Ember Mug 2 holds 120 to 145 degrees for up to an hour and a half. | Ember: up to 1.5 hours | product:Ember Mug 2 | middle |
-| 3 | 6s | No-app parents? The Nextmug runs on one button with three presets. | Nextmug: one button | product:Nextmug | middle |
-| 4 | 7s | For the grandparents, a Wi-Fi photo frame. New baby photos arrive without a single text. | Photos without the texts | product:Skylight digital photo frame | middle |
+| 2 | 13s | So gift the parents, and stay for the gift that always gets used. First, a heated mug that holds 120 to 145 degrees for up to an hour and a half. | Hot up to 1.5 hours | product:heated mug on its coaster | middle |
+| 3 | 6s | No-app parents? A heated mug with one button and three presets. | One button | product:one-button heated mug | middle |
+| 4 | 7s | For the grandparents, a Wi-Fi photo frame. New baby photos arrive without a single text. | Photos without the texts | product:Wi-Fi digital photo frame | middle |
 | 5 | 6s | For 3 a.m. feeds, a book light. Small, quiet, and very appreciated. | For the 3 a.m. feed | product:rechargeable book light | middle |
 | 6 | 7s | Skip blankets, pillows and stuffed toys for the crib. Bare is best, says the CPSC. | Crib: bare is best | text | middle |
 | 7 | 7s | Or give help. "Dinner on the 14th" gets used. "Let me know" never does. | "Dinner on the 14th" | b-roll:a handwritten card promising dinner on a date | end |
