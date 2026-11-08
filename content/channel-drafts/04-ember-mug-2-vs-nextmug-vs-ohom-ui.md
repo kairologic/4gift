@@ -2,7 +2,7 @@
 
 Cut from the live page https://4gift.store/guides/ember-mug-2-vs-nextmug-vs-ohom-ui/ (merged and live, so already approved). Checked with Masthead's review gate (scripts/check-piece.ts rules).
 
-## Short (YouTube Shorts, Instagram Reels, TikTok): Ember vs Nextmug vs OHOM Ui: which heated mug to give
+## Short (YouTube Shorts, Instagram Reels, TikTok): Three heated mugs: which one to give
 
 **Hook (the team):** Three heated mugs. One gift.
 
@@ -12,10 +12,10 @@ Cut from the live page https://4gift.store/guides/ember-mug-2-vs-nextmug-vs-ohom
 | --- | --- | --- | --- | --- | --- |
 | 1 | 4s | Three heated mugs. One gift. Which one? | Three mugs, one gift | b-roll:three mugs side by side, steam rising | opening |
 | 2 | 7s | Pick by where they drink, not by the brand. Stay for the catch on the desk mug. | Pick by where they drink | text | opening |
-| 3 | 7s | Ember Mug 2 for the exact-temperature person. Set 120 to 145 degrees in its app. | Ember: 120 to 145°F | product:Ember Mug 2 | middle |
-| 4 | 9s | It holds heat up to an hour and a half off its coaster. The longest of the three. | Up to 1.5 hours off base | product:Ember Mug 2 lifted off its coaster | middle |
-| 5 | 6s | Nextmug for the app-hater. Fourteen ounces, one button, three heat settings. | Nextmug: 14 oz, one button | product:Nextmug | middle |
-| 6 | 8s | OHOM Ui for the desk worker. No battery, no app, and the Artist mug is dishwasher safe. | OHOM Ui: dishwasher safe | product:OHOM Ui mug on its pad | middle |
+| 3 | 7s | The app mug, for the exact-temperature person. Set 120 to 145 degrees on a phone. | App mug: 120 to 145°F | product:app-controlled heated mug | middle |
+| 4 | 9s | It holds heat up to an hour and a half off its coaster. The longest of the three. | Up to 1.5 hours off base | product:app-controlled heated mug lifted off its coaster | middle |
+| 5 | 6s | The button mug, for the app-hater. Fourteen ounces, one button, three heat settings. | Button mug: 14 oz | product:one-button heated mug | middle |
+| 6 | 8s | The pad mug, for the desk worker. No battery, no app, and one version is dishwasher safe. | Pad mug: dishwasher safe | product:heated mug on its warming pad | middle |
 | 7 | 9s | The catch: it only warms on its pad. Walk to a meeting and it is just a mug. | Only warm on its pad | b-roll:someone carrying a mug away from a desk as it stops steaming | middle |
 | 8 | 9s | Two mugs go back in the cart. One goes in the box. Full side-by-side table at the link. | Full comparison at 4gift.store | text | end |
 

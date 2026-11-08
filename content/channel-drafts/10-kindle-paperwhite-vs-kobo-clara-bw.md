@@ -2,20 +2,20 @@
 
 Cut from the live page https://4gift.store/guides/kindle-paperwhite-vs-kobo-clara-bw/ (merged and live, so already approved). Checked with Masthead's review gate (scripts/check-piece.ts rules).
 
-## Short (YouTube Shorts, Instagram Reels, TikTok): Kindle Paperwhite vs Kobo Clara BW: which e-reader to give
+## Short (YouTube Shorts, Instagram Reels, TikTok): Which e-reader to give: where their books come from
 
-**Hook (the team):** Kindle or Kobo? The birthday is Saturday.
+**Hook (the team):** Two e-readers. The birthday is Saturday.
 
 **Runs:** 59 seconds, 8 scenes, vertical. A short story: opening, middle, end.
 
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 4s | Kindle or Kobo? The birthday is Saturday. | Two tabs, no idea | b-roll:a laptop with two shopping tabs open | opening |
+| 1 | 4s | Two e-readers. The birthday is Saturday. | Two tabs, no idea | b-roll:a laptop with two shopping tabs open | opening |
 | 2 | 6s | One question decides it: where do their books come from? Stay for the gift that makes it work. | Where do their books come from? | b-roll:a stack of library books next to a phone | opening |
-| 3 | 10s | Years of Kindle purchases, or Audible? The Paperwhite. Bigger 7 inch screen, and Amazon claims up to 12 weeks a charge. | Paperwhite: up to 12 weeks | product:Kindle Paperwhite | middle |
-| 4 | 7s | Library borrower? The Kobo Clara BW has Libby built in, and no ads by default. | Kobo: Libby built in | product:Kobo Clara BW | middle |
-| 5 | 7s | Reads lying down? The Kobo is lighter, 174 grams to the Kindle's 214. | 174 g vs 214 g | product:Kobo Clara BW held above a pillow | middle |
-| 6 | 8s | Both are rated IPX8, good for 2 meters of water for an hour. Bath reading approved. | Both IPX8 | product:Kindle Paperwhite beside a bathtub | middle |
+| 3 | 10s | Years of e-books from one big store? Stay with its reader: a bigger 7 inch screen, and up to 12 weeks a charge, its maker claims. | Up to 12 weeks a charge | product:7 inch e-reader | middle |
+| 4 | 7s | Library borrower? The other one has library borrowing built in, and no ads by default. | Library built in | product:compact e-reader | middle |
+| 5 | 7s | Reads lying down? The library one is lighter, 174 grams to 214. | 174 g vs 214 g | product:compact e-reader held above a pillow | middle |
+| 6 | 8s | Both are rated IPX8, good for 2 meters of water for an hour. Bath reading approved. | Both IPX8 | product:e-reader beside a bathtub | middle |
 | 7 | 8s | Add a book gift card. An e-reader with nothing on it is a very nice coaster. | Add a book gift card | b-roll:an e-reader holding up a coffee cup | middle |
 | 8 | 9s | One tab closes. Saturday, they are three chapters in by dinner. The full comparison is at the link. | Full comparison at 4gift.store | text | end |
 

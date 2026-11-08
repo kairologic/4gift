@@ -12,10 +12,10 @@ Cut from the live page https://4gift.store/guides/gift-ideas-for-teens/ (merged 
 | --- | --- | --- | --- | --- | --- |
 | 1 | 4s | "I don't know." "Stuff." Very helpful. That's your nephew. | "I don't know." "Stuff." | b-roll:a teen shrugging over a phone | opening |
 | 2 | 7s | Their face says nothing. Look at their bag instead, and stay for the word that means he loves it. | Look at the bag | b-roll:a teen's open backpack on a bed | opening |
-| 3 | 9s | Always on the move? Owala says the FreeSip seals with a leak-proof lid and stays cold for 24 hours. | Leak-proof, cold 24 hours | product:Owala FreeSip bottle | middle |
-| 4 | 9s | Always with friends? The Instax Mini 12 sets its own exposure, and prints develop in about 90 seconds. | Prints in about 90 seconds | product:Fujifilm Instax Mini 12 | middle |
-| 5 | 7s | Add film packs. A camera with no film is a sad first hour. | Add film packs | product:Instax Mini film packs | middle |
-| 6 | 7s | A reader who borrows from the library? The Kobo Clara BW has Libby built in. | Kobo: Libby built in | product:Kobo Clara BW e-reader | middle |
+| 3 | 9s | Always on the move? A bottle with a leak-proof lid that stays cold for 24 hours. | Leak-proof, cold 24 hours | product:insulated bottle with a leak-proof lid | middle |
+| 4 | 9s | Always with friends? An instant camera that sets its own exposure, with prints in about 90 seconds. | Prints in about 90 seconds | product:instant camera | middle |
+| 5 | 7s | Add film packs. A camera with no film is a sad first hour. | Add film packs | product:instant camera film packs | middle |
+| 6 | 7s | A reader who borrows from the library? An e-reader with library borrowing built in. | Library books built in | product:small e-reader | middle |
 | 7 | 7s | Skip clothes in a guessed size, and anything that tries too hard to be cool. | Skip "trying to be cool" | b-roll:a gift sweater slowly folded back into its box | middle |
 | 8 | 13s | A week later, there is a print of his friends stuck to the fridge. He says it's "fine." That means he loves it. The full list is at the link. | Full list at 4gift.store | text | end |
 

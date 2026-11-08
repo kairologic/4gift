@@ -26,9 +26,9 @@
   "pieces": [
     {
       "format": "video-script",
-      "title": "Owala vs Stanley vs YETI: which bottle to give",
+      "title": "Which water bottle to give: bag, car or trail",
       "kit": {
-        "title": "Owala vs Stanley vs YETI: which bottle to give",
+        "title": "Which water bottle to give: bag, car or trail",
         "hook": "Day one, the tumbler leaked in her tote.",
         "scenes": [
           {
@@ -42,7 +42,7 @@
           {
             "n": 2,
             "seconds": 8,
-            "narration": "Owala, Stanley or YETI? Ask where it will ride: bag, car or trail. Stay for the one marked splash-resistant.",
+            "narration": "Three bottles. Ask where it will ride: bag, car or trail. Stay for the one marked splash-resistant.",
             "onScreen": "Bag, car or trail?",
             "visual": "b-roll:three bottles on a kitchen counter",
             "beat": "opening"
@@ -50,17 +50,17 @@
           {
             "n": 3,
             "seconds": 9,
-            "narration": "In a bag, it has to seal. Owala calls the FreeSip lid leak-proof, and it stays cold for 24 hours.",
-            "onScreen": "Owala: leak-proof, 24 hours",
-            "visual": "product:Owala FreeSip bottle",
+            "narration": "In a bag, it has to seal. One sip-lid bottle's maker calls the lid leak-proof, and it stays cold for 24 hours.",
+            "onScreen": "Leak-proof, 24 hours",
+            "visual": "product:insulated bottle with a sip lid",
             "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 9,
-            "narration": "In a car? The Stanley Quencher. REI says the 40 ounce fits most cup holders, with a handle.",
-            "onScreen": "Stanley: fits cup holders",
-            "visual": "product:Stanley Quencher H2.0 40 oz",
+            "narration": "In a car? A 40 ounce tumbler with a handle fits most cup holders, REI says.",
+            "onScreen": "Fits cup holders",
+            "visual": "product:40 oz tumbler with a handle",
             "beat": "middle"
           },
           {
@@ -68,22 +68,22 @@
             "seconds": 9,
             "narration": "But it resists splashes. It is not leakproof. Do not trust it on its side in a tote.",
             "onScreen": "Splash-resistant, not leakproof",
-            "visual": "product:Stanley Quencher lying on its side in a tote bag",
+            "visual": "product:tumbler lying on its side in a tote bag",
             "beat": "middle"
           },
           {
             "n": 6,
             "seconds": 8,
-            "narration": "On the trail? The YETI Rambler with Chug Cap. REI lists it as 100 percent leakproof.",
-            "onScreen": "YETI: 100% leakproof",
-            "visual": "product:YETI Rambler 26 oz with Chug Cap",
+            "narration": "On the trail? A bottle with a chug cap. REI lists it as 100 percent leakproof.",
+            "onScreen": "100% leakproof",
+            "visual": "product:insulated bottle with a chug cap",
             "beat": "middle"
           },
           {
             "n": 7,
             "seconds": 8,
-            "narration": "And tell an Owala owner: hand-wash the cup. The lid can go on the top rack.",
-            "onScreen": "Owala: hand-wash the cup",
+            "narration": "And tell the sip-lid owner: hand-wash the cup. The lid can go on the top rack.",
+            "onScreen": "Hand-wash the cup",
             "visual": "text",
             "beat": "middle"
           },

@@ -34,9 +34,9 @@
   "pieces": [
     {
       "format": "video-script",
-      "title": "Ember vs Nextmug vs OHOM Ui: which heated mug to give",
+      "title": "Three heated mugs: which one to give",
       "kit": {
-        "title": "Ember vs Nextmug vs OHOM Ui: which heated mug to give",
+        "title": "Three heated mugs: which one to give",
         "hook": "Three heated mugs. One gift.",
         "scenes": [
           {
@@ -58,9 +58,9 @@
           {
             "n": 3,
             "seconds": 7,
-            "narration": "Ember Mug 2 for the exact-temperature person. Set 120 to 145 degrees in its app.",
-            "onScreen": "Ember: 120 to 145°F",
-            "visual": "product:Ember Mug 2",
+            "narration": "The app mug, for the exact-temperature person. Set 120 to 145 degrees on a phone.",
+            "onScreen": "App mug: 120 to 145°F",
+            "visual": "product:app-controlled heated mug",
             "beat": "middle"
           },
           {
@@ -68,23 +68,23 @@
             "seconds": 9,
             "narration": "It holds heat up to an hour and a half off its coaster. The longest of the three.",
             "onScreen": "Up to 1.5 hours off base",
-            "visual": "product:Ember Mug 2 lifted off its coaster",
+            "visual": "product:app-controlled heated mug lifted off its coaster",
             "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 6,
-            "narration": "Nextmug for the app-hater. Fourteen ounces, one button, three heat settings.",
-            "onScreen": "Nextmug: 14 oz, one button",
-            "visual": "product:Nextmug",
+            "narration": "The button mug, for the app-hater. Fourteen ounces, one button, three heat settings.",
+            "onScreen": "Button mug: 14 oz",
+            "visual": "product:one-button heated mug",
             "beat": "middle"
           },
           {
             "n": 6,
             "seconds": 8,
-            "narration": "OHOM Ui for the desk worker. No battery, no app, and the Artist mug is dishwasher safe.",
-            "onScreen": "OHOM Ui: dishwasher safe",
-            "visual": "product:OHOM Ui mug on its pad",
+            "narration": "The pad mug, for the desk worker. No battery, no app, and one version is dishwasher safe.",
+            "onScreen": "Pad mug: dishwasher safe",
+            "visual": "product:heated mug on its warming pad",
             "beat": "middle"
           },
           {

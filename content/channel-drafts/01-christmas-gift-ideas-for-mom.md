@@ -12,12 +12,12 @@ Cut from the live page https://4gift.store/guides/christmas-gift-ideas-for-mom/ 
 | --- | --- | --- | --- | --- | --- |
 | 1 | 4s | December 23rd. Mom still wants "nothing." | December 23rd. "Nothing." | b-roll:a calendar page on December 23 next to a phone mid-call | opening |
 | 2 | 8s | Nothing means nothing she can name. So watch what she does all day, and stay for the twenty-photo trick. | Watch what she does | b-roll:a wrapped gift on a kitchen table next to a cold cup of tea | opening |
-| 3 | 11s | Misses the grandkids? A Wi-Fi photo frame the whole family can send photos to. Skylight takes photos by email, so nobody needs an app. | Photos by email, no app | product:Skylight digital photo frame | middle |
-| 4 | 7s | Always cold on the couch? A weighted blanket, about ten percent of her body weight. | About 10% of her weight | product:Gravity weighted blanket on a couch | middle |
-| 5 | 10s | Tea always goes cold? The Ember Mug 2 holds her temperature up to an hour and a half off its coaster. | Warm up to 1.5 hours | product:Ember Mug 2 | middle |
-| 6 | 8s | Reads in bed? An e-reader. The Kobo Clara BW is the lighter one, at 174 grams. | Kobo Clara BW: 174 g | product:Kobo Clara BW e-reader | middle |
+| 3 | 11s | Misses the grandkids? A Wi-Fi photo frame the whole family can send photos to. Some take photos by email, so nobody needs an app. | Photos by email, no app | product:Wi-Fi digital photo frame | middle |
+| 4 | 7s | Always cold on the couch? A weighted blanket, about ten percent of her body weight. | About 10% of her weight | product:weighted blanket on a couch | middle |
+| 5 | 10s | Tea always goes cold? A heated mug holds her temperature up to an hour and a half off its coaster. | Warm up to 1.5 hours | product:heated mug on its coaster | middle |
+| 6 | 8s | Reads in bed? An e-reader. Pick the lighter one, at 174 grams. | Light e-reader: 174 g | product:small e-reader | middle |
 | 7 | 7s | And skip the vacuum. A chore with a bow on it is still a chore. | Skip the vacuum | b-roll:a vacuum with a big red bow, slowly wheeled back out of frame | middle |
-| 8 | 9s | Christmas morning: twenty grandkid photos are already on the frame. She says you shouldn't have. She means it kindly. | Load twenty photos first | product:Skylight frame with a new photo arriving | end |
+| 8 | 9s | Christmas morning: twenty grandkid photos are already on the frame. She says you shouldn't have. She means it kindly. | Load twenty photos first | product:photo frame with a new photo arriving | end |
 | 9 | 6s | No fruitcake on it, promise. The full list, and what to skip, is at the link. | Full list at 4gift.store | text | end |
 
 **Cuts:** none (the story runs whole on Shorts, Reels and TikTok).

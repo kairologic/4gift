@@ -62,17 +62,17 @@
           {
             "n": 3,
             "seconds": 9,
-            "narration": "Always on the move? Owala says the FreeSip seals with a leak-proof lid and stays cold for 24 hours.",
+            "narration": "Always on the move? A bottle with a leak-proof lid that stays cold for 24 hours.",
             "onScreen": "Leak-proof, cold 24 hours",
-            "visual": "product:Owala FreeSip bottle",
+            "visual": "product:insulated bottle with a leak-proof lid",
             "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 9,
-            "narration": "Always with friends? The Instax Mini 12 sets its own exposure, and prints develop in about 90 seconds.",
+            "narration": "Always with friends? An instant camera that sets its own exposure, with prints in about 90 seconds.",
             "onScreen": "Prints in about 90 seconds",
-            "visual": "product:Fujifilm Instax Mini 12",
+            "visual": "product:instant camera",
             "beat": "middle"
           },
           {
@@ -80,15 +80,15 @@
             "seconds": 7,
             "narration": "Add film packs. A camera with no film is a sad first hour.",
             "onScreen": "Add film packs",
-            "visual": "product:Instax Mini film packs",
+            "visual": "product:instant camera film packs",
             "beat": "middle"
           },
           {
             "n": 6,
             "seconds": 7,
-            "narration": "A reader who borrows from the library? The Kobo Clara BW has Libby built in.",
-            "onScreen": "Kobo: Libby built in",
-            "visual": "product:Kobo Clara BW e-reader",
+            "narration": "A reader who borrows from the library? An e-reader with library borrowing built in.",
+            "onScreen": "Library books built in",
+            "visual": "product:small e-reader",
             "beat": "middle"
           },
           {

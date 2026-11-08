@@ -58,9 +58,9 @@
           {
             "n": 3,
             "seconds": 8,
-            "narration": "Sit near them? A heated mug. HGTV named the OHOM Ui Plus its best for the office.",
-            "onScreen": "Best for the office: OHOM Ui",
-            "visual": "product:OHOM Ui Plus mug on its pad",
+            "narration": "Sit near them? A heated mug that lives on a desk pad. HGTV named one its best for the office.",
+            "onScreen": "Best for the office",
+            "visual": "product:heated mug on its desk pad",
             "beat": "middle"
           },
           {
@@ -68,15 +68,15 @@
             "seconds": 8,
             "narration": "It warms to 130 degrees on its pad, with no battery and no app to pair.",
             "onScreen": "No battery, no app",
-            "visual": "product:OHOM Ui mug on a desk",
+            "visual": "product:heated mug on a desk",
             "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 8,
-            "narration": "The gym-goer? Owala says the FreeSip keeps drinks cold for 24 hours, with a leak-proof lid.",
+            "narration": "The gym-goer? An insulated bottle that keeps drinks cold for 24 hours, with a leak-proof lid.",
             "onScreen": "Cold for 24 hours",
-            "visual": "product:Owala FreeSip bottle",
+            "visual": "product:insulated water bottle with a leak-proof lid",
             "beat": "middle"
           },
           {

@@ -2,7 +2,7 @@
 
 Cut from the live page https://4gift.store/guides/aura-vs-skylight-vs-nixplay-photo-frame/ (merged and live, so already approved). Checked with Masthead's review gate (scripts/check-piece.ts rules).
 
-## Short (YouTube Shorts, Instagram Reels, TikTok): Aura vs Skylight vs Nixplay: which photo frame to give
+## Short (YouTube Shorts, Instagram Reels, TikTok): Which photo frame to give, by who sends the photos
 
 **Hook (the team):** Grandma's new photo frame is still black.
 
@@ -12,9 +12,9 @@ Cut from the live page https://4gift.store/guides/aura-vs-skylight-vs-nixplay-ph
 | --- | --- | --- | --- | --- | --- |
 | 1 | 5s | Grandma's new photo frame is still black. A month later. | Still a black screen | b-roll:a grandparent politely nodding at a blank frame | opening |
 | 2 | 8s | Grandma won't load the frame. The family will. So pick by who sends, and stay for the day-one fix. | Pick by who sends photos | text | opening |
-| 3 | 7s | Phone-first family? Aura. Photos go in from its app, with no subscription and unlimited photos. | Aura: no subscription | product:Aura digital photo frame | middle |
-| 4 | 7s | Cousins who never install apps? Skylight. They email photos to the frame's own address. | Skylight: photos by email | product:Skylight Frame 2 | middle |
-| 5 | 6s | Two grandmas, two frames? Nixplay's free plan links up to 5 frames. | Nixplay: up to 5 frames | product:Nixplay digital photo frame | middle |
+| 3 | 7s | Phone-first family? Pick the app frame. Photos go in from its app, with no subscription and unlimited photos. | App frame: no subscription | product:app-connected digital photo frame | middle |
+| 4 | 7s | Cousins who never install apps? An email frame. They send photos to the frame's own address. | Photos by email | product:digital photo frame with its own email address | middle |
+| 5 | 6s | Two grandmas, two frames? One free plan links up to 5 frames. | Up to 5 frames, free | product:two linked digital photo frames | middle |
 | 6 | 9s | Before you wrap it, load 20 or 30 photos, so it is not an empty screen on day one. | Load 20 photos first | product:a photo frame filled with family photos | middle |
 | 7 | 10s | This time a new photo arrives while she is still unwrapping. She stops dusting it. The full comparison is at the link. | Full comparison at 4gift.store | b-roll:a grandparent smiling at a frame as a new photo appears | end |
 

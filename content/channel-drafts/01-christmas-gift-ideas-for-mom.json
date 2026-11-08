@@ -70,9 +70,9 @@
           {
             "n": 3,
             "seconds": 11,
-            "narration": "Misses the grandkids? A Wi-Fi photo frame the whole family can send photos to. Skylight takes photos by email, so nobody needs an app.",
+            "narration": "Misses the grandkids? A Wi-Fi photo frame the whole family can send photos to. Some take photos by email, so nobody needs an app.",
             "onScreen": "Photos by email, no app",
-            "visual": "product:Skylight digital photo frame",
+            "visual": "product:Wi-Fi digital photo frame",
             "beat": "middle"
           },
           {
@@ -80,23 +80,23 @@
             "seconds": 7,
             "narration": "Always cold on the couch? A weighted blanket, about ten percent of her body weight.",
             "onScreen": "About 10% of her weight",
-            "visual": "product:Gravity weighted blanket on a couch",
+            "visual": "product:weighted blanket on a couch",
             "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 10,
-            "narration": "Tea always goes cold? The Ember Mug 2 holds her temperature up to an hour and a half off its coaster.",
+            "narration": "Tea always goes cold? A heated mug holds her temperature up to an hour and a half off its coaster.",
             "onScreen": "Warm up to 1.5 hours",
-            "visual": "product:Ember Mug 2",
+            "visual": "product:heated mug on its coaster",
             "beat": "middle"
           },
           {
             "n": 6,
             "seconds": 8,
-            "narration": "Reads in bed? An e-reader. The Kobo Clara BW is the lighter one, at 174 grams.",
-            "onScreen": "Kobo Clara BW: 174 g",
-            "visual": "product:Kobo Clara BW e-reader",
+            "narration": "Reads in bed? An e-reader. Pick the lighter one, at 174 grams.",
+            "onScreen": "Light e-reader: 174 g",
+            "visual": "product:small e-reader",
             "beat": "middle"
           },
           {
@@ -112,7 +112,7 @@
             "seconds": 9,
             "narration": "Christmas morning: twenty grandkid photos are already on the frame. She says you shouldn't have. She means it kindly.",
             "onScreen": "Load twenty photos first",
-            "visual": "product:Skylight frame with a new photo arriving",
+            "visual": "product:photo frame with a new photo arriving",
             "beat": "end"
           },
           {

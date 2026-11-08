@@ -2,7 +2,7 @@
 
 Cut from the live page https://4gift.store/guides/owala-freesip-vs-stanley-quencher-vs-yeti-rambler/ (merged and live, so already approved). Checked with Masthead's review gate (scripts/check-piece.ts rules).
 
-## Short (YouTube Shorts, Instagram Reels, TikTok): Owala vs Stanley vs YETI: which bottle to give
+## Short (YouTube Shorts, Instagram Reels, TikTok): Which water bottle to give: bag, car or trail
 
 **Hook (the team):** Day one, the tumbler leaked in her tote.
 
@@ -11,12 +11,12 @@ Cut from the live page https://4gift.store/guides/owala-freesip-vs-stanley-quenc
 | # | Time | Narration | On screen | Visual | Beat |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 5s | Day one, the tumbler leaked in her tote. Her notebook is a sponge. | Day one: a wet tote | b-roll:a soaked notebook pulled out of a tote bag | opening |
-| 2 | 8s | Owala, Stanley or YETI? Ask where it will ride: bag, car or trail. Stay for the one marked splash-resistant. | Bag, car or trail? | b-roll:three bottles on a kitchen counter | opening |
-| 3 | 9s | In a bag, it has to seal. Owala calls the FreeSip lid leak-proof, and it stays cold for 24 hours. | Owala: leak-proof, 24 hours | product:Owala FreeSip bottle | middle |
-| 4 | 9s | In a car? The Stanley Quencher. REI says the 40 ounce fits most cup holders, with a handle. | Stanley: fits cup holders | product:Stanley Quencher H2.0 40 oz | middle |
-| 5 | 9s | But it resists splashes. It is not leakproof. Do not trust it on its side in a tote. | Splash-resistant, not leakproof | product:Stanley Quencher lying on its side in a tote bag | middle |
-| 6 | 8s | On the trail? The YETI Rambler with Chug Cap. REI lists it as 100 percent leakproof. | YETI: 100% leakproof | product:YETI Rambler 26 oz with Chug Cap | middle |
-| 7 | 8s | And tell an Owala owner: hand-wash the cup. The lid can go on the top rack. | Owala: hand-wash the cup | text | middle |
+| 2 | 8s | Three bottles. Ask where it will ride: bag, car or trail. Stay for the one marked splash-resistant. | Bag, car or trail? | b-roll:three bottles on a kitchen counter | opening |
+| 3 | 9s | In a bag, it has to seal. One sip-lid bottle's maker calls the lid leak-proof, and it stays cold for 24 hours. | Leak-proof, 24 hours | product:insulated bottle with a sip lid | middle |
+| 4 | 9s | In a car? A 40 ounce tumbler with a handle fits most cup holders, REI says. | Fits cup holders | product:40 oz tumbler with a handle | middle |
+| 5 | 9s | But it resists splashes. It is not leakproof. Do not trust it on its side in a tote. | Splash-resistant, not leakproof | product:tumbler lying on its side in a tote bag | middle |
+| 6 | 8s | On the trail? A bottle with a chug cap. REI lists it as 100 percent leakproof. | 100% leakproof | product:insulated bottle with a chug cap | middle |
+| 7 | 8s | And tell the sip-lid owner: hand-wash the cup. The lid can go on the top rack. | Hand-wash the cup | text | middle |
 | 8 | 9s | Match the bottle to the ride, and the notebook stays dry. The full comparison is at the link. | Full comparison at 4gift.store | text | end |
 
 **Cuts:** none (the story runs whole on Shorts, Reels and TikTok).

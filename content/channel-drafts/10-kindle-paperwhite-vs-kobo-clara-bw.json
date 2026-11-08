@@ -30,15 +30,15 @@
   "pieces": [
     {
       "format": "video-script",
-      "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
+      "title": "Which e-reader to give: where their books come from",
       "kit": {
-        "title": "Kindle Paperwhite vs Kobo Clara BW: which e-reader to give",
-        "hook": "Kindle or Kobo? The birthday is Saturday.",
+        "title": "Which e-reader to give: where their books come from",
+        "hook": "Two e-readers. The birthday is Saturday.",
         "scenes": [
           {
             "n": 1,
             "seconds": 4,
-            "narration": "Kindle or Kobo? The birthday is Saturday.",
+            "narration": "Two e-readers. The birthday is Saturday.",
             "onScreen": "Two tabs, no idea",
             "visual": "b-roll:a laptop with two shopping tabs open",
             "beat": "opening"
@@ -54,25 +54,25 @@
           {
             "n": 3,
             "seconds": 10,
-            "narration": "Years of Kindle purchases, or Audible? The Paperwhite. Bigger 7 inch screen, and Amazon claims up to 12 weeks a charge.",
-            "onScreen": "Paperwhite: up to 12 weeks",
-            "visual": "product:Kindle Paperwhite",
+            "narration": "Years of e-books from one big store? Stay with its reader: a bigger 7 inch screen, and up to 12 weeks a charge, its maker claims.",
+            "onScreen": "Up to 12 weeks a charge",
+            "visual": "product:7 inch e-reader",
             "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 7,
-            "narration": "Library borrower? The Kobo Clara BW has Libby built in, and no ads by default.",
-            "onScreen": "Kobo: Libby built in",
-            "visual": "product:Kobo Clara BW",
+            "narration": "Library borrower? The other one has library borrowing built in, and no ads by default.",
+            "onScreen": "Library built in",
+            "visual": "product:compact e-reader",
             "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 7,
-            "narration": "Reads lying down? The Kobo is lighter, 174 grams to the Kindle's 214.",
+            "narration": "Reads lying down? The library one is lighter, 174 grams to 214.",
             "onScreen": "174 g vs 214 g",
-            "visual": "product:Kobo Clara BW held above a pillow",
+            "visual": "product:compact e-reader held above a pillow",
             "beat": "middle"
           },
           {
@@ -80,7 +80,7 @@
             "seconds": 8,
             "narration": "Both are rated IPX8, good for 2 meters of water for an hour. Bath reading approved.",
             "onScreen": "Both IPX8",
-            "visual": "product:Kindle Paperwhite beside a bathtub",
+            "visual": "product:e-reader beside a bathtub",
             "beat": "middle"
           },
           {

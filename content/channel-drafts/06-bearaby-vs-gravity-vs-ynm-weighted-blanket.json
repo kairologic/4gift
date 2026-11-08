@@ -42,9 +42,9 @@
   "pieces": [
     {
       "format": "video-script",
-      "title": "Bearaby vs Gravity vs YnM: which weighted blanket to give",
+      "title": "Which weighted blanket to give: hot or cold sleeper",
       "kit": {
-        "title": "Bearaby vs Gravity vs YnM: which weighted blanket to give",
+        "title": "Which weighted blanket to give: hot or cold sleeper",
         "hook": "A cozy gift for the hottest sleeper?",
         "scenes": [
           {
@@ -66,25 +66,25 @@
           {
             "n": 3,
             "seconds": 9,
-            "narration": "Runs warm? Bearaby's Napper is knit from thick yarn, with no beads. Mattress Clarity calls it incredibly breathable.",
-            "onScreen": "Bearaby: knit, no beads",
-            "visual": "product:Bearaby knit Napper blanket",
+            "narration": "Runs warm? A knit blanket from thick yarn, with no beads. Mattress Clarity calls it incredibly breathable.",
+            "onScreen": "Knit, no beads",
+            "visual": "product:chunky knit weighted blanket",
             "beat": "middle"
           },
           {
             "n": 4,
             "seconds": 9,
-            "narration": "Always cold? The Gravity Blanket uses glass beads and holds warmth. Reviewed named it its best weighted blanket.",
-            "onScreen": "Gravity: beads, warm",
-            "visual": "product:Gravity weighted blanket",
+            "narration": "Always cold? A glass-bead blanket holds warmth. Reviewed named one its best weighted blanket.",
+            "onScreen": "Glass beads, warm",
+            "visual": "product:glass-bead weighted blanket",
             "beat": "middle"
           },
           {
             "n": 5,
             "seconds": 9,
-            "narration": "Need an exact weight or a bed size? YnM comes in 10 weights, from 5 to 30 pounds.",
-            "onScreen": "YnM: 10 weights, 5 to 30 lb",
-            "visual": "product:YnM weighted blanket on a bed",
+            "narration": "Need an exact weight or a bed size? One maker offers 10 weights, from 5 to 30 pounds.",
+            "onScreen": "10 weights, 5 to 30 lb",
+            "visual": "product:weighted blanket on a bed",
             "beat": "middle"
           },
           {

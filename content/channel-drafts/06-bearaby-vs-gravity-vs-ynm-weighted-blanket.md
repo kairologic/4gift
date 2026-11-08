@@ -2,7 +2,7 @@
 
 Cut from the live page https://4gift.store/guides/bearaby-vs-gravity-vs-ynm-weighted-blanket/ (merged and live, so already approved). Checked with Masthead's review gate (scripts/check-piece.ts rules).
 
-## Short (YouTube Shorts, Instagram Reels, TikTok): Bearaby vs Gravity vs YnM: which weighted blanket to give
+## Short (YouTube Shorts, Instagram Reels, TikTok): Which weighted blanket to give: hot or cold sleeper
 
 **Hook (the team):** A cozy gift for the hottest sleeper?
 
@@ -12,9 +12,9 @@ Cut from the live page https://4gift.store/guides/bearaby-vs-gravity-vs-ynm-weig
 | --- | --- | --- | --- | --- | --- |
 | 1 | 5s | A cozy gift for the hottest sleeper? She sleeps with the window open. | For the warmest sleeper | b-roll:two people on a couch, one under three blankets, one fanning themselves | opening |
 | 2 | 8s | A weighted blanket gift starts with one question: hot or cold sleeper? Stay for the weight rule. | Hot or cold sleeper? | text | opening |
-| 3 | 9s | Runs warm? Bearaby's Napper is knit from thick yarn, with no beads. Mattress Clarity calls it incredibly breathable. | Bearaby: knit, no beads | product:Bearaby knit Napper blanket | middle |
-| 4 | 9s | Always cold? The Gravity Blanket uses glass beads and holds warmth. Reviewed named it its best weighted blanket. | Gravity: beads, warm | product:Gravity weighted blanket | middle |
-| 5 | 9s | Need an exact weight or a bed size? YnM comes in 10 weights, from 5 to 30 pounds. | YnM: 10 weights, 5 to 30 lb | product:YnM weighted blanket on a bed | middle |
+| 3 | 9s | Runs warm? A knit blanket from thick yarn, with no beads. Mattress Clarity calls it incredibly breathable. | Knit, no beads | product:chunky knit weighted blanket | middle |
+| 4 | 9s | Always cold? A glass-bead blanket holds warmth. Reviewed named one its best weighted blanket. | Glass beads, warm | product:glass-bead weighted blanket | middle |
+| 5 | 9s | Need an exact weight or a bed size? One maker offers 10 weights, from 5 to 30 pounds. | 10 weights, 5 to 30 lb | product:weighted blanket on a bed | middle |
 | 6 | 7s | Pick about 10 percent of their body weight. A 150 pound adult starts near 15. | About 10% of body weight | product:a folded weighted blanket with a weight label | middle |
 | 7 | 7s | Not for babies, ever. And include a gift receipt in case the weight feels wrong. | Not for babies. Add a receipt. | text | middle |
 | 8 | 9s | The knit one goes to your sister. The window stays open. Everyone wins. The full comparison is at the link. | Full comparison at 4gift.store | text | end |
