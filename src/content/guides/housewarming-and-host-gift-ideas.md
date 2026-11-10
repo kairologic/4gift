@@ -40,7 +40,7 @@ lists:
   - thank-you
   - cooks
   - gardeners
-  - under-50
+  - 40-to-75
 ---
 <!-- visual: callout | Short list: 4 groups of housewarming gifts, plus what to skip -->
 

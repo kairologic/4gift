@@ -1,6 +1,6 @@
 // How the lists are organised. Each group is a top-bar menu item and a URL prefix; each category is one gift list
 // at /<group>/<category>/. Recipient, occasion and interest lists are picked by tag in gifts.ts; budget lists are
-// worked out from each gift's starting price, so gifts never carry budget tags.
+// worked out from each gift's price range (and the `small` flag for Small luxuries), so gifts never carry budget tags.
 
 export type GroupSlug = 'for' | 'occasion' | 'budget' | 'interest';
 
@@ -19,8 +19,9 @@ export interface Group {
 }
 
 export interface Budget extends Category {
-  max?: number; // inclusive upper bound on a gift's starting price
-  min?: number; // inclusive lower bound
+  small?: boolean; // the Small luxuries list: gifts flagged `small` in gifts.ts, the only ones allowed under $40
+  max?: number; // a gift fits when its typical range reaches into (min, max]
+  min?: number;
 }
 
 const recipients: Category[] = [
@@ -48,12 +49,20 @@ const occasions: Category[] = [
   { slug: 'thank-you', name: 'Thank you', title: 'Thank-you gift ideas', blurb: 'Small gifts for teachers, hosts, neighbours and helpers.' },
 ];
 
+// Budget bands (Ravi, 2026-11-10): the store starts at $40, with one Small luxuries list below it. A gift sits in every
+// band its typical range reaches into, so a $60 to $120 blanket shows on both $40 to $75 and $75 to $150.
 export const budgets: Budget[] = [
-  { slug: 'under-25', name: 'Under $25', title: 'Gifts under $25', blurb: 'Good gifts that start at $25 or less.', max: 25 },
-  { slug: 'under-50', name: 'Under $50', title: 'Gifts under $50', blurb: 'The sweet spot: plenty of choice that starts at $50 or less.', max: 50 },
-  { slug: 'under-100', name: 'Under $100', title: 'Gifts under $100', blurb: 'Bigger gifts that start at $100 or less.', max: 100 },
-  { slug: 'splurge', name: '$100 and up', title: 'Splurge-worthy gifts', blurb: 'For a big birthday, a milestone or someone you share a home with.', min: 100 },
+  { slug: 'small-luxuries', name: 'Small luxuries', title: 'Small luxuries under $40', blurb: 'Little gifts done well: small-maker candles, teas, chocolate and keepsakes under $40.', small: true },
+  { slug: '40-to-75', name: '$40 to $75', title: 'Gifts from $40 to $75', blurb: 'The sweet spot for a well-made gift: birthdays, hosts and thank-yous that feel considered.', min: 40, max: 75 },
+  { slug: '75-to-150', name: '$75 to $150', title: 'Gifts from $75 to $150', blurb: 'Bigger gifts for close family, partners and milestone birthdays.', min: 75, max: 150 },
+  { slug: '150-and-up', name: '$150 and up', title: 'Gifts $150 and up', blurb: 'For a big birthday, a milestone or someone you share a home with.', min: 150 },
 ];
+
+// Old budget pages, kept working for links already posted (astro.config.mjs redirects them).
+export const oldBudgetSlugs: Record<string, string> = { 'under-25': 'small-luxuries', 'under-50': '40-to-75', 'under-100': '75-to-150', splurge: '150-and-up' };
+
+// The "starts under" filter on every other list, the home page finder and the per-list budget pins.
+export const priceCaps = [40, 75, 150];
 
 const interests: Category[] = [
   { slug: 'cooks', name: 'Home cooks', title: 'Gifts for home cooks', blurb: 'Kitchen tools that earn their counter space.' },

@@ -7,7 +7,7 @@ import ProductCard from '../../components/ProductCard.astro';
 import SaveButton from '../../components/SaveButton.astro';
 import HeaderPhoto from '../../components/HeaderPhoto.astro';
 import { listPhoto } from '../../data/list-photos';
-import { budgets, groups, listUrl, type Category, type Group } from '../../data/taxonomy';
+import { groups, listUrl, priceCaps, type Category, type Group } from '../../data/taxonomy';
 import { giftsFor, productsFor, relatedLists, topList } from '../../lib/gifts';
 import { allPins, listPinName, pinPath } from '../../lib/pins';
 
@@ -73,7 +73,7 @@ const schema = {
       {!isBudget && (
         <div class="seg" role="group" aria-label="Budget">
           <button type="button" class="chip" data-max="" aria-pressed="true">Any price</button>
-          {budgets.filter((b) => b.max).map((b) => <button type="button" class="chip" data-max={b.max} aria-pressed="false">{b.name}</button>)}
+          {priceCaps.map((max) => <button type="button" class="chip" data-max={max} aria-pressed="false">Under ${max}</button>)}
         </div>
       )}
       <label>Sort
@@ -89,7 +89,7 @@ const schema = {
     <div class="gift-grid" id="gifts">
       {list.map((g, i) => <GiftCard gift={g} rank={i + 1} except={category.slug} page={url} />)}
     </div>
-    <p class="meta" id="none" hidden>Nothing on this list starts under that budget. Try the next one up, or the <a href="/budget/under-25/">gifts under $25</a> list.</p>
+    <p class="meta" id="none" hidden>Nothing on this list starts under that budget. Try the next one up, or the <a href="/budget/small-luxuries/">small luxuries</a> list.</p>
 
     <section class="section">
       <h2 style="margin-top:0">More {group.name.toLowerCase()} lists</h2>
@@ -105,7 +105,7 @@ const schema = {
 </Base>
 
 <script>
-  // Budget chips and sort reorder the cards in place. ?max=50 (from the home page gift finder) preselects a budget.
+  // Budget chips and sort reorder the cards in place. ?max=75 (from the home page gift finder) preselects a budget.
   const grid = document.getElementById('gifts')!;
   const cards = [...grid.querySelectorAll<HTMLElement>('.gift-card')];
   const chips = [...document.querySelectorAll<HTMLButtonElement>('#filters button[data-max]')];

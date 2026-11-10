@@ -8,7 +8,8 @@ export type { Gift };
 export const priceLabel = (g: Gift) => (g.from === g.to ? `About $${g.from}` : `$${g.from}–$${g.to}`);
 
 export function inBudget(g: Gift, b: Budget): boolean {
-  return (b.max === undefined || g.from <= b.max) && (b.min === undefined || g.from >= b.min);
+  if (b.small) return g.small === true;
+  return (b.max === undefined || g.from <= b.max) && (b.min === undefined || g.to > b.min);
 }
 
 // Every gift on a list, in editor's order. Budget lists sort cheapest first, since price is the point of them.

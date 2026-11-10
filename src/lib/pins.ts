@@ -1,5 +1,5 @@
-import { budgets, findCategory, groups, listUrl, type Category, type Group } from '../data/taxonomy';
-import { giftsFor, inBudget, listsOf, priceLabel, type Gift } from './gifts';
+import { findCategory, groups, listUrl, priceCaps, type Category, type Group } from '../data/taxonomy';
+import { giftsFor, listsOf, priceLabel, type Gift } from './gifts';
 import { SITE } from '../site';
 
 // Pinterest pins, made at build time: one tall image per list, per list-and-budget pair, and per gift. Every pin
@@ -65,10 +65,9 @@ export function allPins(): Pin[] {
       const list = giftsFor(category);
       pins.push(listPin(group, category, list));
       if (group.slug === 'budget') continue;
-      for (const b of budgets) {
-        if (!b.max) continue;
-        const under = list.filter((g) => inBudget(g, b));
-        if (under.length >= MIN_ON_BUDGET_PIN && under.length < list.length) pins.push(listPin(group, category, under, b.max));
+      for (const max of priceCaps) {
+        const under = list.filter((g) => g.from <= max);
+        if (under.length >= MIN_ON_BUDGET_PIN && under.length < list.length) pins.push(listPin(group, category, under, max));
       }
     }
   }
