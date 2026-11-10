@@ -6,7 +6,7 @@ import { guideUrl } from '../../lib/guides';
 import { SITE } from '../../site';
 
 // Every published guide, newest first. Drafts stay out of the build.
-const guides = (await getCollection('guides', (g) => !g.data.draft)).sort(
+const guides = (await getCollection('guides', (g) => !g.data.draft && g.data.kind !== 'article')).sort(
   (a, b) => b.data.published.getTime() - a.data.published.getTime(),
 );
 const fmt = (d: Date) => d.toISOString().slice(0, 10);

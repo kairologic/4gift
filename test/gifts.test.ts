@@ -122,3 +122,31 @@ describe('named product picks', () => {
     expect(productCount(her)).toBe(giftsFor(her).reduce((n, g) => n + picksFor(g).length, 0));
   });
 });
+
+// The revamp (Ravi, 2026-11-10): each list leads with a ranked Top 5 of named products, at least 3 of them unique.
+import { productsFor as listed, topList as topOf, type ListedProduct as LP } from '../src/lib/gifts';
+import { findCategory as find } from '../src/data/taxonomy';
+
+describe('a list\'s Top 5', () => {
+  const g = { slug: 'x', name: 'X', why: '', from: 50, to: 90, search: 'x', tags: ['mom'] };
+  const p = (asin: string, score?: number, unique = false): LP => ({ gift: g, pick: { gift: 'x', asin, name: asin, brand: 'B', note: '', addedOn: '2026-11-10', score, unique } });
+
+  it('ranks by score and holds three places for unique finds', () => {
+    const all = [p('M1', 95), p('M2', 94), p('M3', 93), p('M4', 92), p('U1', 80, true), p('U2', 70, true), p('U3', 60, true), p('U4', 50, true)];
+    const { top, more } = topOf(all);
+    expect(top.map((x) => x.pick.asin)).toEqual(['M1', 'M2', 'U1', 'U2', 'U3']);
+    expect(more.map((x) => x.pick.asin)).toEqual(['M3', 'M4', 'U4']);
+  });
+  it('fills with the best of the rest when a list has few unique finds, and never pads', () => {
+    expect(topOf([p('M1', 90), p('U1', 40, true), p('M2', 80), p('M3', 70), p('M4', 60), p('M5', 50)]).top.map((x) => x.pick.asin)).toEqual(['M1', 'U1', 'M2', 'M3', 'M4']);
+    expect(topOf([p('M1', 90), p('M2', 80)])).toEqual({ top: [p('M1', 90), p('M2', 80)], more: [] });
+  });
+  it('lists scored products first and keeps the old, unscored ones in their order', () => {
+    const mom = find('mom')!.category;
+    const picks = [{ gift: 'x', asin: 'OLD1', name: 'a', brand: 'B', note: '', addedOn: '2026-11-03' }, { gift: 'x', asin: 'OLD2', name: 'b', brand: 'B', note: '', addedOn: '2026-11-03' }, { gift: 'x', asin: 'NEW1', name: 'c', brand: 'B', note: '', addedOn: '2026-11-10', score: 71 }];
+    expect(listed(mom, picks, [g]).map((x) => x.pick.asin)).toEqual(['NEW1', 'OLD1', 'OLD2']);
+  });
+  it('gives every list, the two new ones included, something to show', () => {
+    for (const slug of ['seniors', 'new-parents']) expect(listed(find(slug)!.category).length + gifts.filter((x) => x.tags.includes(slug)).length, slug).toBeGreaterThanOrEqual(8);
+  });
+});

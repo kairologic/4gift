@@ -14,7 +14,7 @@ const { guide } = Astro.props;
 const { data } = guide;
 const { Content } = await render(guide);
 const fmt = (d: Date) => d.toISOString().slice(0, 10);
-const kindLabel: Record<string, string> = { guide: 'Guide', 'quick-review': 'Quick review', review: 'Review', comparison: 'Comparison' };
+const kindLabel: Record<string, string> = { guide: 'Guide', 'quick-review': 'Quick review', review: 'Review', comparison: 'Comparison', article: 'Article' };
 const faq = data.faq.filter((e) => e.q.trim() && e.a.trim());
 const lists = listsFor(data.lists);
 const jsonLd = {
@@ -40,7 +40,7 @@ const jsonLd = {
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   </Fragment>
   <article class="wrap read prose">
-    <Breadcrumbs items={[{ name: 'Gift guides', href: '/guides/' }, { name: kindLabel[data.kind] ?? data.kind }]} />
+    <Breadcrumbs items={[data.kind === 'article' ? { name: 'Resources', href: '/resources/' } : { name: 'Gift guides', href: '/guides/' }, { name: kindLabel[data.kind] ?? data.kind }]} />
     <h1>{data.title}</h1>
     <p class="meta">
       {data.byline ? `By ${data.byline.replace(/^By\s+/i, '')} · ` : ''}Published {fmt(data.published)}{data.updated ? ` · Updated ${fmt(data.updated)}` : ''}

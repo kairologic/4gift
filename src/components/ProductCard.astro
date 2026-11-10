@@ -1,0 +1,18 @@
+---
+import { pickUrl, type ListedProduct } from '../lib/gifts';
+// One named product on a list: a ranked Top entry (with `rank`) or a row under "More we reviewed".
+interface Props { product: ListedProduct; rank?: number }
+const { product, rank } = Astro.props;
+const { pick, gift } = product;
+const stars = pick.stars ? `${pick.stars.toFixed(1)} stars${pick.ratings ? ` from ${pick.ratings.toLocaleString('en-US')} ratings` : ''}` : '';
+---
+<article class:list={['product-card', { top: rank }]} id={`p-${pick.asin}`}>
+  {rank && <span class="place" aria-label={`Number ${rank}`}>{rank}</span>}
+  <div class="body">
+    <p class="kicker">{gift.name}{pick.unique && <span class="unique">Unique find</span>}</p>
+    <h3><a href={pickUrl(pick)} rel="sponsored noopener" target="_blank" data-gift={gift.slug} data-asin={pick.asin}>{pick.name}</a></h3>
+    <p class="meta">by {pick.brand}{pick.priceUsd ? ` · about $${Math.round(pick.priceUsd)} when we checked` : ''}{stars ? ` · ${stars}` : ''}</p>
+    <p class="why">{pick.note}</p>
+  </div>
+  <a class="btn" href={pickUrl(pick)} rel="sponsored noopener" target="_blank" data-gift={gift.slug} data-asin={pick.asin}>See it on Amazon</a>
+</article>

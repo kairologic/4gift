@@ -3,11 +3,12 @@ import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Disclosure from '../../components/Disclosure.astro';
 import GiftCard from '../../components/GiftCard.astro';
+import ProductCard from '../../components/ProductCard.astro';
 import SaveButton from '../../components/SaveButton.astro';
 import HeaderPhoto from '../../components/HeaderPhoto.astro';
 import { listPhoto } from '../../data/list-photos';
 import { budgets, groups, listUrl, type Category, type Group } from '../../data/taxonomy';
-import { giftsFor, relatedLists } from '../../lib/gifts';
+import { giftsFor, productsFor, relatedLists, topList } from '../../lib/gifts';
 import { allPins, listPinName, pinPath } from '../../lib/pins';
 
 export function getStaticPaths() {
@@ -19,6 +20,11 @@ interface Props { group: Group; category: Category }
 const { group, category } = Astro.props;
 const list = giftsFor(category);
 const isBudget = group.slug === 'budget';
+// Named products lead the page: a ranked Top 5, then the rest we reviewed. A list with fewer than three shows them
+// (or products not scored yet) as "Our picks" without ranks, and one with none opens on the gift ideas as before.
+const { top, more } = topList(productsFor(category));
+// Ranks show only when every Top product carries a score: the products from before the revamp were never ranked.
+const ranked = top.length >= 3 && top.every((p) => p.pick.score !== undefined);
 const related = relatedLists(category);
 const siblings = group.categories.filter((c) => c.slug !== category.slug);
 const cheapest = Math.min(...list.map((g) => g.from));
@@ -30,8 +36,10 @@ const schema = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: category.title,
-  numberOfItems: list.length,
-  itemListElement: list.map((g, i) => ({ '@type': 'ListItem', position: i + 1, name: g.name, url: new URL(`${listUrl(group, category)}#${g.slug}`, Astro.site).toString() })),
+  numberOfItems: ranked ? top.length : list.length,
+  itemListElement: ranked
+    ? top.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.pick.name, url: new URL(`${listUrl(group, category)}#p-${p.pick.asin}`, Astro.site).toString() }))
+    : list.map((g, i) => ({ '@type': 'ListItem', position: i + 1, name: g.name, url: new URL(`${listUrl(group, category)}#${g.slug}`, Astro.site).toString() })),
 };
 ---
 <Base title={category.title} description={description} image={pinPath(pin.name)} type="article">
@@ -45,6 +53,21 @@ const schema = {
     {photo && <HeaderPhoto photo={photo} />}
     <p class="lede meta" style="font-size:1.15rem">{category.blurb} {list.length} ideas, in the order we'd suggest them. Prices are typical ranges for each kind of gift; check the retailer for today's price.</p>
     <Disclosure />
+
+    {top.length > 0 && (
+      <section class="top-list" aria-labelledby="top-h">
+        <h2 id="top-h">{ranked ? `Our top ${top.length}` : 'Our picks'}</h2>
+        <p class="meta">Named products we would give, best first. Prices move, so check today's on Amazon.</p>
+        <div class="product-list">{top.map((p, i) => <ProductCard product={p} rank={ranked ? i + 1 : undefined} />)}</div>
+      </section>
+    )}
+    {more.length > 0 && (
+      <section class="top-list" aria-labelledby="more-h">
+        <h2 id="more-h">More we reviewed</h2>
+        <div class="product-list">{more.map((p) => <ProductCard product={p} />)}</div>
+      </section>
+    )}
+    {top.length > 0 && <h2 id="ideas-h">More gift ideas</h2>}
 
     <div class="filters" id="filters" data-budget={isBudget ? '' : undefined}>
       {!isBudget && (
