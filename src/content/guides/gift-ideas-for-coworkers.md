@@ -33,8 +33,8 @@ lists:
   - coworkers
   - thank-you
   - coffee-tea
-  - under-25
-  - under-50
+  - small-luxuries
+  - 40-to-75
 ---
 <!-- visual: callout | Short list: 4 groups of coworker gifts by how well you know them, plus 1 skip -->
 

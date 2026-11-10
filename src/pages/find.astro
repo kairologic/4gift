@@ -11,7 +11,7 @@ import { gifts } from '../data/gifts';
 import { groups, listUrl } from '../data/taxonomy';
 
 const names = Object.fromEntries(groups.flatMap((g) => g.categories.map((c) => [c.slug, { name: c.name, href: listUrl(g, c) }])));
-const popular = ['birthday', 'christmas', 'her', 'him', 'kids', 'teens', 'under-50'].map((s) => names[s]).filter(Boolean);
+const popular = ['birthday', 'christmas', 'her', 'him', 'kids', 'teens', '40-to-75'].map((s) => names[s]).filter(Boolean);
 const api = import.meta.env.PUBLIC_FIND_API ?? '';
 ---
 <Base title="Find a gift" description="Describe who it's for, the occasion and your budget, and we'll show the gift ideas that fit." noindex>

@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { budgets, groups, listUrl } from '../data/taxonomy';
+import { groups, listUrl, priceCaps } from '../data/taxonomy';
 import { giftsFor } from '../lib/gifts';
 import { SITE } from '../site';
 import AskBox from '../components/AskBox.astro';
@@ -8,7 +8,7 @@ import HeaderPhoto from '../components/HeaderPhoto.astro';
 import { listPhoto, photoSrc } from '../data/list-photos';
 
 const recipients = groups.find((g) => g.slug === 'for')!;
-const popular = ['her', 'him', 'mom', 'dad', 'kids', 'christmas', 'under-25', 'cooks'];
+const popular = ['her', 'him', 'mom', 'dad', 'kids', 'christmas', 'small-luxuries', 'cooks'];
 const lists = groups.flatMap((g) => g.categories.map((c) => ({ g, c }))).filter(({ c }) => popular.includes(c.slug))
   .sort((a, b) => popular.indexOf(a.c.slug) - popular.indexOf(b.c.slug));
 ---
@@ -27,7 +27,7 @@ const lists = groups.flatMap((g) => g.categories.map((c) => ({ g, c }))).filter(
         <label>Budget
           <select name="max">
             <option value="">Any budget</option>
-            {budgets.filter((b) => b.max).map((b) => <option value={b.max}>{b.name}</option>)}
+            {priceCaps.map((max) => <option value={max}>Under ${max}</option>)}
           </select>
         </label>
         <button class="btn" type="submit">Show gift ideas</button>
@@ -64,7 +64,7 @@ const lists = groups.flatMap((g) => g.categories.map((c) => ({ g, c }))).filter(
 </Base>
 
 <script>
-  // Sends the finder to the recipient's list with the budget preselected, e.g. /for/mom/?max=50.
+  // Sends the finder to the recipient's list with the budget preselected, e.g. /for/mom/?max=75.
   const form = document.getElementById('finder') as HTMLFormElement;
   form.addEventListener('submit', (e) => {
     e.preventDefault();
