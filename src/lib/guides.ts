@@ -5,12 +5,30 @@ import { groups, listUrl, type Category, type Group } from '../data/taxonomy';
 // (src/content/markdown.ts in kairologic/Masthead-Main: title, description, kind, topic, published, affiliate,
 // aiAssisted, byline, reviewedBy, sources, faq); the rest are the site's own and optional. Unknown fields are ignored,
 // so a new Masthead field never breaks the build.
-export const GUIDE_KINDS = ['guide', 'quick-review', 'review', 'comparison'] as const;
+export const GUIDE_KINDS = ['guide', 'quick-review', 'review', 'comparison', 'article'] as const;
+
+// Who a resources article is for (kind: article). An article sits under each audience it names on /resources/;
+// one that names none sits under "Gifting in general".
+export const AUDIENCES = {
+  'pet-lovers': 'Pet lovers',
+  teens: 'Teens',
+  graduates: 'Graduates',
+  seniors: 'Grandparents and seniors',
+  'new-parents': 'New parents',
+  hosts: 'Hosts and housewarmings',
+  coworkers: 'Coworkers',
+  couples: 'Couples',
+  kids: 'Kids',
+} as const;
+export type Audience = keyof typeof AUDIENCES;
+export const GENERAL = 'Gifting in general';
 
 export const guideSchema = z.object({
   title: z.string().min(1),
   description: z.string().default(''),
   kind: z.enum(GUIDE_KINDS).default('guide'),
+  // For kind `article`: the audiences it speaks to (keys of AUDIENCES). An unknown one fails the build.
+  audience: z.array(z.enum(Object.keys(AUDIENCES) as [Audience, ...Audience[]])).default([]),
   // Masthead's beat, free text (birthday, for mom, under $25, ...). Shown as the card label.
   topic: z.string().optional(),
   published: z.coerce.date(),
@@ -33,6 +51,13 @@ export const guideSchema = z.object({
 });
 
 export type GuideFrontMatter = z.infer<typeof guideSchema>;
+
+/** Articles grouped for /resources/: one section per audience that has any, in AUDIENCES order, then the general ones. */
+export function byAudience<T extends { data: { audience: Audience[] } }>(articles: T[]): { name: string; items: T[] }[] {
+  const out = (Object.keys(AUDIENCES) as Audience[]).map((a) => ({ name: AUDIENCES[a] as string, items: articles.filter((x) => x.data.audience.includes(a)) }));
+  out.push({ name: GENERAL, items: articles.filter((x) => !x.data.audience.length) });
+  return out.filter((s) => s.items.length);
+}
 
 /** The URL of a guide, from its collection id (the file name without .md). */
 export const guideUrl = (id: string) => `/guides/${id}/`;

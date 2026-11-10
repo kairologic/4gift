@@ -65,6 +65,12 @@ export interface ProductPick {
   brand: string;
   note: string; // one line: why this one
   addedOn: string; // YYYY-MM-DD
+  // What product-ops read when it shortlisted the product (2026-11-10 on). Older entries carry none of these.
+  priceUsd?: number;
+  stars?: number; // out of 5
+  ratings?: number; // how many ratings stand behind the stars
+  score?: number; // product-ops' 0-100 score; a list ranks by it
+  unique?: boolean; // a unique find: a small maker, a design-led brand, personalized, or a new kind of product
 }
 
 export const isAsin = (v: string) => /^(B0[0-9A-Z]{8}|[0-9]{9}[0-9X])$/.test(v);
@@ -78,6 +84,30 @@ export function pickUrl(p: ProductPick, tag = import.meta.env.PUBLIC_AMAZON_TAG 
   const u = new URL(`https://www.amazon.com/dp/${p.asin}`);
   if (tag) u.searchParams.set('tag', tag);
   return u.toString();
+}
+
+export interface ListedProduct { pick: ProductPick; gift: Gift }
+
+/** Every named product on a list, best first: by score, then in the list's own gift order (unscored entries keep it). */
+export function productsFor(category: Category, all: ProductPick[] = picksFile.picks as ProductPick[], from: Gift[] = gifts): ListedProduct[] {
+  return giftsFor(category, from)
+    .flatMap((gift) => picksFor(gift, all).map((pick) => ({ pick, gift })))
+    .map((p, i) => ({ p, i }))
+    .sort((a, b) => (b.p.pick.score ?? -1) - (a.p.pick.score ?? -1) || a.i - b.i)
+    .map((x) => x.p);
+}
+
+export const TOP = 5;
+
+/**
+ * A list's ranked Top 5 and the rest ("More we reviewed"). At least half of the Top (3 of 5) are unique finds when the
+ * list has them, so a list never reads as five bestsellers (Ravi, 2026-11-10); the places left go by rank.
+ */
+export function topList(products: ListedProduct[], n = TOP): { top: ListedProduct[]; more: ListedProduct[] } {
+  const held = products.filter((p) => p.pick.unique).slice(0, Math.ceil(n / 2));
+  const rest = products.filter((p) => !held.includes(p)).slice(0, n - held.length);
+  const top = products.filter((p) => held.includes(p) || rest.includes(p));
+  return { top, more: products.filter((p) => !top.includes(p)) };
 }
 
 /** How many named products a list carries, for the lists page and the launch goal (6-10 per list on 10 lists). */

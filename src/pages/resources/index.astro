@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { byAudience, guideUrl } from '../../lib/guides';
+import { SITE } from '../../site';
+
+// The gifting articles (kind: article), newest first within each audience. An article that names two audiences
+// shows under both. Guides and comparisons stay on /guides/.
+const articles = (await getCollection('guides', (g) => !g.data.draft && g.data.kind === 'article')).sort(
+  (a, b) => b.data.published.getTime() - a.data.published.getTime(),
+);
+const sections = byAudience(articles);
+const fmt = (d: Date) => d.toISOString().slice(0, 10);
+const anchor = (name: string) => name.toLowerCase().replace(/[^a-z]+/g, '-');
+---
+<Base title="Gifting resources" description={`${SITE.name} resources: what makes a gift land, the etiquette nobody explains, and ideas for the people who are hardest to buy for.`}>
+  <div class="wrap" style="padding-bottom:48px">
+    <Breadcrumbs items={[{ name: 'Resources' }]} />
+    <h1>Gifting resources</h1>
+    <p class="meta" style="font-size:1.15rem; max-width: 640px">The thinking behind a good gift: what research says people value, the etiquette nobody explains, and angles you may not have considered, sorted by who you are buying for.</p>
+    {sections.length ? (
+      <>
+        {sections.length > 1 && <ul class="list-links" style="margin-top:20px">{sections.map((s) => <li><a class="chip" href={`#${anchor(s.name)}`}>{s.name}</a></li>)}</ul>}
+        {sections.map((s) => (
+          <section class="section" id={anchor(s.name)}>
+            <h2 style="margin-top:0">{s.name}</h2>
+            <div class="grid">
+              {s.items.map((g) => (
+                <div class="card">
+                  <p class="kind">{g.data.topic ?? 'Article'} <span class="date">· {fmt(g.data.published)}</span></p>
+                  <h3><a class="stretch" href={guideUrl(g.id)}>{g.data.title}</a></h3>
+                  {g.data.description && <p>{g.data.description}</p>}
+                </div>
+              ))}
+            </div>
+          </section>
+        ))}
+      </>
+    ) : (
+      <p>The first articles are being written. Until they land, read the <a href="/guides/">gift guides</a> or start with <a href="/lists/">all gift lists</a>.</p>
+    )}
+  </div>
+</Base>

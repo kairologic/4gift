@@ -36,3 +36,17 @@ describe('guide front matter', () => {
     expect(guideUrl('gifts-for-dad')).toBe('/guides/gifts-for-dad/');
   });
 });
+
+import { byAudience, GENERAL } from '../src/lib/guides';
+describe('resources articles', () => {
+  it('takes kind article with its audiences, and rejects an audience the site has no section for', () => {
+    expect(guideSchema.parse({ title: 'x', published: '2026-11-12', kind: 'article', audience: ['seniors', 'pet-lovers'] }).audience).toEqual(['seniors', 'pet-lovers']);
+    expect(guideSchema.parse({ title: 'x', published: '2026-11-12' }).audience).toEqual([]);
+    expect(() => guideSchema.parse({ title: 'x', published: '2026-11-12', kind: 'article', audience: ['aliens'] })).toThrow();
+  });
+  it('groups articles by audience, shows one under each it names, and keeps the general ones last', () => {
+    const a = (id: string, audience: string[]) => ({ id, data: { audience } }) as never;
+    const s = byAudience([a('pets', ['pet-lovers']), a('both', ['teens', 'pet-lovers']), a('why', [])]);
+    expect(s.map((x) => [x.name, x.items.map((i: { id: string }) => i.id)])).toEqual([['Pet lovers', ['pets', 'both']], ['Teens', ['both']], [GENERAL, ['why']]]);
+  });
+});

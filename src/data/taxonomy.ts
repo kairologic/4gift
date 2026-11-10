@@ -31,6 +31,8 @@ const recipients: Category[] = [
   { slug: 'kids', name: 'For kids', title: 'Gifts for kids', blurb: 'Building sets, art and science kits that get used long after the wrapping is gone.' },
   { slug: 'teens', name: 'For teens', title: 'Gifts for teens', blurb: 'Tech, games and room upgrades teens actually ask for.' },
   { slug: 'couples', name: 'For couples', title: 'Gifts for couples', blurb: 'Things two people can share: date nights, games and keepsakes.' },
+  { slug: 'seniors', name: 'For grandparents', title: 'Gifts for grandparents and seniors', blurb: 'Fewer, better things: comfort, family photos and hobbies, for someone who is not adding clutter.' },
+  { slug: 'new-parents', name: 'For new parents', title: 'Gifts for new parents', blurb: 'For the parents, not the baby: rest, warm coffee, memories kept and one less chore.' },
   { slug: 'coworkers', name: 'For coworkers', title: 'Gifts for coworkers', blurb: 'Small, useful gifts that suit the office and any budget.' },
 ];
 

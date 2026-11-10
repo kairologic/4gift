@@ -80,6 +80,7 @@ const pinterestVerify = import.meta.env.PUBLIC_PINTEREST_VERIFY ?? '';
             ))}
             <li class="mega-item"><a class="mega-top" href="/lists/">All lists</a></li>
             <li class="mega-item"><a class="mega-top" href="/guides/">Guides</a></li>
+            <li class="mega-item"><a class="mega-top" href="/resources/">Resources</a></li>
           </ul>
         </nav>
       </div>
@@ -97,7 +98,8 @@ const pinterestVerify = import.meta.env.PUBLIC_PINTEREST_VERIFY ?? '';
         <div>
           {groups.map((g) => <><a href={`/${g.slug}/`}>{g.name}</a><br /></>)}
           <a href="/lists/">All gift lists</a><br />
-          <a href="/guides/">Gift guides</a>
+          <a href="/guides/">Gift guides</a><br />
+          <a href="/resources/">Gifting resources</a>
         </div>
         <div>
           <a href="/about/">About</a><br />
