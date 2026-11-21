@@ -1,13 +1,20 @@
 name: CI
 
 # Type-checks, tests and builds the site, and type-checks and synthesizes the infra, on every push and PR.
+# Ravi 2026-11-21: Actions minutes ran out. A branch's own pushes no longer run CI as well as its pull request;
+# main still runs on merge, and a newer push to a PR cancels the older run.
 on:
   push:
+    branches: [main]
   pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   build:
